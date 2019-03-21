@@ -6,4 +6,3 @@
 \contentsline {chapter}{Objetivos del proyecto}{1}{chapter*.4}% 
 \contentsline {section}{\numberline {2.1}Objetivo general}{1}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}Objetivos t\IeC {\'e}cnicos}{1}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}Objetivos personales}{1}{section.2.3}% 
