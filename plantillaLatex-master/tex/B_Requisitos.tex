@@ -25,8 +25,8 @@ En este apartado se van a enumerar los requisitos específicos derivados de los 
 \begin{itemize}
 	\item \textbf{RF-1: Importar datos:} La aplicación debe ser capaz de importar los datos desde ficheros Excel(.xls) cuyo formato y extensión de archivo no coinciden.
 	\begin{itemize}
-		\item \textbf{RF-1.1} Datos erróneos: .
-		\item \textbf{RF-1.2} Datos correctos: .
+		\item \textbf{RF-1.1} Pasar datos de fichero original (.xls) a un fichero (.csv): se realizará un parseo de datos.
+		\item \textbf{RF-1.2} Pasar datos de fichero (.csv) a la Base de Datos.
 	\end{itemize}
 	
 	\item \textbf{RF-2: Gráfico apilado de Asignaturas por Curso o Semestre:} La aplicación debe ser capaz de mostrar un gráfico apilado cuyo \emph{eje x} muestre las diferentes asignaturas y su \emph{eje y} muestre la cantidad total de alumnos matriculados en las mismas. Al tratarse de un gráfico apilado, se podrán diferenciar los grupos existentes en las asignaturas(grupo online, grupo presencial 1, grupo presencial 2...etc).
@@ -65,3 +65,37 @@ El actor del sistema es la persona que maneja la aplicación.
 \subsection{Casos de uso}
 
 Meter Tablas.
+
+
+
+\tablaSmallSinColores{Caso de uso 1: Importar Datos }{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 1: Importar Datos} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de importar los datos desde ﬁcheros Excel(.xls) cuyo formato y extensión de archivo no coinciden.} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-1} 
+\\\cline{2-3}
+& \multicolumn{2}{p{10.25cm}}{RF-1.1}
+\\\cline{2-3}
+& \multicolumn{2}{p{10.25cm}}{RF-1.2}
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Existe un fichero Excel con datos para importar. Dicho fichero se ha descargado de \emph{Sigma} y se encuentra en una carpeta local.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & El usuario pulsa el botón de cargar archivos.
+\\\cline{2-3}
+& 2 & Se muestra un desplegable para poder navegar por el directorio y seleccionar los ficheros disponibles.
+\\\cline{2-3}
+& 3 & Se crea un fichero (.csv) a partir del fichero(.xls) para poder tratar la información.
+\\\cline{2-3}
+& 4 & Se graba el archivo (.csv).
+\\\cline{2-3}
+& 5 & Se guardan los datos en la Base de Datos.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{Se crea un fichero (.csv) nuevo y los datos se cargan en la Base de Datos.} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{Si los datos se encontraran en un fichero (.csv) el RF-1.1 no sería necesario.}\\\hline
+Importancia & Alta \\\hline
+Urgencia & Alta \\\hline
+Comentarios & & Los ficheros Excel no cumplen el estándar(al abrirlos muestra un error de formato y extensión) y es necesario hacer un filtrado previo.  \\
+}
