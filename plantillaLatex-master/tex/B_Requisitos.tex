@@ -64,7 +64,6 @@ El actor del sistema es la persona que maneja la aplicación.
 
 \subsection{Casos de uso}
 
-Meter Tablas.
 
 
 
@@ -98,4 +97,29 @@ Excepciones & \multicolumn{2}{p{10.25cm}}{Si los datos se encontraran en un fich
 Importancia & Alta \\\hline
 Urgencia & Alta \\\hline
 Comentarios & & Los ficheros Excel no cumplen el estándar(al abrirlos muestra un error de formato y extensión) y es necesario hacer un filtrado previo.  \\
+}
+
+
+\tablaSmallSinColores{Caso de uso 2: Gráfico apilado de Asignaturas por Curso }{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 2: Gráfico apilado de Asignaturas por Curso} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de mostrar un gráfico apilado cuyo \emph{eje x} muestre las diferentes asignaturas y su \emph{eje y} muestre la cantidad total de alumnos matriculados en las mismas. Al tratarse de un gráfico apilado, se podrán diferenciar los grupos existentes en las asignaturas(grupo online, grupo presencial 1, grupo presencial 2...etc).} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-2} 
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Existe un fichero Excel con datos para importar. Dicho fichero se ha descargado de \emph{Sigma} y se encuentra en una carpeta local.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & Se seleccionan los campos necesarios de la Base de Datos.
+\\\cline{2-3}
+& 2 & .
+\\\cline{2-3}
+& 3 & .
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{La aplicación debe mostrar el gráfico apilado correctamente.} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{}\\\hline
+Importancia & Alta \\\hline
+Urgencia & Alta \\\hline
+Comentarios & & Con esta gráfica se puede apreciar si existe algún grupo desequilibrado, así como las asignaturas con más matriculados entre otra información destacable.   \\
 }
