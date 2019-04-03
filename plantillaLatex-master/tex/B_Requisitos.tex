@@ -71,32 +71,28 @@ El actor del sistema es la persona que maneja la aplicación.
 \multicolumn{3}{l}{Caso de uso 1: Importar Datos} \\
 }
 {
-Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de importar los datos desde ﬁcheros Excel(.xls) cuyo formato y extensión de archivo no coinciden.} \\\hline
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de importar los datos desde ﬁcheros Excel(.xls) cuyo formato y extensión de archivo no coinciden. Por lo tanto, estos ficheros no se podrán abrir con librerías de Python, teniendo que realizar un parseo previo.} \\\hline
 \multirow{2}{3.5cm}{Requisitos} 
 &\multicolumn{2}{p{10.25cm}}{RF-1} 
 \\\cline{2-3}
-& \multicolumn{2}{p{10.25cm}}{RF-1.1}
-\\\cline{2-3}
-& \multicolumn{2}{p{10.25cm}}{RF-1.2}
-\\\cline{2-3}
-Precondiciones & \multicolumn{2}{p{10.25cm}} {Existe un fichero Excel con datos para importar. Dicho fichero se ha descargado de \emph{Sigma} y se encuentra en una carpeta local.}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Existe un fichero Excel(.xls) con datos para importar. Dicho fichero se ha descargado de \emph{Sigma} y se encuentra en una carpeta local.}
 \\\hline
 \multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
 & 1 & El usuario pulsa el botón de cargar archivos.
 \\\cline{2-3}
-& 2 & Se muestra un desplegable para poder navegar por el directorio y seleccionar los ficheros disponibles.
+& 2 & Se muestra un desplegable para poder navegar por el directorio y seleccionar los ficheros disponibles. Los ficheros pueden ser (.xls) o (.csv).
+\\\cline{2-3}
+& 2' & Si se selecciona un fichero (.csv) se salta al paso 4.
 \\\cline{2-3}
 & 3 & Se crea un fichero (.csv) a partir del fichero(.xls) para poder tratar la información.
 \\\cline{2-3}
-& 4 & Se graba el archivo (.csv).
-\\\cline{2-3}
-& 5 & Se guardan los datos en la Base de Datos.
+& 4 & Se lee el archivo (.csv) y se guardan los datos en la Base de Datos.
 \\\hline
 Postcondiciones & \multicolumn{2}{p{10.25cm}}{Se crea un fichero (.csv) nuevo y los datos se cargan en la Base de Datos.} \\\hline
-Excepciones & \multicolumn{2}{p{10.25cm}}{Si los datos se encontraran en un fichero (.csv) el RF-1.1 no sería necesario.}\\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{Si los datos se encontraran en un fichero (.csv), no sería necesario el paso 3.}\\\hline
 Importancia & Alta \\\hline
 Urgencia & Alta \\\hline
-Comentarios & & Los ficheros Excel no cumplen el estándar(al abrirlos muestra un error de formato y extensión) y es necesario hacer un filtrado previo.  \\
+Comentarios & & Los ficheros Excel no cumplen el estándar(al abrirlos muestra un error de formato y extensión) y es necesario hacer un parseo previo.  \\
 }
 
 
@@ -108,18 +104,51 @@ Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de most
 \multirow{2}{3.5cm}{Requisitos} 
 &\multicolumn{2}{p{10.25cm}}{RF-2} 
 \\\cline{2-3}
-Precondiciones & \multicolumn{2}{p{10.25cm}} {Existe un fichero Excel con datos para importar. Dicho fichero se ha descargado de \emph{Sigma} y se encuentra en una carpeta local.}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Los datos o información necesaria se ha cargado correctamente en la Base de Datos.}
 \\\hline
 \multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
-& 1 & Se seleccionan los campos necesarios de la Base de Datos.
+& 1 & Se selecciona si se desea grado o máster.
 \\\cline{2-3}
-& 2 & .
+& 2 & Se selecciona el curso(1º, 2º, 3º, 4º) que se desea obtener el gráfico apilado si se trata de un grado.
 \\\cline{2-3}
-& 3 & .
+& 2' & Si se trata de un máster de un único curso académico, se salta el paso anterior (paso 2).
+\\\cline{2-3}
+& 3 & Se cargan los datos necesarios de la Base de Datos.
+\\\cline{2-3}
+& 4 & Se realiza el gráfico apilado de asignaturas por curso.
+\\\cline{2-3}
+& 5 & Una vez visualizado el gráfico, se muestra una opción de guardar el gráfico y otra de salir.
+\\\cline{2-3}
+& 5' & Si se pulsa el botón de guardar el gráfico, el gráfico se guarda en el directorio donde se encuentran los ficheros Excel.
+\\\cline{2-3}
+& 5'' & Si se pulsa el botón de salir volvería al paso 3.
 \\\hline
-Postcondiciones & \multicolumn{2}{p{10.25cm}}{La aplicación debe mostrar el gráfico apilado correctamente.} \\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{La aplicación debe mostrar el gráfico apilado de manera correcta.} \\\hline
 Excepciones & \multicolumn{2}{p{10.25cm}}{}\\\hline
 Importancia & Alta \\\hline
 Urgencia & Alta \\\hline
 Comentarios & & Con esta gráfica se puede apreciar si existe algún grupo desequilibrado, así como las asignaturas con más matriculados entre otra información destacable.   \\
+}
+
+
+\tablaSmallSinColores{Caso de uso 3: Gráfico de máximos, mínimos y medias por curso }{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 3: Gráfico de máximos, mínimos y medias por curso} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de mostrar un gráfico cuyo \emph{eje x} muestre los diferentes cursos(1º, 2º, 3º y 4º) y su \emph{eje y} muestre la cantidad total de alumnos matriculados, indicando los máximos, mínimos y medias por cada curso.} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-3} 
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Los datos o información necesaria se ha cargado correctamente en la Base de Datos.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & Se seleccionan los campos necesarios de la Base de Datos.
+\\\cline{2-3}
+& 2 & Se realiza el gráfico de máximos, mínimos y medias por curso.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{La aplicación debe mostrar el gráfico de máximos, mínimos y medias por curso de manera correcta.} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{}\\\hline
+Importancia & Alta \\\hline
+Urgencia & Alta \\\hline
+Comentarios & &  \\
 }
