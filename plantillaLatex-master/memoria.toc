@@ -6,3 +6,11 @@
 \contentsline {chapter}{Objetivos del proyecto}{1}{chapter*.4}% 
 \contentsline {section}{\numberline {2.1}Objetivo general}{1}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}Objetivos t\IeC {\'e}cnicos}{1}{section.2.2}% 
+\contentsline {chapter}{Aspectos relevantes del desarrollo del proyecto}{3}{chapter*.5}% 
+\contentsline {section}{\numberline {5.1}Inicio del proyecto}{3}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Metodolog\IeC {\'\i }as}{3}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Toma de decisiones}{4}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Librer\IeC {\'\i }as para el tratamiento y manipulaci\IeC {\'o}n de datos}{4}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Interfaz de usuario del proyecto}{4}{section.5.5}% 
+\contentsline {section}{\numberline {5.6}Problemas encontrados}{4}{section.5.6}% 
+\contentsline {subsection}{Error al abrir los Excel(.xls) bajados de Sigma con Python}{4}{section*.6}% 

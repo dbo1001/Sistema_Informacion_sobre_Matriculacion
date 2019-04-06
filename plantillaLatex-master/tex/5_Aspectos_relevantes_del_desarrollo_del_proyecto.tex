@@ -1,7 +1,32 @@
 \capitulo{5}{Aspectos relevantes del desarrollo del proyecto}
 
-Este apartado pretende recoger los aspectos más interesantes del desarrollo del proyecto, comentados por los autores del mismo.
-Debe incluir desde la exposición del ciclo de vida utilizado, hasta los detalles de mayor relevancia de las fases de análisis, diseño e implementación.
-Se busca que no sea una mera operación de copiar y pegar diagramas y extractos del código fuente, sino que realmente se justifiquen los caminos de solución que se han tomado, especialmente aquellos que no sean triviales.
-Puede ser el lugar más adecuado para documentar los aspectos más interesantes del diseño y de la implementación, con un mayor hincapié en aspectos tales como el tipo de arquitectura elegido, los índices de las tablas de la base de datos, normalización y desnormalización, distribución en ficheros3, reglas de negocio dentro de las bases de datos (EDVHV GH GDWRV DFWLYDV), aspectos de desarrollo relacionados con el WWW...
-Este apartado, debe convertirse en el resumen de la experiencia práctica del proyecto, y por sí mismo justifica que la memoria se convierta en un documento útil, fuente de referencia para los autores, los tutores y futuros alumnos.
+En este apartado se van a recoger los aspectos más importantes que han surgido en el desarrollo del proyecto. Se incluirán la toma de decisiones, los posibles cambios, la aparición de problemas y las soluciones establecidas.
+
+\section{Inicio del proyecto}\label{inicio_del_proyecto}
+
+
+
+
+
+\section{Metodologías}\label{metodologias}
+
+A lo largo del desarrollo del proyecto se ha usado la \emph{metodología Scrum}. Se trata de una metodología ágil basada en \emph{sprints}, en este caso, de desarrollo incremental con revisiones semanales.
+
+Por lo tanto, la duración estimada de cada \emph{sprint} es de una semana. Al finalizar cada \emph{sprint}, se planificaba el siguiente, creando sus \emph{issues} o tareas a realizar en dicho \emph{sprint}. Cuando estas tareas se realizaban, se cambiaba el estado del \emph{issue} correspondiente a \emph{Closed}.  
+
+
+\section{Toma de decisiones}\label{toma_de_decisiones}
+
+
+\section{Librerías para el tratamiento y manipulación de datos}\label{librerias}
+
+
+\section{Interfaz de usuario del proyecto}\label{interfaz_de_usuario_del_proyecto}
+
+
+\section{Problemas encontrados}
+\subsection{Error al abrir los Excel(.xls) bajados de Sigma con Python}
+Los archivos Excel(.xls) suministrados (descargados de plataforma \emph{Sigma}) no cumplen el estándar. Al abrirlos tanto con Excel como con varias librerías de Python, muestran un error de formato y extensión. Por lo tanto la única solución encontrada, ha sido realizar un parseo previo de los Excel suministrados, creando un fichero (.csv) nuevo, con toda la información del fichero original corrupto.
+
+De esta manera, se ha creado un analizador sintáctico capaz de leer los ficheros originales (.xls) en modo texto y obtener un (.xml). Se ha parseado toda la información obteniendo filas, celdas, separaciones entre las mismas, contenidos de cada celda...etc. A la vez que se extrae toda esta información, se crea un fichero (.csv) nuevo y se van introduciendo los datos.
+

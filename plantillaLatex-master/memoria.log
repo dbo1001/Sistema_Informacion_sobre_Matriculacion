@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  21 MAR 2019 18:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  6 APR 2019 17:28
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -738,7 +738,8 @@ LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
- (tex/2_Objetivos_del_proyecto.aux))
+ (tex/2_Objetivos_del_proyecto.aux)
+(tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.aux))
 \openout1 = `memoria.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 364.
@@ -831,7 +832,7 @@ LaTeX Info: Redefining \nameref on input line 364.
 \@outlinefile=\write4
 \openout4 = `memoria.out'.
 
-<./img/cabecera.pdf, id=27, 617.67549pt x 135.51413pt>
+<./img/cabecera.pdf, id=55, 617.67549pt x 135.51413pt>
 File: ./img/cabecera.pdf Graphic file (type pdf)
 <use ./img/cabecera.pdf>
 Package pdftex.def Info: ./img/cabecera.pdf  used on input line 366.
@@ -866,7 +867,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 366.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 366.
-<./img/escudoInfor.pdf, id=28, 618.11432pt x 737.07487pt>
+<./img/escudoInfor.pdf, id=56, 618.11432pt x 737.07487pt>
 File: ./img/escudoInfor.pdf Graphic file (type pdf)
 <use ./img/escudoInfor.pdf>
 Package pdftex.def Info: ./img/escudoInfor.pdf  used on input line 366.
@@ -963,6 +964,36 @@ l.463 \include{./tex/2_Objetivos_del_proyecto}
 
 
 ]
+\openout2 = `./tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.aux'.
+
+
+(tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.texpdfTeX warning (ext4)
+: destination with the same identifier (name{page.2}) has been already used, du
+plicate ignored
+<to be read again> 
+                   \relax 
+l.1 ...tos relevantes del desarrollo del proyecto}
+                                                   [2
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30 
+      [3])
+LaTeX Info: Redefining \. on input line 466.
+LaTeX Info: Redefining \% on input line 466.
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.466 ...s_relevantes_del_desarrollo_del_proyecto}
+                                                   [4]
 No file memoria.bbl.
 \tf@toc=\write5
 \openout5 = `memoria.toc'.
@@ -980,11 +1011,12 @@ LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
- (tex/2_Objetivos_del_proyecto.aux))
+ (tex/2_Objetivos_del_proyecto.aux)
+(tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 474.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 474.
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 9414533210B4B95B4D8DF998BFBD7B19;359.
+(rerunfilecheck)             Checksum: FC074607CFA962AFBB69E3C48BF8092A;899.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -992,13 +1024,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 474.
  ) 
 Here is how much of TeX's memory you used:
- 12524 strings out of 492946
- 186844 string characters out of 3126266
- 356042 words of memory out of 3000000
- 16191 multiletter control sequences out of 15000+200000
- 69095 words of font info for 59 fonts, out of 3000000 for 9000
+ 12584 strings out of 492946
+ 188324 string characters out of 3126266
+ 357484 words of memory out of 3000000
+ 16212 multiletter control sequences out of 15000+200000
+ 77637 words of font info for 73 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,38p,222b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,38p,515b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
 c}<C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx1
 0.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
@@ -1009,10 +1041,12 @@ ic/lm/lmcsc10.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 pe1/public/lm/lmr12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/lm/lmr17.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/public/lm/lmr8.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/lm/lmssbx10.pfb>
-Output written on memoria.pdf (13 pages, 571291 bytes).
+fonts/type1/public/lm/lmri12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/lm/lmro12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on memoria.pdf (16 pages, 623116 bytes).
 PDF statistics:
- 497 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 19515 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 551 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 22131 words of extra memory for PDF output out of 24883 (max. 10000000)
 
