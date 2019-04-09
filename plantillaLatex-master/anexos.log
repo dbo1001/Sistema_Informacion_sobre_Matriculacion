@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  2 APR 2019 17:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  7 APR 2019 02:04
 entering extended mode
 **./anexos.tex
 (anexos.tex
@@ -973,32 +973,41 @@ LaTeX Info: Redefining \% on input line 2.
  (tex/A_Plan_proyecto.tex
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.389 \include{./tex/A_Plan_proyecto}
-                                      [1
+l.28 
+      [1
 
 
 
 
 ]
-\openout2 = `./tex/B_Requisitos.aux'.
+LaTeX Info: Redefining \. on input line 62.
+LaTeX Info: Redefining \% on input line 62.
 
- (tex/B_Requisitos.texpdfTeX warning (ext4): destination with the same identifi
-er (name{page.2}) has been already used, duplicate ignored
+Overfull \vbox (0.85403pt too high) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \apendice{Especificación de Requisitos}
-                                             [2
+l.62 \end{itemize}
+                   [2])
+LaTeX Info: Redefining \. on input line 389.
+LaTeX Info: Redefining \% on input line 389.
+ [3]
+\openout2 = `./tex/B_Requisitos.aux'.
+
+ (tex/B_Requisitos.tex [4
 
 
 
 ]
 Underfull \vbox (badness 1087) has occurred while \output is active []
 
- [3]
+ [5]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 28.
 
 ("C:\Users\mdmar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmr.fd"
@@ -1012,7 +1021,7 @@ LaTeX Info: Redefining \% on input line 54.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[4]
+[6]
 
 ! Package inputenc Error: Unicode character ﬁ (U+FB01)
 (inputenc)                not set up for use with LaTeX.
@@ -1079,7 +1088,7 @@ LaTeX Info: Redefining \% on input line 97.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[5]
+[7]
 Overfull \hbox (14.22638pt too wide) in paragraph at lines 131--131
 []|[]| 
  []
@@ -1118,7 +1127,7 @@ LaTeX Info: Redefining \% on input line 132.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[6pdfTeX warning (ext4): destination with the same identifier (name{table.Alph2
+[8pdfTeX warning (ext4): destination with the same identifier (name{table.Alph2
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1163,7 +1172,7 @@ LaTeX Info: Redefining \% on input line 390.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[7pdfTeX warning (ext4): destination with the same identifier (name{table.Alph2
+[9pdfTeX warning (ext4): destination with the same identifier (name{table.Alph2
 .2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1176,8 +1185,8 @@ LaTeX Info: Redefining \% on input line 390.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{table.Alph2
-.3}) has been already used, duplicate ignored
+[10pdfTeX warning (ext4): destination with the same identifier (name{table.Alph
+2.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1185,7 +1194,7 @@ l.390 \include{./tex/B_Requisitos}
                                   ]
 \openout2 = `./tex/C_Diseno.aux'.
 
- (tex/C_Diseno.tex) [9
+ (tex/C_Diseno.tex) [11
 
 
 
@@ -1193,19 +1202,19 @@ l.390 \include{./tex/B_Requisitos}
 \openout2 = `./tex/D_Manual_programador.aux'.
 
 
-(tex/D_Manual_programador.tex [10
+(tex/D_Manual_programador.tex [12
 
 
 
-]) [11]
+]) [13]
 \openout2 = `./tex/E_Manual_usuario.aux'.
 
- (tex/E_Manual_usuario.tex [12
+ (tex/E_Manual_usuario.tex [14
 
 
 
 ])
-[13]
+[15]
 No file anexos.bbl.
 
 Class memoir Warning: The material used in the headers is too large
@@ -1245,13 +1254,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 399.
  ) 
 Here is how much of TeX's memory you used:
- 12756 strings out of 492946
- 191440 string characters out of 3126266
- 373700 words of memory out of 3000000
+ 12776 strings out of 492946
+ 191652 string characters out of 3126266
+ 373703 words of memory out of 3000000
  16311 multiletter control sequences out of 15000+200000
- 81097 words of font info for 83 fonts, out of 3000000 for 9000
+ 81590 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,15n,43p,519b,710s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,15n,43p,501b,710s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
 c}{C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-maths
 y.enc}<C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
@@ -1266,9 +1275,9 @@ ts/type1/public/lm/lmri12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9
  2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/mdmar/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Users/mdmar/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on anexos.pdf (19 pages, 615719 bytes).
+Output written on anexos.pdf (21 pages, 628456 bytes).
 PDF statistics:
- 660 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
+ 677 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
  21227 words of extra memory for PDF output out of 24883 (max. 10000000)
 
