@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  7 APR 2019 02:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  13 APR 2019 21:27
 entering extended mode
 **./anexos.tex
 (anexos.tex
@@ -994,20 +994,36 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.62 \end{itemize}
-                   [2])
+                   [2]
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
+
+Overfull \vbox (0.85403pt too high) has occurred while \output is active []
+
+
+[3])
+Underfull \vbox (badness 2781) has occurred while \output is active []
+
 LaTeX Info: Redefining \. on input line 389.
 LaTeX Info: Redefining \% on input line 389.
- [3]
+
+Overfull \vbox (0.85403pt too high) has occurred while \output is active []
+
+
+[4]
+LaTeX Info: Redefining \. on input line 389.
+LaTeX Info: Redefining \% on input line 389.
+ [5]
 \openout2 = `./tex/B_Requisitos.aux'.
 
- (tex/B_Requisitos.tex [4
+ (tex/B_Requisitos.tex [6
 
 
 
 ]
 Underfull \vbox (badness 1087) has occurred while \output is active []
 
- [5]
+ [7]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 28.
 
 ("C:\Users\mdmar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmr.fd"
@@ -1021,7 +1037,7 @@ LaTeX Info: Redefining \% on input line 54.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[6]
+[8]
 
 ! Package inputenc Error: Unicode character ﬁ (U+FB01)
 (inputenc)                not set up for use with LaTeX.
@@ -1088,7 +1104,7 @@ LaTeX Info: Redefining \% on input line 97.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[7]
+[9]
 Overfull \hbox (14.22638pt too wide) in paragraph at lines 131--131
 []|[]| 
  []
@@ -1127,8 +1143,8 @@ LaTeX Info: Redefining \% on input line 132.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{table.Alph2
-.1}) has been already used, duplicate ignored
+[10pdfTeX warning (ext4): destination with the same identifier (name{table.Alph
+2.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1172,8 +1188,8 @@ LaTeX Info: Redefining \% on input line 390.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[9pdfTeX warning (ext4): destination with the same identifier (name{table.Alph2
-.2}) has been already used, duplicate ignored
+[11pdfTeX warning (ext4): destination with the same identifier (name{table.Alph
+2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1185,7 +1201,7 @@ LaTeX Info: Redefining \% on input line 390.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[10pdfTeX warning (ext4): destination with the same identifier (name{table.Alph
+[12pdfTeX warning (ext4): destination with the same identifier (name{table.Alph
 2.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1194,7 +1210,7 @@ l.390 \include{./tex/B_Requisitos}
                                   ]
 \openout2 = `./tex/C_Diseno.aux'.
 
- (tex/C_Diseno.tex) [11
+ (tex/C_Diseno.tex) [13
 
 
 
@@ -1202,19 +1218,19 @@ l.390 \include{./tex/B_Requisitos}
 \openout2 = `./tex/D_Manual_programador.aux'.
 
 
-(tex/D_Manual_programador.tex [12
+(tex/D_Manual_programador.tex [14
 
 
 
-]) [13]
+]) [15]
 \openout2 = `./tex/E_Manual_usuario.aux'.
 
- (tex/E_Manual_usuario.tex [14
+ (tex/E_Manual_usuario.tex [16
 
 
 
 ])
-[15]
+[17]
 No file anexos.bbl.
 
 Class memoir Warning: The material used in the headers is too large
@@ -1254,11 +1270,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 399.
  ) 
 Here is how much of TeX's memory you used:
- 12776 strings out of 492946
- 191652 string characters out of 3126266
- 373703 words of memory out of 3000000
- 16311 multiletter control sequences out of 15000+200000
- 81590 words of font info for 88 fonts, out of 3000000 for 9000
+ 12794 strings out of 492946
+ 191860 string characters out of 3126266
+ 373704 words of memory out of 3000000
+ 16313 multiletter control sequences out of 15000+200000
+ 86430 words of font info for 94 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,15n,43p,501b,710s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
@@ -1266,18 +1282,19 @@ c}{C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-maths
 y.enc}<C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
 mbx12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 lm/lmbx8.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmcsc10.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/lm/lmr12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmr17.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/lm/lmr8.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/lm/lmri12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/lm/lmro12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/mdmar/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Users/mdmar/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on anexos.pdf (21 pages, 628456 bytes).
+ic/lm/lmbxi10.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/lm/lmcsc10.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/lm/lmr12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/lm/lmr17.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmr8.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/lm/lmri12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Users/mdmar/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/mdmar/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Users/mdmar/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on anexos.pdf (23 pages, 649161 bytes).
 PDF statistics:
- 677 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
- 21227 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 693 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
+ 21739 words of extra memory for PDF output out of 24883 (max. 10000000)
 
