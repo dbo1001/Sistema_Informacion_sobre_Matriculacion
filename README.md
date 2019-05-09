@@ -1,4 +1,4 @@
-![alt text](https://github.com/mdi0007/Data-WareHouse/blob/master/logo.jpg)
+![alt text](https://github.com/mdi0007/Data-WareHouse/blob/master/logo.JPG)
 
 Author: Mario de la Parte Izquierdo
 
