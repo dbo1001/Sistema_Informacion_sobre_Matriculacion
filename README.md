@@ -1,4 +1,4 @@
-![alt text](https://github.com/mdi0007/Sistema-de-Informaci-n-sobre-Matriculaci-n/blob/master/logo.JPG)
+![alt text](https://github.com/mdi0007/Sistema-Informacion-sobre-Matriculacion/blob/master/logo.JPG)
 
 Author: Mario de la Parte Izquierdo
 
