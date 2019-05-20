@@ -1,13 +1,12 @@
-![alt text](https://github.com/mdi0007/Data-WareHouse/blob/master/logo.JPG)
+![alt text](https://github.com/mdi0007/Sistema-Informacion-sobre-Matriculacion/blob/master/logo.JPG)
 
 Author: Mario de la Parte Izquierdo
 
 Tutor: Carlos Pardo Aguilar
 
-# Data-WareHouse
+# Sistema-Informacion-sobre-Matriculacion
 
 Final degree work on the enrollment of students in the University of Burgos
-
 
 
 
