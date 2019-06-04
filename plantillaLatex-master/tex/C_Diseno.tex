@@ -13,18 +13,19 @@ A continuación se aprecia el modelo ER o Diagrama Relacional de la Base de Dato
 
 \imagen{ModeloER}{Modelo Entidad-Relación(ER)}
 
-\newpage
+Se aprecia un total de cinco entidades, dos de las cuales son entidades débiles(\emph{Curso} y \emph{Grupo}). En las relaciones entre entidades se aprecia la cardinalidad entre las mismas, existiendo tres relaciones \emph{1.N} y una relación \emph{N.N} entre \emph{Profesores} y \emph{Grupo}. En cada entidad podemos apreciar sus atributos, así como sus claves primarias(subrayadas).
 
+\newpage
 
 \subsection{Base de datos}
 Se utiliza una base de datos(BBDD) para almacenar toda la información de la aplicación. La BBDD está compuesta por tres tablas principales:
 
 \begin{itemize}
 \item
-\textbf{Asignaturas}: en esta tabla se almacena la información relacionada con las asignaturas que componen un Plan de Estudios o Titulación determinada. Esta tabla está formada por 9 campos, que son los siguientes:
+\textbf{ASIGNATURAS}: en esta tabla se almacena la información relacionada con las asignaturas que componen un Plan de Estudios o Titulación determinada. Esta tabla está formada por 9 campos, que son los siguientes:
 \begin{itemize}
 \item
-\textbf{Id_Asignatura}: es la clave primaria de la tabla y almacena el identificador único de la asignatura. Es un campo numérico de 4 dígitos.
+\textbf{Id\_Asignatura}: es la clave primaria de la tabla y almacena el identificador único de la asignatura. Es un campo numérico de 4 dígitos.
 \item
 \textbf{Descripcion}: se almacena el nombre de la asignatura. Es un campo de caracteres.
 \item
@@ -43,38 +44,48 @@ Se utiliza una base de datos(BBDD) para almacenar toda la información de la apl
 \textbf{Turno}:
 \end{itemize}
 
+\imagen{TablaASIGNATURAS}{Tabla ASIGNATURAS}
+
+\newpage
+
 \item
-\textbf{Grupos}: en esta tabla se almacena la información relacionada con los grupos. Hay que destacar que esta tabla se trata de una entidad débil, como se verá posteriormente en el modelo de Entidad Relación(ER). Tiene una clave primaria formada por 3 capos (Id_Asignatura, Id_Grupo y Año(Temporada)) para poder identificar el total de alumnos matriculados en un grupo de una asignatura, en un año académico en concreto. Esta tabla, por lo tanto, está formada por 4 campos:
+\textbf{GRUPOS}: en esta tabla se almacena la información relacionada con los grupos. Hay que destacar que esta tabla se trata de una entidad débil, como se ha visto anteriormente en el modelo de Entidad Relación(ER). Tiene una clave primaria formada por 3 capos (Id\_Asignatura, Id\_Grupo y Temporada(Año)) para poder identificar el total de alumnos matriculados en un grupo de una asignatura, en un año académico en concreto. Esta tabla, por lo tanto, está formada por 4 campos:
 \begin{itemize}
 \item
-\textbf{Id_Asignatura}: .
+\textbf{Id\_Asignatura}: es la clave primaria de la tabla \emph{ASIGNATURAS} y almacena el identificador único de la asignatura. Es un campo numérico de 4 dígitos. Como se ha comentado, es un campo que forma parte de la clave primaria de \emph{GRUPOS}, junto a  Id\_Grupo y Temporada.
 \item
-\textbf{Id_Grupo}: .
+\textbf{Id\_Grupo}: es el identificador de grupo y forma parte de la clave primaria junto a  Id\_Asignatura y Temporada. Es un campo numérico de 2 dígitos.
 \item
-\textbf{Temporada}: .
+\textbf{Temporada}: indica el año que se cursó o se va a cursar un grupo de una asignatura en concreto y por lo tanto, forma parte de la clave primaria junto a  Id\_Asignatura e Id\_Grupo. Es un campo alfanumérico.
 \item
-\textbf{Total_Alumnos}: .
+\textbf{Total\_Alumnos}: en este campo se almacena la cantidad de alumnos que hay matriculados en un grupo de una asignatura en un año determinado. Se trata, por tanto, de un campo numérico.
 \end{itemize}
 
+\imagen{TablaGRUPOS}{Tabla GRUPOS}
+
+\newpage
+
 
 \item
-\textbf{Imparte}: esta tabla surge de la relación entre las entidades \emph{Grupos} y \emph{Profesores} como se apreciará posteriormente en el modelo Entidad Relación(ER). En esta tabla se almacena la información relacionada con los profesores y los grupos de asignaturas que imparten clase en un año determinado. Tiene una clave primaria formada por 4 capos (Id_Profesor, Id_Asignatura, Id_Grupo y Año(Temporada)). Esta tabla, está formada por estos 6 campos:
+\textbf{PROFESORES}: esta tabla surge de la relación entre las entidades \emph{Grupos}(entidad débil) y \emph{Profesores} como se ha apreciado anteriormente en el modelo Entidad Relación(ER). En esta tabla se almacena la información relacionada con los profesores y los grupos de asignaturas que imparten clase en un año determinado. Tiene una clave primaria formada por 4 campos (Id\_Profesor, Id\_Asignatura, Id\_Grupo y Temporada(Año)). Esta tabla, está formada por estos 6 campos:
 \begin{itemize}
 \item
-\textbf{Id_Profesor}: .
+\textbf{Id\_Profesor}: forma parte de la clave primaria de la tabla y almacena el identificador único de profesores. Es un campo numérico de 4 dígitos.
 \item
-\textbf{Id_Asignatura}: .
+\textbf{Id\_Asignatura}: es un campo que forma parte de la clave primaria y almacena el identificador único de la asignatura. Se trata de un campo numérico de 4 dígitos.
 \item
-\textbf{Id_Grupo}: .
+\textbf{Id\_Grupo}: es el identificador de grupo y forma parte de la clave primaria. Es un campo numérico de 2 dígitos..
 \item
-\textbf{Temporada}: .
-\item
-\textbf{Nombre_Apellidos}: .
+\textbf{Temporada}: indica el año en el que un determinado profesor impartió un grupo de una asignatura. Por lo tanto, forma parte de la clave primaria y es un campo alfanumérico.
 \item
 \textbf{Acta}: .
 \item
-\textbf{     (Meter más campos??) }: .
+\textbf{Nombre\_Apellidos}:   .
 \end{itemize}
+
+\imagen{TablaPROFESORES}{Tabla PROFESORES}
+
+\newpage
 
 \end{itemize}
 
