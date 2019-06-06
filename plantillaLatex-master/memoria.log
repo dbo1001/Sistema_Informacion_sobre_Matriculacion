@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  15 MAY 2019 23:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  5 JUN 2019 00:23
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -733,7 +733,14 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 \Gin@req@height=\dimen178
 \Gin@req@width=\dimen179
-) (memoria.aux)
+) (memoria.aux
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+ (tex/1_Introduccion.aux)
+(tex/2_Objetivos_del_proyecto.aux)
+(tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.aux))
 \openout1 = `memoria.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 364.
@@ -905,22 +912,43 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
+(memoria.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
 
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
 
-[3
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 3.
 
-]
 
-Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 3.
 
-[4
 
-]
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 4.
 
-Package hyperref Warning: old lot file detected, not used; run LaTeX again.
 
-[5
+Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
+(spanish)                faked small caps on input line 5.
+
+) [3
+
+] (memoria.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+) [4
+
+] (memoria.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+) [5
 
 ] [6
 
@@ -1016,33 +1044,34 @@ Package rerunfilecheck Info: File `memoria.out' has not changed.
 (rerunfilecheck)             Checksum: 2D8FDDBC14ECE6A2BF381D8731229C9E;1025.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 474.
  ) 
 Here is how much of TeX's memory you used:
- 12592 strings out of 492946
- 188019 string characters out of 3126266
- 354808 words of memory out of 3000000
- 16210 multiletter control sequences out of 15000+200000
- 75279 words of font info for 79 fonts, out of 3000000 for 9000
+ 12613 strings out of 492946
+ 189033 string characters out of 3126266
+ 359636 words of memory out of 3000000
+ 16218 multiletter control sequences out of 15000+200000
+ 78274 words of font info for 80 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,38p,515b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,38p,515b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
 c}<C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx1
 0.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
 mbx12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-lm/lmcsc10.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmr10.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/lm/lmr12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmr17.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/lm/lmr8.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/lm/lmri12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/lm/lmro12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on memoria.pdf (18 pages, 609744 bytes).
+lm/lmbx8.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmcsc10.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/lm/lmr10.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmr12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/lm/lmr17.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/lm/lmr8.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmri12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/lm/lmro12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on memoria.pdf (18 pages, 629258 bytes).
 PDF statistics:
- 548 PDF objects out of 1000 (max. 8388607)
+ 567 PDF objects out of 1000 (max. 8388607)
  29 named destinations out of 1000 (max. 500000)
- 21635 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 22147 words of extra memory for PDF output out of 24883 (max. 10000000)
 

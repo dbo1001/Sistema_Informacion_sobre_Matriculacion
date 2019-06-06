@@ -33,20 +33,21 @@ Se utiliza una base de datos(BBDD) para almacenar toda la información de la apl
 \item
 \textbf{Plan}: se almacena el Plan de Estudios o Titulación al que pertenece la asignatura. Es un campo alfanumérico.
 \item
-\textbf{Tipologia}:
+\textbf{Tipologia}:  Es un campo de caracteres.
 \item
-\textbf{Activ}:
+\textbf{Activ}:  Es un campo de caracteres.
 \item
-\textbf{Tp}:
+\textbf{Tp}:  Es un campo de caracteres.
 \item
-\textbf{Vp}:
+\textbf{Vp}: Es un campo numérico de 1 dígito.
 \item
-\textbf{Turno}:
+\textbf{Turno}:  Es un campo de caracteres.
 \end{itemize}
 
 \imagen{TablaASIGNATURAS}{Tabla ASIGNATURAS}
 
 \newpage
+
 
 \item
 \textbf{GRUPOS}: en esta tabla se almacena la información relacionada con los grupos. Hay que destacar que esta tabla se trata de una entidad débil, como se ha visto anteriormente en el modelo de Entidad Relación(ER). Tiene una clave primaria formada por 3 capos (Id\_Asignatura, Id\_Grupo y Temporada(Año)) para poder identificar el total de alumnos matriculados en un grupo de una asignatura, en un año académico en concreto. Esta tabla, por lo tanto, está formada por 4 campos:
@@ -78,9 +79,9 @@ Se utiliza una base de datos(BBDD) para almacenar toda la información de la apl
 \item
 \textbf{Temporada}: indica el año en el que un determinado profesor impartió un grupo de una asignatura. Por lo tanto, forma parte de la clave primaria y es un campo alfanumérico.
 \item
-\textbf{Acta}: .
+\textbf{Acta}: Es un campo de caracteres.
 \item
-\textbf{Nombre\_Apellidos}:   .
+\textbf{Nombre\_Apellidos}: es un campo que almacena el nombre y apellidos de un profesor. Se trata de un campo de caracteres.
 \end{itemize}
 
 \imagen{TablaPROFESORES}{Tabla PROFESORES}

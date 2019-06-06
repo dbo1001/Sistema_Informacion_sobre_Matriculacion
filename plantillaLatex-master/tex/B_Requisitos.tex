@@ -55,17 +55,12 @@ En este apartado se van a enumerar los requisitos específicos derivados de los 
 
 
 \section{Especificación de requisitos}
-
 En este apartado se va a visualizar a través de diagramas los casos de uso de los requisitos funcionales previamente deﬁnidos. Para esto, se va a utilizar la notación UML.
 
 \subsection{Actores}
-
 El actor del sistema es la persona que maneja la aplicación.
 
 \subsection{Casos de uso}
-
-
-
 
 \tablaSmallSinColores{Caso de uso 1: Importar Datos }{p{3cm} p{.75cm} p{9.5cm}}{b1}{
 \multicolumn{3}{l}{Caso de uso 1: Importar Datos} \\
@@ -151,4 +146,27 @@ Excepciones & \multicolumn{2}{p{10.25cm}}{}\\\hline
 Importancia & Alta \\\hline
 Urgencia & Alta \\\hline
 Comentarios & &  \\
+}
+
+------------------
+\tablaSmallSinColores{Caso de uso 4: Crear Base de Datos}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 4: Crear Base de Datos} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de crear una Base de Datos llamada BBDD y formada por 3 tablas principales denominadas ASIGNATURAS, GRUPOS y PROFESORES. Estas 3 tablas deben contar con los atributos y claves primarias definidas en el Modelo Entidad Relación(ER).} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-1} 
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Ejecutar la aplicación con un usuario con permisos de escritura o creación, para poder crear la Base de Datos.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & El usuario pulsa el botón de Crear BBDD. 
+\\\cline{2-3}
+& 2 & Se crea el fichero llamado BBDD en la ruta sobre la cual se esté ejecutando la aplicación. Este fichero contendrá la estructura ya comentada de 3 tablas principales, para posteriormente poder ir introduciendo los datos.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{Se crea la Base de Datos(BBDD).} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{ Si ya estuviera creada la BBDD, no se crearía de nuevo y se mostraría una pantalla de tipo warning al usuario indicando que la Base de Datos BBDD ya esta creada.}\\\hline
+Importancia & Alta \\\hline
+Urgencia & Alta \\\hline
+Comentarios & & Es necesario que la aplicación cuente con la Base de Datos BBDD, para poder ir almacenando la información que posteriormente se utilizará para realizar gráficas. 
 }
