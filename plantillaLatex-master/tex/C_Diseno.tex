@@ -11,14 +11,18 @@ Uno de los objetivos de este apartado es la comprensión  de la toma de decision
 \subsection{Modelo Entidad-Relación(ER)}
 A continuación se aprecia el modelo ER o Diagrama Relacional de la Base de Datos de la aplicación:
 
-\imagen{ModeloER}{Modelo Entidad-Relación(ER)}
+% \imagen{ModeloER}{Modelo Entidad-Relación(ER)}
+\includegraphics[angle=90, scale = 0.19]{ModeloER}
 
 Se aprecia un total de cinco entidades, dos de las cuales son entidades débiles(\emph{Curso} y \emph{Grupo}). En las relaciones entre entidades se aprecia la cardinalidad entre las mismas, existiendo tres relaciones \emph{1.N} y una relación \emph{N.N} entre \emph{Profesores} y \emph{Grupo}. En cada entidad podemos apreciar sus atributos, así como sus claves primarias(subrayadas).
 
-\newpage
+
 
 \subsection{Base de datos}
 Se utiliza una base de datos(BBDD) para almacenar toda la información de la aplicación. La BBDD está compuesta por tres tablas principales:
+
+
+\imagen{TablaASIGNATURAS}{Tabla ASIGNATURAS}
 
 \begin{itemize}
 \item
@@ -33,21 +37,22 @@ Se utiliza una base de datos(BBDD) para almacenar toda la información de la apl
 \item
 \textbf{Plan}: se almacena el Plan de Estudios o Titulación al que pertenece la asignatura. Es un campo alfanumérico.
 \item
-\textbf{Tipologia}:  Es un campo de caracteres.
+\textbf{Tipologia}: se almacena la tipología del grupo, que puede ser teórica o práctica. Es un campo de caracteres.
 \item
-\textbf{Activ}:  Es un campo de caracteres.
+\textbf{Activ}: se trata de un campo de caracteres.
 \item
-\textbf{Tp}:  Es un campo de caracteres.
+\textbf{Tp}: se almacena el semestre académico. Es un campo de caracteres.
 \item
-\textbf{Vp}: Es un campo numérico de 1 dígito.
+\textbf{Vp}: es un campo numérico de 1 dígito.
 \item
-\textbf{Turno}:  Es un campo de caracteres.
+\textbf{Turno}: indica si el horario es de mañana, de tarde o mezcla de ambos(mixto). Se trata de un campo de caracteres.
 \end{itemize}
 
-\imagen{TablaASIGNATURAS}{Tabla ASIGNATURAS}
 
-\newpage
 
+
+
+\imagen{TablaGRUPOS}{Tabla GRUPOS}
 
 \item
 \textbf{GRUPOS}: en esta tabla se almacena la información relacionada con los grupos. Hay que destacar que esta tabla se trata de una entidad débil, como se ha visto anteriormente en el modelo de Entidad Relación(ER). Tiene una clave primaria formada por 3 capos (Id\_Asignatura, Id\_Grupo y Temporada(Año)) para poder identificar el total de alumnos matriculados en un grupo de una asignatura, en un año académico en concreto. Esta tabla, por lo tanto, está formada por 4 campos:
@@ -62,10 +67,10 @@ Se utiliza una base de datos(BBDD) para almacenar toda la información de la apl
 \textbf{Total\_Alumnos}: en este campo se almacena la cantidad de alumnos que hay matriculados en un grupo de una asignatura en un año determinado. Se trata, por tanto, de un campo numérico.
 \end{itemize}
 
-\imagen{TablaGRUPOS}{Tabla GRUPOS}
 
-\newpage
 
+
+\imagen{TablaPROFESORES}{Tabla PROFESORES}
 
 \item
 \textbf{PROFESORES}: esta tabla surge de la relación entre las entidades \emph{Grupos}(entidad débil) y \emph{Profesores} como se ha apreciado anteriormente en el modelo Entidad Relación(ER). En esta tabla se almacena la información relacionada con los profesores y los grupos de asignaturas que imparten clase en un año determinado. Tiene una clave primaria formada por 4 campos (Id\_Profesor, Id\_Asignatura, Id\_Grupo y Temporada(Año)). Esta tabla, está formada por estos 6 campos:
@@ -79,14 +84,12 @@ Se utiliza una base de datos(BBDD) para almacenar toda la información de la apl
 \item
 \textbf{Temporada}: indica el año en el que un determinado profesor impartió un grupo de una asignatura. Por lo tanto, forma parte de la clave primaria y es un campo alfanumérico.
 \item
-\textbf{Acta}: Es un campo de caracteres.
+\textbf{Acta}: se almacena la información relevante sobre si el profesor firma o no el acta. Es un campo de caracteres.
 \item
 \textbf{Nombre\_Apellidos}: es un campo que almacena el nombre y apellidos de un profesor. Se trata de un campo de caracteres.
 \end{itemize}
 
-\imagen{TablaPROFESORES}{Tabla PROFESORES}
 
-\newpage
 
 \end{itemize}
 
