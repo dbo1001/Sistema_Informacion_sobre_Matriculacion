@@ -188,9 +188,34 @@ Precondiciones & \multicolumn{2}{p{10.25cm}} {La aplicación debe de estar inici
 \\\cline{2-3}
 & 3 & Si el usuario pulsa la opción Si, se cerrará la aplicación, por el contrario, si pulsa la opción No la aplicación continuará ejecutándose.
 \\\hline
-Postcondiciones & \multicolumn{2}{p{10.25cm}}{AKI} \\\hline
-Excepciones & \multicolumn{2}{p{10.25cm}}{ Si ya estuviera creada la BBDD, no se crearía de nuevo y se mostraría una pantalla de tipo warning al usuario indicando que la Base de Datos BBDD ya esta creada.}\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{Se cierra la aplicación.} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{ }\\\hline
+Importancia & Baja \\\hline
+Urgencia & Baja \\\hline
+Comentarios & & El botón de Salir es un botón adicional. 
+}
+
+
+\tablaSmallSinColores{Caso de uso 6: Preprocesar los ficheros originales corruptos}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 6: Preprocesar los ficheros originales corruptos} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe contar con un botón de Preprocesado. Una vez pulsado se mostrará una nueva pantalla emergente (pantalla del sistema operativo) visualizando los ficheros y directorios de la ruta donde se está ejecutando la aplicación. Se permitirá seleccionar únicamente ficheros (.xls) que son los que se pueden y deben preprocesar.} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-1} 
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {La aplicación debe de estar iniciada.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & El usuario pulsa el botón de Preprocesado.  
+\\\cline{2-3}
+& 2 & Se mostrará una nueva pantalla emergente (pantalla del sistema operativo) visualizando los ficheros (.xls) y directorios de la ruta donde se está ejecutando la aplicación. Se permitirá seleccionar únicamente ficheros (.xls).
+\\\cline{2-3}
+& 3 & Si el usuario selecciona un fichero (.xls) corrupto, se creará en la misma ruta un fichero (.csv) con toda la información del fichero seleccionado parseada y preparada para poder introducirla en la Base de Datos.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{Si se ha seleccionado un fichero (.xls) corrupto, se creará en la misma ruta otro fichero (.csv) con toda la información parseada y lista para introducir en la Base de Datos} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{}\\\hline
 Importancia & Alta \\\hline
 Urgencia & Alta \\\hline
-Comentarios & & Es necesario que la aplicación cuente con la Base de Datos BBDD, para poder ir almacenando la información que posteriormente se utilizará para realizar gráficas. 
+Comentarios & & Es necesario preprocesar los archivos originales descargados de Sigma, ya que tienen un error de formato y si no se parsean y se convierten en otro fichero (.csv), que además está preparado para introducir los datos en la BBDD, no pueden ser utilizados. 
 }

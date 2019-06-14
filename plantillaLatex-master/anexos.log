@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  13 JUN 2019 23:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  15 JUN 2019 01:31
 entering extended mode
 **./anexos.tex
 (anexos.tex
@@ -791,6 +791,9 @@ LaTeX Warning: Label `tabla:b1' multiply defined.
 
 LaTeX Warning: Label `tabla:b1' multiply defined.
 
+
+LaTeX Warning: Label `tabla:b1' multiply defined.
+
 ) (tex/C_Diseno.aux) (tex/D_Manual_programador.aux) (tex/E_Manual_usuario.aux))
 \openout1 = `anexos.aux'.
 
@@ -1334,13 +1337,13 @@ Overfull \hbox (2.22562pt too wide) in paragraph at lines 196--196
  []
 
 
-Overfull \hbox (0.72644pt too wide) in paragraph at lines 196--196
-[]|\T1/lmr/m/n/12 (-20) Alta| 
+Overfull \hbox (2.17484pt too wide) in paragraph at lines 196--196
+[]|\T1/lmr/m/n/12 (-20) Baja| 
  []
 
 
-Overfull \hbox (0.72644pt too wide) in paragraph at lines 196--196
-[]|\T1/lmr/m/n/12 (-20) Alta| 
+Overfull \hbox (2.17484pt too wide) in paragraph at lines 196--196
+[]|\T1/lmr/m/n/12 (-20) Baja| 
  []
 
 ! Misplaced \noalign.
@@ -1356,11 +1359,11 @@ Overfull \hbox (29.999pt too wide) in paragraph at lines 196--196
  [] 
  []
 
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 395.
-LaTeX Info: Redefining \% on input line 395.
+LaTeX Info: Redefining \. on input line 197.
+LaTeX Info: Redefining \% on input line 197.
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
@@ -1370,8 +1373,48 @@ Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.395 \include{./tex/B_Requisitos}
-                                  ]
+l.197 
+      ]
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 221--221
+[]|[]| 
+ []
+
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 221--221
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.22562pt too wide) in paragraph at lines 221--221
+[]|\T1/lmr/m/n/12 (-20) Paso| 
+ []
+
+
+Overfull \hbox (0.72644pt too wide) in paragraph at lines 221--221
+[]|\T1/lmr/m/n/12 (-20) Alta| 
+ []
+
+
+Overfull \hbox (0.72644pt too wide) in paragraph at lines 221--221
+[]|\T1/lmr/m/n/12 (-20) Alta| 
+ []
+
+! Misplaced \noalign.
+\bottomrule ->\noalign 
+                       {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global...
+l.221 }
+       
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (29.999pt too wide) in paragraph at lines 221--221
+ [] 
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Info: Redefining \. on input line 395.
 LaTeX Info: Redefining \% on input line 395.
 
@@ -1385,10 +1428,27 @@ Overfull \vbox (0.85403pt too high) has occurred while \output is active []
                                                   \fi \fi 
 l.395 \include{./tex/B_Requisitos}
                                   ]
+LaTeX Info: Redefining \. on input line 395.
+LaTeX Info: Redefining \% on input line 395.
+
+Overfull \vbox (0.85403pt too high) has occurred while \output is active []
+
+
+[17pdfTeX warning (ext4): destination with the same identifier (name{table.Alph
+2.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.395 \include{./tex/B_Requisitos}
+                                  ]
 \openout2 = `./tex/C_Diseno.aux'.
 
- (tex/C_Diseno.tex
-<./img/ModeloER.png, id=649, 3312.375pt x 2146.0175pt>
+ (tex/C_Diseno.tex [18
+
+
+
+]
+<./img/ModeloER.png, id=659, 3312.375pt x 2146.0175pt>
 File: ./img/ModeloER.png Graphic file (type png)
 <use ./img/ModeloER.png>
 Package pdftex.def Info: ./img/ModeloER.png  used on input line 15.
@@ -1401,11 +1461,7 @@ Overfull \hbox (42.37238pt too wide) in paragraph at lines 15--16
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17
-
-
-
-]
+ [19]
 Overfull \vbox (37.3578pt too high) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 17.
@@ -1414,15 +1470,15 @@ LaTeX Info: Redefining \% on input line 17.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[18 <./img/ModeloER.png>]
-<./img/TablaASIGNATURAS.png, id=661, 257.46187pt x 150.5625pt>
+[20 <./img/ModeloER.png>]
+<./img/TablaASIGNATURAS.png, id=672, 257.46187pt x 150.5625pt>
 File: ./img/TablaASIGNATURAS.png Graphic file (type png)
 <use ./img/TablaASIGNATURAS.png>
 Package pdftex.def Info: ./img/TablaASIGNATURAS.png  used on input line 25.
 (pdftex.def)             Requested size: 344.69766pt x 201.59416pt.
 LaTeX Info: Redefining \. on input line 40.
 LaTeX Info: Redefining \% on input line 40.
- [19pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+ [21pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
 ph3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1430,7 +1486,7 @@ ph3.1}) has been already used, duplicate ignored
 l.40 \textbf
             {Tipologia}: se almacena la tipología del grupo, que puede ser ...
  <./img/TablaASIGNATURAS.png>]
-<./img/TablaGRUPOS.png, id=669, 261.22594pt x 75.28125pt>
+<./img/TablaGRUPOS.png, id=679, 261.22594pt x 75.28125pt>
 File: ./img/TablaGRUPOS.png Graphic file (type png)
 <use ./img/TablaGRUPOS.png>
 Package pdftex.def Info: ./img/TablaGRUPOS.png  used on input line 55.
@@ -1441,7 +1497,7 @@ LaTeX Info: Redefining \% on input line 67.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[20pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
 h3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1449,14 +1505,14 @@ h3.2}) has been already used, duplicate ignored
 l.67 \textbf
             {Total\_Alumnos}: en este campo se almacena la cantidad de alumn...
  <./img/TablaGRUPOS.png>]
-<./img/TablaPROFESORES.png, id=675, 264.99pt x 103.88812pt>
+<./img/TablaPROFESORES.png, id=685, 264.99pt x 103.88812pt>
 File: ./img/TablaPROFESORES.png Graphic file (type png)
 <use ./img/TablaPROFESORES.png>
 Package pdftex.def Info: ./img/TablaPROFESORES.png  used on input line 73.
 (pdftex.def)             Requested size: 344.69766pt x 135.14647pt.
 LaTeX Info: Redefining \. on input line 89.
 LaTeX Info: Redefining \% on input line 89.
- [21pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
 ph3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1470,22 +1526,22 @@ LaTeX Info: Redefining \% on input line 396.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[22]
+[24]
 \openout2 = `./tex/D_Manual_programador.aux'.
 
- (tex/D_Manual_programador.tex) [23
+ (tex/D_Manual_programador.tex) [25
 
 
 
 ]
 \openout2 = `./tex/E_Manual_usuario.aux'.
 
- (tex/E_Manual_usuario.tex [24
+ (tex/E_Manual_usuario.tex [26
 
 
 
 ])
-[25]
+[27]
 No file anexos.bbl.
 
 Class memoir Warning: The material used in the headers is too large
@@ -1525,9 +1581,9 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 404.
  ) 
 Here is how much of TeX's memory you used:
- 13315 strings out of 492946
- 199334 string characters out of 3126266
- 381904 words of memory out of 3000000
+ 13318 strings out of 492946
+ 199361 string characters out of 3126266
+ 381945 words of memory out of 3000000
  16774 multiletter control sequences out of 15000+200000
  87715 words of font info for 107 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1548,9 +1604,9 @@ rams/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Users/mdmar/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/mdmar/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Users/mdmar/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on anexos.pdf (31 pages, 826562 bytes).
+Output written on anexos.pdf (33 pages, 829229 bytes).
 PDF statistics:
- 762 PDF objects out of 1000 (max. 8388607)
- 89 named destinations out of 1000 (max. 500000)
+ 773 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
  21759 words of extra memory for PDF output out of 24883 (max. 10000000)
 
