@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  16 JUN 2019 01:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  17 JUN 2019 23:49
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -739,8 +739,17 @@ LaTeX Info: Redefining \% on input line 24.
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
  (tex/1_Introduccion.aux)
-(tex/2_Objetivos_del_proyecto.aux)
-(tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.aux))
+(tex/2_Objetivos_del_proyecto.aux) (tex/3_Conceptos_teoricos.aux)
+(tex/4_Tecnicas_y_herramientas.aux)
+(tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.aux
+
+LaTeX Warning: Label `metodologias' multiply defined.
+
+
+LaTeX Warning: Label `librerias' multiply defined.
+
+) (tex/6_Trabajos_relacionados.aux)
+(tex/7_Conclusiones_Lineas_de_trabajo_futuras.aux))
 \openout1 = `memoria.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 364.
@@ -833,7 +842,7 @@ LaTeX Info: Redefining \nameref on input line 364.
 \@outlinefile=\write4
 \openout4 = `memoria.out'.
 
-<./img/cabecera.pdf, id=63, 617.67549pt x 135.51413pt>
+<./img/cabecera.pdf, id=127, 617.67549pt x 135.51413pt>
 File: ./img/cabecera.pdf Graphic file (type pdf)
 <use ./img/cabecera.pdf>
 Package pdftex.def Info: ./img/cabecera.pdf  used on input line 366.
@@ -868,7 +877,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 366.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 366.
-<./img/escudoInfor.pdf, id=64, 618.11432pt x 737.07487pt>
+<./img/escudoInfor.pdf, id=128, 618.11432pt x 737.07487pt>
 File: ./img/escudoInfor.pdf Graphic file (type pdf)
 <use ./img/escudoInfor.pdf>
 Package pdftex.def Info: ./img/escudoInfor.pdf  used on input line 366.
@@ -934,38 +943,48 @@ Package spanish Warning: Replacing `T1/lmr/bx/sc' by
 Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
 (spanish)                faked small caps on input line 5.
 
-) [3
+[3
 
-] (memoria.lof
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
-) [4
+])
+LaTeX Info: Redefining \. on input line 471.
+LaTeX Info: Redefining \% on input line 471.
 
-] (memoria.lot
+
+Class memoir Warning: The material used in the headers is too large
+(15.35403pt) for the given head height (14.5pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 471.
+
+
+Overfull \vbox (0.85403pt too high) has occurred while \output is active []
+
+
+[4] (memoria.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 ) [5
 
-] [6
-
+] (memoria.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+) [6
 
 ]
 \openout2 = `./tex/1_Introduccion.aux'.
 
- (tex/1_Introduccion.tex
-Underfull \vbox (badness 1137) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+ (tex/1_Introduccion.texpdfTeX warning (ext4): destination with the same identi
+fier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 \textbf
-            {Objetivos del proyecto:} se exponen los objetivos del proyecto,...
+l.23 	\item V
+             isualización de diferentes tipos de gráficos en función de l...
 [1
+
+
 
 
 ])
@@ -989,37 +1008,150 @@ l.482 \include{./tex/2_Objetivos_del_proyecto}
 
 
 ]
-\openout2 = `./tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.aux'.
+\openout2 = `./tex/3_Conceptos_teoricos.aux'.
 
 
-(tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.texpdfTeX warning (ext4)
-: destination with the same identifier (name{page.4}) has been already used, du
-plicate ignored
+(tex/3_Conceptos_teoricos.texpdfTeX warning (ext4): destination with the same i
+dentifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 ...tos relevantes del desarrollo del proyecto}
-                                                   [4
+l.1 \capitulo{3}{Conceptos teóricos}
+                                      [4
 
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 5.
 
+
+LaTeX Warning: Citation `wiki:latex' on page 5 undefined on input line 22.
+
+
+LaTeX Warning: Citation `koza92' on page 5 undefined on input line 22.
+
+File: ./img/escudoInfor.pdf Graphic file (type pdf)
+<use ./img/escudoInfor.pdf>
+Package pdftex.def Info: ./img/escudoInfor.pdf  used on input line 29.
+(pdftex.def)             Requested size: 344.69766pt x 411.04959pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 
-      [5])
-LaTeX Info: Redefining \. on input line 485.
-LaTeX Info: Redefining \% on input line 485.
+l.29 ...for}{Autómata para una expresión vacía}
+                                                   [5]
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.485 ...s_relevantes_del_desarrollo_del_proyecto}
-                                                   [6]
+l.39 	\item s
+             egundo item. [6])
+LaTeX Info: Redefining \. on input line 483.
+LaTeX Info: Redefining \% on input line 483.
+ [7]
+LaTeX Info: Redefining \. on input line 483.
+LaTeX Info: Redefining \% on input line 483.
+ [8]
+\openout2 = `./tex/4_Tecnicas_y_herramientas.aux'.
+
+ (tex/4_Tecnicas_y_herramientas.tex
+
+! Package inputenc Error: Unicode character ﬁ (U+FB01)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 Para realizar la planiﬁ
+                             cación correcta del proyecto, se ha utilizado ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[9
+
+
+
+]
+
+LaTeX Warning: Citation `jupyter' on page 10 undefined on input line 43.
+
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+[10]
+
+LaTeX Warning: Citation `sqlite' on page 11 undefined on input line 50.
+
+
+LaTeX Warning: Citation `github' on page 11 undefined on input line 64.
+
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
+[11]
+
+LaTeX Warning: Citation `texmaker' on page 12 undefined on input line 73.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 74.
+
+
+Overfull \hbox (14.72498pt too wide) in paragraph at lines 72--75
+[]\T1/lmr/m/n/12 (-20) Hay que se-�a-lar que tam-bi�n in-clu-ye co-rrec-ci�n or
+-to-gr�-fi-ca, auto-completado,
+ []
+
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
+[12]
+LaTeX Info: Redefining \. on input line 129.
+LaTeX Info: Redefining \% on input line 129.
+ [13])
+LaTeX Info: Redefining \. on input line 484.
+LaTeX Info: Redefining \% on input line 484.
+ [14]
+\openout2 = `./tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.aux'.
+
+ (tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15
+
+
+
+])
+LaTeX Info: Redefining \. on input line 485.
+LaTeX Info: Redefining \% on input line 485.
+
+[16]
+\openout2 = `./tex/6_Trabajos_relacionados.aux'.
+
+ (tex/6_Trabajos_relacionados.tex) [17
+
+
+
+]
+\openout2 = `./tex/7_Conclusiones_Lineas_de_trabajo_futuras.aux'.
+
+
+(tex/7_Conclusiones_Lineas_de_trabajo_futuras.tex [18
+
+
+
+]) [19]
 No file memoria.bbl.
+
+Class memoir Warning: The material used in the headers is too large
+(15.35403pt) for the given head height (14.5pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 493.
+
 \tf@toc=\write5
 \openout5 = `memoria.toc'.
 
@@ -1037,25 +1169,34 @@ LaTeX Info: Redefining \% on input line 24.
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
  (tex/1_Introduccion.aux) (tex/2_Objetivos_del_proyecto.aux)
-(tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.aux))
+(tex/3_Conceptos_teoricos.aux) (tex/4_Tecnicas_y_herramientas.aux)
+(tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.aux)
+(tex/6_Trabajos_relacionados.aux)
+(tex/7_Conclusiones_Lineas_de_trabajo_futuras.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 493.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 493.
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 2D8FDDBC14ECE6A2BF381D8731229C9E;1025.
+(rerunfilecheck)             Checksum: 554511552DFF859BEEF8F51B603490D9;2066.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 493.
  ) 
 Here is how much of TeX's memory you used:
- 12620 strings out of 492946
- 189672 string characters out of 3126266
- 359637 words of memory out of 3000000
- 16217 multiletter control sequences out of 15000+200000
- 78606 words of font info for 84 fonts, out of 3000000 for 9000
+ 12845 strings out of 492946
+ 194763 string characters out of 3126266
+ 371908 words of memory out of 3000000
+ 16302 multiletter control sequences out of 15000+200000
+ 97708 words of font info for 119 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,38p,515b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,38p,518b,685s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
 c}<C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx1
 0.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
@@ -1065,13 +1206,14 @@ ic/lm/lmcsc10.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/lm/lmr10.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmr12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/lm/lmr17.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/lm/lmr8.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/lm/lmri12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/lm/lmro12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on memoria.pdf (18 pages, 633942 bytes).
+nts/type1/public/lm/lmr7.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmr8.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/lm/lmri12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Users/mdmar/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on memoria.pdf (31 pages, 708571 bytes).
 PDF statistics:
- 567 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 22147 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 764 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 27907 words of extra memory for PDF output out of 29859 (max. 10000000)
 

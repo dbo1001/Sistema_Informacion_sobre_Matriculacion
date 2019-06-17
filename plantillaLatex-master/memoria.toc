@@ -1,18 +1,55 @@
 \babel@toc {spanish}{}
 \babel@toc {spanish}{}
 \contentsline {chapter}{\'{I}ndice general}{\es@scroman {iii}}{section*.1}% 
-\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {iv}}{section*.2}% 
-\contentsline {chapter}{\'{I}ndice de tablas}{\es@scroman {v}}{section*.3}% 
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {v}}{section*.2}% 
+\contentsline {chapter}{\'{I}ndice de tablas}{\es@scroman {vi}}{section*.3}% 
 \contentsline {chapter}{Introducci\IeC {\'o}n}{1}{chapter*.4}% 
-\contentsline {section}{\numberline {1.1}Estructura de la memoria}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.1}Estructura de la memoria}{2}{section.1.1}% 
 \contentsline {chapter}{Objetivos del proyecto}{3}{chapter*.5}% 
 \contentsline {section}{\numberline {2.1}Objetivo general}{3}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}Objetivos t\IeC {\'e}cnicos}{3}{section.2.2}% 
-\contentsline {chapter}{Aspectos relevantes del desarrollo del proyecto}{5}{chapter*.6}% 
-\contentsline {section}{\numberline {5.1}Inicio del proyecto}{5}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Metodolog\IeC {\'\i }as}{5}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Toma de decisiones}{6}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Librer\IeC {\'\i }as para el tratamiento y manipulaci\IeC {\'o}n de datos}{6}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Interfaz de usuario del proyecto}{6}{section.5.5}% 
-\contentsline {section}{\numberline {5.6}Problemas encontrados}{6}{section.5.6}% 
-\contentsline {subsection}{Error al abrir los Excel(.xls) bajados de Sigma con Python}{6}{section*.7}% 
+\contentsline {chapter}{Conceptos te\IeC {\'o}ricos}{5}{chapter*.6}% 
+\contentsline {section}{\numberline {3.1}Secciones}{5}{section.3.1}% 
+\contentsline {subsection}{Subsecciones}{5}{section*.7}% 
+\contentsline {subsubsection}{Subsubsecciones}{5}{section*.8}% 
+\contentsline {section}{\numberline {3.2}Referencias}{5}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Im\IeC {\'a}genes}{6}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Listas de items}{6}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Tablas}{7}{section.3.5}% 
+\contentsline {chapter}{T\IeC {\'e}cnicas y herramientas}{9}{chapter*.9}% 
+\contentsline {section}{\numberline {4.1}Metodolog\IeC {\'\i }as}{9}{section.4.1}% 
+\contentsline {subsection}{Scrum}{9}{section*.10}% 
+\contentsline {section}{\numberline {4.2}Lenguaje de Programaci\IeC {\'o}n}{10}{section.4.2}% 
+\contentsline {subsection}{Python}{10}{section*.11}% 
+\contentsline {section}{\numberline {4.3}Entorno de Desarrollo}{10}{section.4.3}% 
+\contentsline {subsection}{Jupyter NoteBook}{10}{section*.12}% 
+\contentsline {subsection}{SQLite}{11}{section*.13}% 
+\contentsline {subsection}{Sublime Text 3 y Notepad++}{11}{section*.14}% 
+\contentsline {section}{\numberline {4.4}Control de Versiones}{11}{section.4.4}% 
+\contentsline {subsection}{GitHub}{11}{section*.15}% 
+\contentsline {section}{\numberline {4.5}Documentaci\IeC {\'o}n}{12}{section.4.5}% 
+\contentsline {subsection}{Texmaker}{12}{section*.16}% 
+\contentsline {section}{\numberline {4.6}Librer\IeC {\'\i }as}{12}{section.4.6}% 
+\contentsline {subsection}{re}{12}{section*.17}% 
+\contentsline {subsection}{pandas}{12}{section*.18}% 
+\contentsline {subsection}{sqlite3}{12}{section*.19}% 
+\contentsline {subsection}{Tkinter}{13}{section*.20}% 
+\contentsline {subsection}{math}{13}{section*.21}% 
+\contentsline {subsection}{matplotlib}{13}{section*.22}% 
+\contentsline {subsection}{PyQt5}{13}{section*.23}% 
+\contentsline {subsection}{os, sys, subprocess}{13}{section*.24}% 
+\contentsline {section}{\numberline {4.7}Otras Herramientas}{13}{section.4.7}% 
+\contentsline {subsection}{DB Browser}{13}{section*.25}% 
+\contentsline {subsection}{Nitro Pro}{13}{section*.26}% 
+\contentsline {subsection}{Excel}{13}{section*.27}% 
+\contentsline {subsection}{Photoshop}{14}{section*.28}% 
+\contentsline {chapter}{Aspectos relevantes del desarrollo del proyecto}{15}{chapter*.29}% 
+\contentsline {section}{\numberline {5.1}Inicio del proyecto}{15}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Metodolog\IeC {\'\i }as}{15}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Toma de decisiones}{16}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Librer\IeC {\'\i }as para el tratamiento y manipulaci\IeC {\'o}n de datos}{16}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Interfaz de usuario del proyecto}{16}{section.5.5}% 
+\contentsline {section}{\numberline {5.6}Problemas encontrados}{16}{section.5.6}% 
+\contentsline {subsection}{Error al abrir los Excel(.xls) bajados de Sigma con Python}{16}{section*.30}% 
+\contentsline {chapter}{Trabajos relacionados}{17}{chapter*.31}% 
+\contentsline {chapter}{Conclusiones y L\IeC {\'\i }neas de trabajo futuras}{19}{chapter*.32}% 

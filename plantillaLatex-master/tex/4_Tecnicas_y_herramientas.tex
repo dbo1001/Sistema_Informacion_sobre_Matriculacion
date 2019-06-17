@@ -1,6 +1,129 @@
 \capitulo{4}{Técnicas y herramientas}
+En este apartado se van a exponer las técnicas metodológicas y herramientas de desarrollo que se han utilizado para la realización del proyecto. Se detallarán las razones principales por los que se ha usado esa herramienta y no otra.
 
-Esta parte de la memoria tiene como objetivo presentar las técnicas metodológicas y las herramientas de desarrollo que se han utilizado para llevar a cabo el proyecto. Si se han estudiado diferentes alternativas de metodologías, herramientas, bibliotecas se puede hacer un resumen de los aspectos más destacados de cada alternativa, incluyendo comparativas entre las distintas opciones y una justificación de las elecciones realizadas. 
-No se pretende que este apartado se convierta en un capítulo de un libro dedicado a cada una de las alternativas, sino comentar los aspectos más destacados de cada opción, con un repaso somero a los fundamentos esenciales y referencias bibliográficas para que el lector pueda ampliar su conocimiento sobre el tema.
+\section{Metodologías}\label{metodologias}
+
+\subsection{Scrum}\label{scrum}
+Para realizar la planiﬁcación correcta del proyecto, se ha utilizado \emph{Scrum}, que es una metodología ágil de desarrollo.
+
+\begin{itemize}
+	\item Se ha utilizado una estrategia orientada a un desarrollo incremental y basada en \emph{sprints}.
+	\item La duración media de cada \emph{sprint} era aproximadamente de una semana.
+	\item Al inicio de cada \emph{sprint} se definían las tareas o \emph{issues} a realizar, las cuales tenían que ser realizadas en un cierto intervalo de tiempo.
+	\item Cada \emph{sprint} se planificaba cuando se finalizaban las tareas o \emph{issues} del anterior \emph{sprint}.	
+	\item Al final de cada \emph{sprint} se revisan todas las tareas realizadas, así como ver si se han logrado los objetivos fijados y solucionado los problemas encontrados.
+\end{itemize}
+
+Con la utilización de esta metodología se ha logrado evitar la realización de una planificación y ejecución completa desde el inicio del proyecto.
 
 
+
+\section{Lenguaje de Programación}\label{lenguaje_de_programacion}
+\subsection{Python}\label{python}
+El lenguaje de programación utilizado ha sido \href {https://www.python.org/}{Python} en la versión 3.7.1.
+
+Las razones por las que se ha decidido utilizar Python son las siguientes:
+\begin{itemize}
+	\item Es uno de los lenguajes de programación más sencillos de aprender ya que su sintaxis es muy entendible.
+	\item Es un lenguaje gratuito, multiplataforma y de código abierto.
+	\item Gracias a las dos anteriores razones, se ha convertido en un lenguaje tan popular y utilizado, que ha dado lugar a que se desarrollen multitud de librerías, módulos y programas de software libre. Gran parte de estas librerías destacan en el ámbito de manejo de ficheros, tratamiento y visualización de datos.
+	\item Del mismo modo, al ser un lenguaje utilizado por tantas personas, hace que existan numerosos foros, blogs y páginas en las que apoyarse cuando surgen dudas o se necesita ayuda.
+\end{itemize}
+
+
+\section{Entorno de Desarrollo}\label{entorno_de_desarrollo}
+\subsection{Jupyter NoteBook}\label{jupyter_noteBook}
+Como entorno de desarrollo principal se ha utilizado \href{https://jupyter.org/}{Juypter NoteBook} en la versión 5.7.4.
+
+Se trata de una aplicación web de código abierto que permite tanto el desarrollo como la ejecución del código.
+Esta aplicación se puede lanzar directamente desde un navegador(sin instalar nada) o se puede instalar con \emph{Anaconda Navigator}. Para el desarrollo del proyecto se utilizó la segunda opción.
+
+Otra de las grandes ventajas de esta aplicación es la agilidad en el desarrollo, ya que al tratarse de una aplicación cuya ejecución es en vivo, se pueden realizar pruebas de manera rápida e intuitiva. 
+
+\cite{jupyter}.
+
+\subsection{SQLite}\label{sqlite}
+\href{https://www.sqlite.org/index.html}{SQLite} se trata de un sistema de gestión de bases de datos(BBDD) relacionales de pequeño tamaño.
+Una de las características de este sistema de gestión es que no necesita un servidor para poder utilizarse, ya que los datos se almacenan en un único fichero en el sistema host. 
+Hay que destacar que Python incluye soporte para SQLite desde la versión 2.5 incorporado en la Biblioteca Estándar como el módulo \emph{sqlite3}, que es el módulo que se ha utilizado en el desarrollo del proyecto.
+
+\cite{sqlite}. https://es.wikipedia.org/wiki/SQLite
+
+\subsection{Sublime Text 3 y Notepad++}\label{sublime_text_3_y_notepad++}
+Tanto \href{https://www.sublimetext.com/}{Sublime Text 3} como \href{https://notepad-plus-plus.org/}{Notepad++} son editores de código que pueden ser utilizados como entornos de desarrollo, ya que pueden interpretar numerosos lenguajes de programación. 
+
+En un primer lugar ambos editores se utilizaron para el desarrollo del proyecto, pero finalmente el uso de estas herramientas fue la de edicción y visualización de ficheros. Hay que destacar funcionalidades como la mostrar caracteres ocultos de \emph{Notepad++}, la visualización del texto en función de la sintaxis o lenguaje de programación que se elija en \emph{Sublime Text 3} y las herramientas de búsqueda de ambos editores.
+
+
+\section{Control de Versiones}\label{control_de_versiones}
+\subsection{GitHub}\label{gitHub}
+\href{https://github.com/}{GitHub} se trata de una plataforma cuya función principal es la de hospedar repositorios y permitir el desarrollo colaborativo.
+Es una plataforma de las más usadas y por esta razón es la que se ha utilizado a lo largo del grado y en particular en la realización de este proyecto. Hay que destacar que gracias a formar parte de la Universidad de Burgos y ser estudiante, se ha obtenido la versión \emph{PRO}(licencia de estudiantes). Aun así hay que destacar que se trata de una herramienta gratuita.
+Por último comentar que se ha utilizado tanto \emph{GitHub Desktop}(aplicación de escritorio) como la plataforma web.
+
+\cite{github}
+
+
+\section{Documentación}\label{documentacion}
+
+\subsection{Texmaker}\label{texmaker}
+Para la realización de la documentación con \href{https://www.latex-project.org/}{LaTeX} se ha utilizado el editor \href{https://www.xm1math.net/texmaker/}{Texmaker}. Se trata de un editor gratuito, el cual contiene las herramientas y características necesarias para desarrollar y editar documentos con \emph{LaTeX}.
+
+Hay que señalar que también incluye corrección ortográfica, auto-completado, plegado de código y un visor incorporado en pdf con soporte de synctex y un modo de visualización continua. 
+\cite{texmaker} https://es.wikipedia.org/wiki/Texmaker
+\href{}{la ultima frase es de wikipedia}
+
+
+\section{Librerías}\label{librerias}
+En este apartado se van a explicar las diferentes librerías o bibliotecas que se han utilizado en el desarrollo del proyecto y su función principal. Todas las librerías explicadas a continuación son librerías de \emph{Python}.
+
+\subsection{re}
+La primera librería que se ha utilizado en el proyecto ha sido \href{https://docs.python.org/3/library/re.html}{re}, ya que dicha librería contiene las funciones necesarias para trabajar con expresiones regulares.
+
+Las expresiones regulares se han utilizado sobretodo en la parte inicial de parsear los ficheros descargados de Sigma. De esta manera se ha podido separar y extraer información por filas, celdas y contenido de las mismas.
+
+
+\subsection{pandas}
+\href{https://pandas.pydata.org/}{Pandas} es una librería que ofrece numerosas estructuras de datos de gran rendimiento y herramientas de análisis de datos.
+
+Esta librería se ha utilizado principalmente para abrir y crear archivos con \emph{Python} y para crear \emph{dataframes} o estructuras auxiliares donde guardar datos.  
+
+
+\subsection{sqlite3}
+Como ya se ha comentado en un apartado anterior, la librería \href{https://docs.python.org/2/library/sqlite3.html}{sqlite3} proporciona una base de datos relacional de pequeño tamaño, ya que no necesita un servidor para poder utilizarse, ya que los datos se almacenan en un único fichero en el sistema host.
+
+Esta librería se ha utilizado para la creación de la base de datos(BBDD), así como para la carga de datos y los procesos de consultas a la misma.
+
+\subsection{Tkinter}
+\href{https://docs.python.org/2/library/tkinter.html}{Tkinter} es una librería con numerosas funciones para hacer posible la creación de una interfaz gráfica en \emph{Python}.
+
+Se trata de una librería orientada a objetos y gracias a su facilidad de uso y rapidez para realizar una GUI, es una de las librerías más destacadas de este lenguaje de programación.
+
+Por lo tanto, se ha utilizado principalmente en la creación de la interfaz gráfica(botones, desplegables, ventanas nuevas...etc).
+
+
+\subsection{math}
+
+\subsection{matplotlib}
+
+\subsection{PyQt5}
+
+\subsection{os, sys, subprocess}
+
+
+\section{Otras Herramientas}\label{otras_herramientas}
+En este apartado se van a explicar otras herramientas destacadas que se han utilizado a lo largo del proyecto.
+
+\subsection{DB Browser}\label{db_browser}
+\href{https://sqlitebrowser.org/}{DB Browser} es ...
+
+\subsection{Nitro Pro}\label{nitro_pro}
+\href{https://www.gonitro.com/es/}{Nitro Pro} es una herramienta gráfica ...
+
+\subsection{Excel}\label{excel}
+\href{https://support.office.com/es-es/excel}{Excel} es ...
+
+\subsection{Photoshop}\label{photoshop}
+\href{https://www.photoshop.com/}{Photoshop} es un editor de imágenes dedicado principalmente para el retoque de fotografias y gráficos.
+
+Esta herramienta se ha utilizado para pequeñas tareas de diseño, como la realización de los botones, el logo de la aplicación...etc.
