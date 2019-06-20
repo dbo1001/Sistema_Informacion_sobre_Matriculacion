@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  15 JUN 2019 01:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  19 JUN 2019 23:41
 entering extended mode
 **./anexos.tex
 (anexos.tex
@@ -782,19 +782,7 @@ LaTeX Info: Redefining \% on input line 25.
 
 LaTeX Warning: Label `tabla:b1' multiply defined.
 
-
-LaTeX Warning: Label `tabla:b1' multiply defined.
-
-
-LaTeX Warning: Label `tabla:b1' multiply defined.
-
-
-LaTeX Warning: Label `tabla:b1' multiply defined.
-
-
-LaTeX Warning: Label `tabla:b1' multiply defined.
-
-) (tex/C_Diseno.aux) (tex/D_Manual_programador.aux) (tex/E_Manual_usuario.aux))
+))
 \openout1 = `anexos.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 358.
@@ -812,7 +800,7 @@ LaTeX Font Info:    ... okay on input line 358.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 358.
 LaTeX Font Info:    ... okay on input line 358.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 358.
-("C:\Users\mdmar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
+ ("C:\Users\mdmar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Info: Redefining \. on input line 358.
@@ -886,7 +874,7 @@ LaTeX Info: Redefining \nameref on input line 358.
 \@outlinefile=\write4
 \openout4 = `anexos.out'.
 
-<./img/cabecera.pdf, id=115, 617.67549pt x 135.51413pt>
+<./img/cabecera.pdf, id=51, 617.67549pt x 135.51413pt>
 File: ./img/cabecera.pdf Graphic file (type pdf)
 <use ./img/cabecera.pdf>
 Package pdftex.def Info: ./img/cabecera.pdf  used on input line 360.
@@ -921,7 +909,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 360.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 360.
-<./img/escudoInfor.pdf, id=116, 618.11432pt x 737.07487pt>
+<./img/escudoInfor.pdf, id=52, 618.11432pt x 737.07487pt>
 File: ./img/escudoInfor.pdf Graphic file (type pdf)
 <use ./img/escudoInfor.pdf>
 Package pdftex.def Info: ./img/escudoInfor.pdf  used on input line 360.
@@ -1061,35 +1049,40 @@ Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
 [5]
-LaTeX Info: Redefining \. on input line 242.
-LaTeX Info: Redefining \% on input line 242.
+LaTeX Info: Redefining \. on input line 202.
+LaTeX Info: Redefining \% on input line 202.
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[6])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 394.
-LaTeX Info: Redefining \% on input line 394.
- [7]
-LaTeX Info: Redefining \. on input line 394.
-LaTeX Info: Redefining \% on input line 394.
+[6]
+LaTeX Info: Redefining \. on input line 236.
+LaTeX Info: Redefining \% on input line 236.
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[8]
+[7]
+LaTeX Info: Redefining \. on input line 344.
+LaTeX Info: Redefining \% on input line 344.
+
+Overfull \vbox (0.85403pt too high) has occurred while \output is active []
+
+
+[8])
+LaTeX Info: Redefining \. on input line 394.
+LaTeX Info: Redefining \% on input line 394.
+ [9]
 \openout2 = `./tex/B_Requisitos.aux'.
 
- (tex/B_Requisitos.tex
-Underfull \vbox (badness 1087) has occurred while \output is active []
-
- [9
+ (tex/B_Requisitos.tex [10
 
 
 
 ]
+Underfull \vbox (badness 1087) has occurred while \output is active []
+
+ [11]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 28.
 
 ("C:\Users\mdmar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmr.fd"
@@ -1103,338 +1096,310 @@ LaTeX Info: Redefining \% on input line 54.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[10]
-
-! Package inputenc Error: Unicode character ﬁ (U+FB01)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.58 ...s requisitos funcionales previamente deﬁ
-                                                  nidos. Para esto, se va a ...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character ﬁ (U+FB01)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.91 }
-      
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 91--91
+[12]
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 85--85
 []|[]| 
  []
 
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 91--91
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 85--85
 []|[]| 
  []
 
 
-Overfull \hbox (2.22562pt too wide) in paragraph at lines 91--91
+Overfull \hbox (2.22562pt too wide) in paragraph at lines 85--85
 []|\T1/lmr/m/n/12 (-20) Paso| 
  []
 
 
-Overfull \hbox (0.72644pt too wide) in paragraph at lines 91--91
+Overfull \hbox (0.72644pt too wide) in paragraph at lines 85--85
 []|\T1/lmr/m/n/12 (-20) Alta| 
  []
 
 
-Overfull \hbox (0.72644pt too wide) in paragraph at lines 91--91
+Overfull \hbox (0.72644pt too wide) in paragraph at lines 85--85
 []|\T1/lmr/m/n/12 (-20) Alta| 
  []
 
 ! Misplaced \noalign.
 \bottomrule ->\noalign 
                        {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global...
-l.91 }
+l.85 }
       
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (29.999pt too wide) in paragraph at lines 91--91
+Overfull \hbox (29.999pt too wide) in paragraph at lines 85--85
  [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
+LaTeX Info: Redefining \. on input line 86.
+LaTeX Info: Redefining \% on input line 86.
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[11]
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 126--126
+[13]
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 110--110
 []|[]| 
  []
 
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 126--126
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 110--110
 []|[]| 
  []
 
 
-Overfull \hbox (2.22562pt too wide) in paragraph at lines 126--126
+Overfull \hbox (2.22562pt too wide) in paragraph at lines 110--110
 []|\T1/lmr/m/n/12 (-20) Paso| 
  []
 
 
-Overfull \hbox (0.72644pt too wide) in paragraph at lines 126--126
+Overfull \hbox (0.72644pt too wide) in paragraph at lines 110--110
 []|\T1/lmr/m/n/12 (-20) Alta| 
  []
 
 
-Overfull \hbox (0.72644pt too wide) in paragraph at lines 126--126
-[]|\T1/lmr/m/n/12 (-20) Alta| 
- []
-
-
-Overfull \hbox (29.999pt too wide) in paragraph at lines 126--126
- [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 127.
-LaTeX Info: Redefining \% on input line 127.
-
-Overfull \vbox (0.85403pt too high) has occurred while \output is active []
-
-
-[12pdfTeX warning (ext4): destination with the same identifier (name{table.Alph
-2.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.127 
-      ]
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 149--149
-[]|[]| 
- []
-
-
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 149--149
-[]|[]| 
- []
-
-
-Overfull \hbox (2.22562pt too wide) in paragraph at lines 149--149
-[]|\T1/lmr/m/n/12 (-20) Paso| 
- []
-
-
-Overfull \hbox (0.72644pt too wide) in paragraph at lines 149--149
-[]|\T1/lmr/m/n/12 (-20) Alta| 
- []
-
-
-Overfull \hbox (0.72644pt too wide) in paragraph at lines 149--149
-[]|\T1/lmr/m/n/12 (-20) Alta| 
- []
-
-
-Overfull \hbox (29.999pt too wide) in paragraph at lines 149--149
- [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 150.
-LaTeX Info: Redefining \% on input line 150.
-
-Overfull \vbox (0.85403pt too high) has occurred while \output is active []
-
-
-[13pdfTeX warning (ext4): destination with the same identifier (name{table.Alph
-2.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.150 
-      ]
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 172--172
-[]|[]| 
- []
-
-
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 172--172
-[]|[]| 
- []
-
-
-Overfull \hbox (2.22562pt too wide) in paragraph at lines 172--172
-[]|\T1/lmr/m/n/12 (-20) Paso| 
- []
-
-
-Overfull \hbox (0.72644pt too wide) in paragraph at lines 172--172
-[]|\T1/lmr/m/n/12 (-20) Alta| 
- []
-
-
-Overfull \hbox (0.72644pt too wide) in paragraph at lines 172--172
+Overfull \hbox (0.72644pt too wide) in paragraph at lines 110--110
 []|\T1/lmr/m/n/12 (-20) Alta| 
  []
 
 ! Misplaced \noalign.
 \bottomrule ->\noalign 
                        {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global...
-l.172 }
+l.110 }
        
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (29.999pt too wide) in paragraph at lines 172--172
+Overfull \hbox (29.999pt too wide) in paragraph at lines 110--110
  [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 173.
-LaTeX Info: Redefining \% on input line 173.
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
 [14pdfTeX warning (ext4): destination with the same identifier (name{table.Alph
-2.3}) has been already used, duplicate ignored
+2.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.173 
+l.111 
       ]
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 196--196
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 135--135
 []|[]| 
  []
 
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 196--196
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 135--135
 []|[]| 
  []
 
 
-Overfull \hbox (2.22562pt too wide) in paragraph at lines 196--196
+Overfull \hbox (2.22562pt too wide) in paragraph at lines 135--135
 []|\T1/lmr/m/n/12 (-20) Paso| 
  []
 
 
-Overfull \hbox (2.17484pt too wide) in paragraph at lines 196--196
-[]|\T1/lmr/m/n/12 (-20) Baja| 
+Overfull \hbox (0.72644pt too wide) in paragraph at lines 135--135
+[]|\T1/lmr/m/n/12 (-20) Alta| 
  []
 
 
-Overfull \hbox (2.17484pt too wide) in paragraph at lines 196--196
-[]|\T1/lmr/m/n/12 (-20) Baja| 
+Overfull \hbox (0.72644pt too wide) in paragraph at lines 135--135
+[]|\T1/lmr/m/n/12 (-20) Alta| 
  []
 
 ! Misplaced \noalign.
 \bottomrule ->\noalign 
                        {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global...
-l.196 }
+l.135 }
        
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (29.999pt too wide) in paragraph at lines 196--196
+Overfull \hbox (29.999pt too wide) in paragraph at lines 135--135
  [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 197.
-LaTeX Info: Redefining \% on input line 197.
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
 [15pdfTeX warning (ext4): destination with the same identifier (name{table.Alph
-2.4}) has been already used, duplicate ignored
+2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.197 
+l.136 
       ]
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 221--221
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 168--168
 []|[]| 
  []
 
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 221--221
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 168--168
 []|[]| 
  []
 
 
-Overfull \hbox (2.22562pt too wide) in paragraph at lines 221--221
+Overfull \hbox (2.22562pt too wide) in paragraph at lines 168--168
 []|\T1/lmr/m/n/12 (-20) Paso| 
  []
 
 
-Overfull \hbox (0.72644pt too wide) in paragraph at lines 221--221
+Overfull \hbox (0.72644pt too wide) in paragraph at lines 168--168
 []|\T1/lmr/m/n/12 (-20) Alta| 
  []
 
 
-Overfull \hbox (0.72644pt too wide) in paragraph at lines 221--221
+Overfull \hbox (0.72644pt too wide) in paragraph at lines 168--168
 []|\T1/lmr/m/n/12 (-20) Alta| 
  []
 
-! Misplaced \noalign.
-\bottomrule ->\noalign 
-                       {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global...
-l.221 }
-       
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
-
-Overfull \hbox (29.999pt too wide) in paragraph at lines 221--221
+Overfull \hbox (29.999pt too wide) in paragraph at lines 168--168
  [] 
  []
 
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 395.
-LaTeX Info: Redefining \% on input line 395.
+LaTeX Info: Redefining \. on input line 169.
+LaTeX Info: Redefining \% on input line 169.
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
 [16pdfTeX warning (ext4): destination with the same identifier (name{table.Alph
+2.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.169 
+      ]
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 191--191
+[]|[]| 
+ []
+
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 191--191
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.22562pt too wide) in paragraph at lines 191--191
+[]|\T1/lmr/m/n/12 (-20) Paso| 
+ []
+
+
+Overfull \hbox (0.72644pt too wide) in paragraph at lines 191--191
+[]|\T1/lmr/m/n/12 (-20) Alta| 
+ []
+
+
+Overfull \hbox (0.72644pt too wide) in paragraph at lines 191--191
+[]|\T1/lmr/m/n/12 (-20) Alta| 
+ []
+
+
+Overfull \hbox (29.999pt too wide) in paragraph at lines 191--191
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 192.
+LaTeX Info: Redefining \% on input line 192.
+
+Overfull \vbox (0.85403pt too high) has occurred while \output is active []
+
+
+[17pdfTeX warning (ext4): destination with the same identifier (name{table.Alph
+2.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.192 
+      ]
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 216--216
+[]|[]| 
+ []
+
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 216--216
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.22562pt too wide) in paragraph at lines 216--216
+[]|\T1/lmr/m/n/12 (-20) Paso| 
+ []
+
+
+Overfull \hbox (2.17484pt too wide) in paragraph at lines 216--216
+[]|\T1/lmr/m/n/12 (-20) Baja| 
+ []
+
+
+Overfull \hbox (2.17484pt too wide) in paragraph at lines 216--216
+[]|\T1/lmr/m/n/12 (-20) Baja| 
+ []
+
+! Misplaced \noalign.
+\bottomrule ->\noalign 
+                       {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global...
+l.216 }
+       
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (29.999pt too wide) in paragraph at lines 216--216
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 217.
+LaTeX Info: Redefining \% on input line 217.
+
+Overfull \vbox (0.85403pt too high) has occurred while \output is active []
+
+
+[18pdfTeX warning (ext4): destination with the same identifier (name{table.Alph
 2.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.395 \include{./tex/B_Requisitos}
-                                  ]
+l.217 
+      ])
 LaTeX Info: Redefining \. on input line 395.
 LaTeX Info: Redefining \% on input line 395.
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[17pdfTeX warning (ext4): destination with the same identifier (name{table.Alph
+[19pdfTeX warning (ext4): destination with the same identifier (name{table.Alph
 2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1443,12 +1408,12 @@ l.395 \include{./tex/B_Requisitos}
                                   ]
 \openout2 = `./tex/C_Diseno.aux'.
 
- (tex/C_Diseno.tex [18
+ (tex/C_Diseno.tex [20
 
 
 
 ]
-<./img/ModeloER.png, id=659, 3312.375pt x 2146.0175pt>
+<./img/ModeloER.png, id=621, 3312.375pt x 2146.0175pt>
 File: ./img/ModeloER.png Graphic file (type png)
 <use ./img/ModeloER.png>
 Package pdftex.def Info: ./img/ModeloER.png  used on input line 15.
@@ -1461,7 +1426,7 @@ Overfull \hbox (42.37238pt too wide) in paragraph at lines 15--16
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [21]
 Overfull \vbox (37.3578pt too high) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 17.
@@ -1470,15 +1435,15 @@ LaTeX Info: Redefining \% on input line 17.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[20 <./img/ModeloER.png>]
-<./img/TablaASIGNATURAS.png, id=672, 257.46187pt x 150.5625pt>
+[22 <./img/ModeloER.png>]
+<./img/TablaASIGNATURAS.png, id=633, 257.46187pt x 150.5625pt>
 File: ./img/TablaASIGNATURAS.png Graphic file (type png)
 <use ./img/TablaASIGNATURAS.png>
 Package pdftex.def Info: ./img/TablaASIGNATURAS.png  used on input line 25.
 (pdftex.def)             Requested size: 344.69766pt x 201.59416pt.
 LaTeX Info: Redefining \. on input line 40.
 LaTeX Info: Redefining \% on input line 40.
- [21pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
 ph3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1486,7 +1451,7 @@ ph3.1}) has been already used, duplicate ignored
 l.40 \textbf
             {Tipologia}: se almacena la tipología del grupo, que puede ser ...
  <./img/TablaASIGNATURAS.png>]
-<./img/TablaGRUPOS.png, id=679, 261.22594pt x 75.28125pt>
+<./img/TablaGRUPOS.png, id=640, 261.22594pt x 75.28125pt>
 File: ./img/TablaGRUPOS.png Graphic file (type png)
 <use ./img/TablaGRUPOS.png>
 Package pdftex.def Info: ./img/TablaGRUPOS.png  used on input line 55.
@@ -1497,7 +1462,7 @@ LaTeX Info: Redefining \% on input line 67.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[22pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
 h3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1505,14 +1470,14 @@ h3.2}) has been already used, duplicate ignored
 l.67 \textbf
             {Total\_Alumnos}: en este campo se almacena la cantidad de alumn...
  <./img/TablaGRUPOS.png>]
-<./img/TablaPROFESORES.png, id=685, 264.99pt x 103.88812pt>
+<./img/TablaPROFESORES.png, id=646, 264.99pt x 103.88812pt>
 File: ./img/TablaPROFESORES.png Graphic file (type png)
 <use ./img/TablaPROFESORES.png>
 Package pdftex.def Info: ./img/TablaPROFESORES.png  used on input line 73.
 (pdftex.def)             Requested size: 344.69766pt x 135.14647pt.
 LaTeX Info: Redefining \. on input line 89.
 LaTeX Info: Redefining \% on input line 89.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
 ph3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1526,22 +1491,22 @@ LaTeX Info: Redefining \% on input line 396.
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[24]
+[26]
 \openout2 = `./tex/D_Manual_programador.aux'.
 
- (tex/D_Manual_programador.tex) [25
+ (tex/D_Manual_programador.tex) [27
 
 
 
 ]
 \openout2 = `./tex/E_Manual_usuario.aux'.
 
- (tex/E_Manual_usuario.tex [26
+ (tex/E_Manual_usuario.tex [28
 
 
 
 ])
-[27]
+[29]
 No file anexos.bbl.
 
 Class memoir Warning: The material used in the headers is too large
@@ -1569,9 +1534,15 @@ LaTeX Info: Redefining \% on input line 25.
 ual_programador.aux) (tex/E_Manual_usuario.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 404.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 404.
-Package rerunfilecheck Info: File `anexos.out' has not changed.
-(rerunfilecheck)             Checksum: E2E34EAD0F5A4A1376323E2C2CDE836D;2109.
 
+
+Package rerunfilecheck Warning: File `anexos.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `anexos.out':
+(rerunfilecheck)             Before: 0EFC93C0D3F0A44C07E670C7D6A26582;848
+(rerunfilecheck)             After:  E2E34EAD0F5A4A1376323E2C2CDE836D;2109.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1581,11 +1552,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 404.
  ) 
 Here is how much of TeX's memory you used:
- 13318 strings out of 492946
- 199361 string characters out of 3126266
- 381945 words of memory out of 3000000
- 16774 multiletter control sequences out of 15000+200000
- 87715 words of font info for 107 fonts, out of 3000000 for 9000
+ 13292 strings out of 492946
+ 198513 string characters out of 3126266
+ 376488 words of memory out of 3000000
+ 16753 multiletter control sequences out of 15000+200000
+ 87624 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,15n,43p,555b,710s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
@@ -1604,9 +1575,9 @@ rams/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Users/mdmar/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/mdmar/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Users/mdmar/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on anexos.pdf (33 pages, 829229 bytes).
+Output written on anexos.pdf (35 pages, 829941 bytes).
 PDF statistics:
- 773 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 21759 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 734 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 21631 words of extra memory for PDF output out of 24883 (max. 10000000)
 

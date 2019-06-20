@@ -55,44 +55,88 @@ En este apartado se van a enumerar los requisitos específicos derivados de los 
 
 
 \section{Especificación de requisitos}
-En este apartado se va a visualizar a través de diagramas los casos de uso de los requisitos funcionales previamente deﬁnidos. Para esto, se va a utilizar la notación UML.
+En este apartado se va a visualizar a través de diagramas los casos de uso de los requisitos funcionales previamente definidos. Para esto, se va a utilizar la notación UML.
 
 \subsection{Actores}
 El actor del sistema es la persona que maneja la aplicación.
 
 \subsection{Casos de uso}
 
-\tablaSmallSinColores{Caso de uso 1: Importar Datos }{p{3cm} p{.75cm} p{9.5cm}}{b1}{
-\multicolumn{3}{l}{Caso de uso 1: Importar Datos} \\
+\tablaSmallSinColores{Caso de uso 1: Crear Base de Datos}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 1: Crear Base de Datos} \\
 }
 {
-Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de importar los datos desde ﬁcheros Excel(.xls) cuyo formato y extensión de archivo no coinciden. Por lo tanto, estos ficheros no se podrán abrir con librerías de Python, teniendo que realizar un parseo previo.} \\\hline
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de crear una Base de Datos llamada BBDD y formada por 3 tablas principales denominadas ASIGNATURAS, GRUPOS y PROFESORES. Estas 3 tablas deben contar con los atributos y claves primarias definidas en el Modelo Entidad Relación(ER).} \\\hline
 \multirow{2}{3.5cm}{Requisitos} 
 &\multicolumn{2}{p{10.25cm}}{RF-1} 
 \\\cline{2-3}
-Precondiciones & \multicolumn{2}{p{10.25cm}} {Existe un fichero Excel(.xls) con datos para importar. Dicho fichero se ha descargado de \emph{Sigma} y se encuentra en una carpeta local.}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Ejecutar la aplicación con un usuario con permisos de escritura o creación, para poder crear la Base de Datos.}
 \\\hline
 \multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
-& 1 & El usuario pulsa el botón de cargar archivos.
+& 1 & El usuario pulsa el botón de Crear BBDD. 
 \\\cline{2-3}
-& 2 & Se muestra un desplegable para poder navegar por el directorio y seleccionar los ficheros disponibles. Los ficheros pueden ser (.xls) o (.csv).
-\\\cline{2-3}
-& 2' & Si se selecciona un fichero (.csv) se salta al paso 4.
-\\\cline{2-3}
-& 3 & Se crea un fichero (.csv) a partir del fichero(.xls) para poder tratar la información.
-\\\cline{2-3}
-& 4 & Se lee el archivo (.csv) y se guardan los datos en la Base de Datos.
+& 2 & Se crea el fichero llamado BBDD en la ruta sobre la cual se esté ejecutando la aplicación. Este fichero contendrá la estructura ya comentada de 3 tablas principales, para posteriormente poder ir introduciendo los datos.
 \\\hline
-Postcondiciones & \multicolumn{2}{p{10.25cm}}{Se crea un fichero (.csv) nuevo y los datos se cargan en la Base de Datos.} \\\hline
-Excepciones & \multicolumn{2}{p{10.25cm}}{Si los datos se encontraran en un fichero (.csv), no sería necesario el paso 3.}\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{Se crea la Base de Datos(BBDD).} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{ Si ya estuviera creada la BBDD, no se crearía de nuevo y se mostraría una pantalla de tipo warning al usuario indicando que la Base de Datos BBDD ya esta creada.}\\\hline
 Importancia & Alta \\\hline
 Urgencia & Alta \\\hline
-Comentarios & & Los ficheros Excel no cumplen el estándar(al abrirlos muestra un error de formato y extensión) y es necesario hacer un parseo previo. 
+Comentarios & & Es necesario que la aplicación cuente con la Base de Datos BBDD, para poder ir almacenando la información que posteriormente se utilizará para realizar gráficas. 
 }
 
 
-\tablaSmallSinColores{Caso de uso 2: Gráfico apilado de Asignaturas por Curso }{p{3cm} p{.75cm} p{9.5cm}}{b1}{
-\multicolumn{3}{l}{Caso de uso 2: Gráfico apilado de Asignaturas por Curso} \\
+\tablaSmallSinColores{Caso de uso 2: Preprocesar los ficheros originales corruptos}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 2: Preprocesar los ficheros originales corruptos} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe contar con un botón de Preprocesado. Una vez pulsado se mostrará una nueva pantalla emergente (pantalla del sistema operativo) visualizando los ficheros y directorios de la ruta donde se está ejecutando la aplicación. Se permitirá seleccionar únicamente ficheros (.xls) que son los que se pueden y deben preprocesar.} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-1} 
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {La aplicación debe de estar iniciada.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & El usuario pulsa el botón de Preprocesado.  
+\\\cline{2-3}
+& 2 & Se mostrará una nueva pantalla emergente (pantalla del sistema operativo) visualizando los ficheros (.xls) y directorios de la ruta donde se está ejecutando la aplicación. Se permitirá seleccionar únicamente ficheros (.xls).
+\\\cline{2-3}
+& 3 & Si el usuario selecciona un fichero (.xls) corrupto, se creará en la misma ruta un fichero (.csv) con toda la información del fichero seleccionado parseada y preparada para poder introducirla en la Base de Datos.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{Si se ha seleccionado un fichero (.xls) corrupto, se creará en la misma ruta otro fichero (.csv) con toda la información parseada y lista para introducir en la Base de Datos} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{}\\\hline
+Importancia & Alta \\\hline
+Urgencia & Alta \\\hline
+Comentarios & & Es necesario preprocesar los archivos originales descargados de Sigma, ya que tienen un error de formato y si no se parsean y se convierten en otro fichero (.csv), que además está preparado para introducir los datos en la BBDD, no pueden ser utilizados. 
+}
+
+
+\tablaSmallSinColores{Caso de uso 3: Cargar Archivos}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 3: Cargar Archivos} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe contar con un botón de Cargar Archivos, que permita al usuario seleccionar ficheros no corruptos, es decir ficheros generados nuevos con extensión (.csv) previamente preprocesados. Una vez seleccionado el fichero que el usuario desee, se procederá a la carga en la BBDD de toda la información que contenga dicho fichero.} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-1} 
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Existe un fichero (.csv) con datos para importar. Dicho fichero se ha generado a partir de un fichero (.xls) descargado de \emph{Sigma} y se encuentra en una carpeta local.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & El usuario pulsa el botón de Cargar Archivos.
+\\\cline{2-3}
+& 2 & El usuario selecciona el fichero (.csv) que desea cargar en la Base de Datos(BBDD).
+\\\cline{2-3}
+& 3 & Se carga en la Base de Datos(BBDD) toda la información del fichero seleccionado que no estuviera previamente en la BBDD , atendiendo a los requisitos y claves primarias de la BBDD.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{Se carga la información en la Base de Datos(BBDD).} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{Si los datos del fichero (.csv) seleccionado ya estuvieran en la BBDD, no se añadirían a la misma.}\\\hline
+Importancia & Alta \\\hline
+Urgencia & Alta \\\hline
+Comentarios & & . 
+}
+
+
+\tablaSmallSinColores{Caso de uso 4: Gráfico apilado de Asignaturas por Curso }{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 4: Gráfico apilado de Asignaturas por Curso} \\
 }
 {
 Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de mostrar un gráfico apilado cuyo \emph{eje x} muestre las diferentes asignaturas y su \emph{eje y} muestre la cantidad total de alumnos matriculados en las mismas. Al tratarse de un gráfico apilado, se podrán diferenciar los grupos existentes en las asignaturas(grupo online, grupo presencial 1, grupo presencial 2...etc).} \\\hline
@@ -105,8 +149,6 @@ Precondiciones & \multicolumn{2}{p{10.25cm}} {Los datos o información necesaria
 & 1 & Se selecciona si se desea grado o máster.
 \\\cline{2-3}
 & 2 & Se selecciona el curso(1º, 2º, 3º, 4º) que se desea obtener el gráfico apilado si se trata de un grado.
-\\\cline{2-3}
-& 2' & Si se trata de un máster de un único curso académico, se salta el paso anterior (paso 2).
 \\\cline{2-3}
 & 3 & Se cargan los datos necesarios de la Base de Datos.
 \\\cline{2-3}
@@ -126,8 +168,8 @@ Comentarios & & Con esta gráfica se puede apreciar si existe algún grupo deseq
 }
 
 
-\tablaSmallSinColores{Caso de uso 3: Gráfico de máximos, mínimos y medias por curso }{p{3cm} p{.75cm} p{9.5cm}}{b1}{
-\multicolumn{3}{l}{Caso de uso 3: Gráfico de máximos, mínimos y medias por curso} \\
+\tablaSmallSinColores{Caso de uso 5: Gráfico de máximos, mínimos y medias por curso }{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 5: Gráfico de máximos, mínimos y medias por curso} \\
 }
 {
 Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de mostrar un gráfico cuyo \emph{eje x} muestre los diferentes cursos(1º, 2º, 3º y 4º) y su \emph{eje y} muestre la cantidad total de alumnos matriculados, indicando los máximos, mínimos y medias por cada curso.} \\\hline
@@ -149,30 +191,8 @@ Comentarios & &  \\
 }
 
 
-\tablaSmallSinColores{Caso de uso 4: Crear Base de Datos}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
-\multicolumn{3}{l}{Caso de uso 4: Crear Base de Datos} \\
-}
-{
-Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de crear una Base de Datos llamada BBDD y formada por 3 tablas principales denominadas ASIGNATURAS, GRUPOS y PROFESORES. Estas 3 tablas deben contar con los atributos y claves primarias definidas en el Modelo Entidad Relación(ER).} \\\hline
-\multirow{2}{3.5cm}{Requisitos} 
-&\multicolumn{2}{p{10.25cm}}{RF-1} 
-\\\cline{2-3}
-Precondiciones & \multicolumn{2}{p{10.25cm}} {Ejecutar la aplicación con un usuario con permisos de escritura o creación, para poder crear la Base de Datos.}
-\\\hline
-\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
-& 1 & El usuario pulsa el botón de Crear BBDD. 
-\\\cline{2-3}
-& 2 & Se crea el fichero llamado BBDD en la ruta sobre la cual se esté ejecutando la aplicación. Este fichero contendrá la estructura ya comentada de 3 tablas principales, para posteriormente poder ir introduciendo los datos.
-\\\hline
-Postcondiciones & \multicolumn{2}{p{10.25cm}}{Se crea la Base de Datos(BBDD).} \\\hline
-Excepciones & \multicolumn{2}{p{10.25cm}}{ Si ya estuviera creada la BBDD, no se crearía de nuevo y se mostraría una pantalla de tipo warning al usuario indicando que la Base de Datos BBDD ya esta creada.}\\\hline
-Importancia & Alta \\\hline
-Urgencia & Alta \\\hline
-Comentarios & & Es necesario que la aplicación cuente con la Base de Datos BBDD, para poder ir almacenando la información que posteriormente se utilizará para realizar gráficas. 
-}
-
-\tablaSmallSinColores{Caso de uso 5: Salir de la aplicación}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
-\multicolumn{3}{l}{Caso de uso 5: Salir de la aplicación} \\
+\tablaSmallSinColores{Caso de uso 6: Salir de la aplicación}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 6: Salir de la aplicación} \\
 }
 {
 Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe contar con un botón de Salir. Una vez pulsado se mostrará una nueva pantalla emergente preguntando al usuario si desea salir de la aplicación. En caso afirmativo se cerrará la aplicación y en el caso contrario, la aplicación continuará ejecutándose. Hay que destacar que la aplicación también cuenta con un botón de cerrar en la parte superior derecha(cruz o aspa genérica).} \\\hline
@@ -196,26 +216,3 @@ Comentarios & & El botón de Salir es un botón adicional.
 }
 
 
-\tablaSmallSinColores{Caso de uso 6: Preprocesar los ficheros originales corruptos}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
-\multicolumn{3}{l}{Caso de uso 6: Preprocesar los ficheros originales corruptos} \\
-}
-{
-Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe contar con un botón de Preprocesado. Una vez pulsado se mostrará una nueva pantalla emergente (pantalla del sistema operativo) visualizando los ficheros y directorios de la ruta donde se está ejecutando la aplicación. Se permitirá seleccionar únicamente ficheros (.xls) que son los que se pueden y deben preprocesar.} \\\hline
-\multirow{2}{3.5cm}{Requisitos} 
-&\multicolumn{2}{p{10.25cm}}{RF-1} 
-\\\cline{2-3}
-Precondiciones & \multicolumn{2}{p{10.25cm}} {La aplicación debe de estar iniciada.}
-\\\hline
-\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
-& 1 & El usuario pulsa el botón de Preprocesado.  
-\\\cline{2-3}
-& 2 & Se mostrará una nueva pantalla emergente (pantalla del sistema operativo) visualizando los ficheros (.xls) y directorios de la ruta donde se está ejecutando la aplicación. Se permitirá seleccionar únicamente ficheros (.xls).
-\\\cline{2-3}
-& 3 & Si el usuario selecciona un fichero (.xls) corrupto, se creará en la misma ruta un fichero (.csv) con toda la información del fichero seleccionado parseada y preparada para poder introducirla en la Base de Datos.
-\\\hline
-Postcondiciones & \multicolumn{2}{p{10.25cm}}{Si se ha seleccionado un fichero (.xls) corrupto, se creará en la misma ruta otro fichero (.csv) con toda la información parseada y lista para introducir en la Base de Datos} \\\hline
-Excepciones & \multicolumn{2}{p{10.25cm}}{}\\\hline
-Importancia & Alta \\\hline
-Urgencia & Alta \\\hline
-Comentarios & & Es necesario preprocesar los archivos originales descargados de Sigma, ya que tienen un error de formato y si no se parsean y se convierten en otro fichero (.csv), que además está preparado para introducir los datos en la BBDD, no pueden ser utilizados. 
-}
