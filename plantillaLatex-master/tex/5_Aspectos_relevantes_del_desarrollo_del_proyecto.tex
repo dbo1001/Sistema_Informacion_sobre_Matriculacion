@@ -8,23 +8,36 @@ Al principio se propuso la idea de la creación de una variante de \emph{Data Wa
 
 La idea transmitida por el tutor fue la creación de un sistema para poder almacenar y visualizar cualquier grado o máster de la UBU.
 
-El tutor comentó que los archivos que se iban a utilizar de partida, eran un tipo de ficheros descargado desde una aplicación denominada \emph{Sigma}.
-
-
-...
-
-
+El tutor comentó que los archivos que se iban a utilizar de partida, eran un tipo de ficheros descargado desde una aplicación denominada \emph{Sigma} y tenían un error de formato. En un primer lugar no se esperaba que estos ficheros fueran a generar muchos problemas, ya que al tratarse de una hoja de cálculo de Excel con extensión (.xls), al abrir los ficheros con dicho programa, se mostraba una pantalla de error, indicando el siguiente tipo de error, el cual el propio programa era capaz de solucionar, pudiendo visualizar todos los datos contenidos en el archivo:
 
 
 \includegraphics[ scale = 0.60]{errorFicheroOriginal}
 %\imagen{errorFicheroOriginal}{Error al intentar abrir con Excel los ficheros originales}
 
+Como se conseguía ver el contenido de los ficheros, así como su formato(color de celdas, celdas unificadas...); se pensó que podría ser un pequeño problema. Realmente se apreció la dimensión del problema cuando se intentó importar y abrir los datos con librerías específicas de \emph{Python} como \emph{Pandas}.
+
+Al comprobar que no se podía cargar u obtener la información de de ninguna manera, se optó por crear un analizador sintáctico o parser para realizar un parseo de los datos. De esta manera se abría el fichero (.xls) como si fuera un fichero de texto, con lo cual obteníamos un fichero (.xml) para analizar. Tras analizar y parsear este último fichero, se obtenía toda la información del (.xls) original(ROW, CELL, MergeDown, MergeAcross, DATA...) y con esta información se creaba un fichero resultante (.csv). 
+
+Más adelante se optó por eliminar las cabeceras repetidas en el caso de tener más de una Titulación o Plan en un mismo fichero(recuadro en rojo de la imagen x).
+
+
+Como en las cabeceras, la información del Plan (recuadro verde de la imagen x) no se debía perder, se añadió una nueva columna(imagen y) para almacenar esa información de las cabeceras repetidas que se iban a prescindir.
+
+\includegraphics[angle=90, scale = 0.60]{datosFicheroOriginalRojo}
+%\imagen{datosFicheroOriginalRojo}{Datos del fichero original}
+
+
+\includegraphics[angle=90, scale = 0.60]{datosFicheroCSVColumnaAnadida}
+%\imagen{datosFicheroCSVColumnaAnadida}{Datos del fichero parseado con columna añadida}
+
+
+De esta manera se obtubo un fichero (.csv) final mejor estructurado y preparado para hacer más eficiente la carga de datos a la BBDD.
 
 \section{Metodologías}\label{metodologias}
 
 A lo largo del desarrollo del proyecto se ha usado la \emph{metodología Scrum}. Se trata de una metodología ágil basada en \emph{sprints}, en este caso, de desarrollo incremental con revisiones semanales.
 
-Por lo tanto, la duración estimada de cada \emph{sprint} es de una semana, si bien ha habido varios \emph{sprints} que han tenido una duración superior. Al finalizar cada \emph{sprint}, se planificaba el siguiente, creando sus \emph{issues} o tareas a realizar en dicho \emph{sprint}. Cuando estas tareas se realizaban, se cambiaba el estado del \emph{issue} correspondiente a \emph{Closed}.  
+Por lo tanto, la duración estimada de cada \emph{sprint} es de una semana, si bien ha habido varios \emph{sprints} que han tenido una duración superior. Al finalizar cada \emph{sprint}, se planificaba el siguiente, creando sus \emph{issues} o tareas a realizar en dicho \emph{sprint}. Cuando estas tareas se realizaban, se cambiaba el estado del \emph{issue} correspondiente a \emph{Closed} o cerrado.  
 
 
 \section{Toma de decisiones}\label{toma_de_decisiones}
@@ -75,7 +88,9 @@ Las funciones más destacadas de esta librería y las que se han utilizado son l
 
 
 \section{Interfaz de usuario del proyecto}\label{interfaz_de_usuario_del_proyecto}
+Para la realización de este proyecto se ha realizado una GUI (Graphical User Interface) o interfaz de usuario para hacer más sencillo la comunicación entre el usuario y el sistema.
 
+Se ha optado por la realización de una aplicación de escritorio, ya que era la mejor opción para el uso que se espera que se le dé en un futuro a la aplicación.
 
 
 

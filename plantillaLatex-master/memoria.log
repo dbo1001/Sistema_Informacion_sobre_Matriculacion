@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  20 JUN 2019 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  24 JUN 2019 20:37
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -1018,158 +1018,171 @@ l.1 \capitulo{3}{Conceptos te√≥ricos}
 
 
 ]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 5.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 5.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 5.
-File: ./img/escudoInfor.pdf Graphic file (type pdf)
-<use ./img/escudoInfor.pdf>
-Package pdftex.def Info: ./img/escudoInfor.pdf  used on input line 29.
-(pdftex.def)             Requested size: 344.69766pt x 411.04959pt.
+<./img/componentesSI.png, id=599, 420.6114pt x 232.2276pt>
+File: ./img/componentesSI.png Graphic file (type png)
+<use ./img/componentesSI.png>
+Package pdftex.def Info: ./img/componentesSI.png  used on input line 22.
+(pdftex.def)             Requested size: 344.69766pt x 190.32155pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 ...for}{Aut√≥mata para una expresi√≥n vac√≠a}
+l.22 ...Componentes de un Sistema de Informaci√≥n}
                                                    [5]
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 	\item s
-             egundo item. [6])
+l.34 \subsection
+                {Caracter√≠sticas de un Sistema de Informaci√≥n} [6 <./img/comp
+onentesSI.png>])
 LaTeX Info: Redefining \. on input line 483.
 LaTeX Info: Redefining \% on input line 483.
  [7]
-LaTeX Info: Redefining \. on input line 483.
-LaTeX Info: Redefining \% on input line 483.
- [8]
 \openout2 = `./tex/4_Tecnicas_y_herramientas.aux'.
 
- (tex/4_Tecnicas_y_herramientas.tex
-[9
+ (tex/4_Tecnicas_y_herramientas.tex [8
 
 
 
 ]
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 23.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 23.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 23.
+ [9]
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
  [10]
-
-LaTeX Warning: Citation `sqlite' on page 11 undefined on input line 50.
-
-
-LaTeX Warning: Citation `github' on page 11 undefined on input line 60.
-
-
-Overfull \hbox (14.72498pt too wide) in paragraph at lines 68--69
+Overfull \hbox (14.72498pt too wide) in paragraph at lines 64--65
 []\T1/lmr/m/n/12 (-20) Hay que se-Òa-lar que tam-biÈn in-clu-ye co-rrec-ciÛn or
 -to-gr·-fi-ca, auto-completado,
  []
 
-LaTeX Info: Redefining \. on input line 69.
-LaTeX Info: Redefining \% on input line 69.
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
 [11]
-
-LaTeX Warning: Citation `texmaker' on page 12 undefined on input line 70.
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 71.
-
-LaTeX Info: Redefining \. on input line 89.
-LaTeX Info: Redefining \% on input line 89.
-[12])
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
+ [12])
 LaTeX Info: Redefining \. on input line 484.
 LaTeX Info: Redefining \% on input line 484.
  [13]
 \openout2 = `./tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.aux'.
 
- (tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.tex [14
+ (tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.tex
+[14
 
 
 
 ]
-<./img/errorFicheroOriginal.png, id=700, 641.39626pt x 87.32625pt>
+<./img/errorFicheroOriginal.png, id=704, 641.39626pt x 87.32625pt>
 File: ./img/errorFicheroOriginal.png Graphic file (type png)
 <use ./img/errorFicheroOriginal.png>
-Package pdftex.def Info: ./img/errorFicheroOriginal.png  used on input line 19.
+Package pdftex.def Info: ./img/errorFicheroOriginal.png  used on input line 14.
 
 (pdftex.def)             Requested size: 384.84071pt x 52.39615pt.
 
-Overfull \hbox (19.46553pt too wide) in paragraph at lines 19--21
+Overfull \hbox (19.46553pt too wide) in paragraph at lines 14--16
 [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15 <./img/errorFicheroOriginal.png>]
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
- [16]
-LaTeX Info: Redefining \. on input line 74.
-LaTeX Info: Redefining \% on input line 74.
-
-
-Class memoir Warning: The material used in the headers is too large
-(29.85403pt) for the given head height (14.5pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 74.
-
-
-Overfull \vbox (15.35403pt too high) has occurred while \output is active []
-
-
-[17]
-<./img/datosFicheroOriginalRojo.png, id=741, 906.38625pt x 360.59718pt>
+[15 <./img/errorFicheroOriginal.png>]
+<./img/datosFicheroOriginalRojo.png, id=710, 906.38625pt x 360.59718pt>
 File: ./img/datosFicheroOriginalRojo.png Graphic file (type png)
 <use ./img/datosFicheroOriginalRojo.png>
 Package pdftex.def Info: ./img/datosFicheroOriginalRojo.png  used on input line
- 92.
+ 26.
 (pdftex.def)             Requested size: 906.38403pt x 360.5963pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 95.
-LaTeX Info: Redefining \% on input line 95.
- [18]
-<./img/datosFicheroCSVColumnaAnadida.png, id=749, 1011.02719pt x 358.33875pt>
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
+ [16]
+<./img/datosFicheroCSVColumnaAnadida.png, id=715, 1011.02719pt x 358.33875pt>
 File: ./img/datosFicheroCSVColumnaAnadida.png Graphic file (type png)
 <use ./img/datosFicheroCSVColumnaAnadida.png>
 Package pdftex.def Info: ./img/datosFicheroCSVColumnaAnadida.png  used on input
- line 96.
+ line 30.
+(pdftex.def)             Requested size: 1011.02473pt x 358.33788pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+ [17 <./img/datosFicheroOriginalRojo.png>]
+Overfull \vbox (14.621pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+
+[18 <./img/datosFicheroCSVColumnaAnadida.png>]
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+
+Overfull \vbox (0.85403pt too high) has occurred while \output is active []
+
+
+[19]
+LaTeX Info: Redefining \. on input line 87.
+LaTeX Info: Redefining \% on input line 87.
+ [20]
+LaTeX Info: Redefining \. on input line 105.
+LaTeX Info: Redefining \% on input line 105.
+ [21]
+File: ./img/datosFicheroOriginalRojo.png Graphic file (type png)
+<use ./img/datosFicheroOriginalRojo.png>
+Package pdftex.def Info: ./img/datosFicheroOriginalRojo.png  used on input line
+ 107.
+(pdftex.def)             Requested size: 906.38403pt x 360.5963pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 110.
+LaTeX Info: Redefining \% on input line 110.
+ [22]
+File: ./img/datosFicheroCSVColumnaAnadida.png Graphic file (type png)
+<use ./img/datosFicheroCSVColumnaAnadida.png>
+Package pdftex.def Info: ./img/datosFicheroCSVColumnaAnadida.png  used on input
+ line 111.
 (pdftex.def)             Requested size: 1011.02473pt x 358.33788pt.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 485.
 LaTeX Info: Redefining \% on input line 485.
- [19 <./img/datosFicheroOriginalRojo.png>]
+ [23]
 Overfull \vbox (14.621pt too high) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 485.
 LaTeX Info: Redefining \% on input line 485.
 
-[20 <./img/datosFicheroCSVColumnaAnadida.png>]
+[24]
 \openout2 = `./tex/6_Trabajos_relacionados.aux'.
 
- (tex/6_Trabajos_relacionados.tex) [21
+ (tex/6_Trabajos_relacionados.tex) [25
 
 
 
 ]
 \openout2 = `./tex/7_Conclusiones_Lineas_de_trabajo_futuras.aux'.
 
- (tex/7_Conclusiones_Lineas_de_trabajo_futuras.tex [22
+
+(tex/7_Conclusiones_Lineas_de_trabajo_futuras.tex [26
 
 
 
-]) [23]
-(memoria.bbl [24
+]) [27] (memoria.bbl
+[28
 
 
 ]
@@ -1177,11 +1190,11 @@ bibitemlist
 )
 
 Class memoir Warning: The material used in the headers is too large
-(29.85403pt) for the given head height (14.5pt), it is recommended to
+(15.35403pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 493.
 
-[25]
+[29]
 \tf@toc=\write5
 \openout5 = `memoria.toc'.
 
@@ -1206,13 +1219,10 @@ LaTeX Info: Redefining \% on input line 25.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 493.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 493.
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 547A43B6A8B7E5F2920E7D91F659FCBE;2059.
+(rerunfilecheck)             Checksum: 8CCABD73606ADA03DA0D5EF3CAFB1556;2121.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1220,13 +1230,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 493.
  ) 
 Here is how much of TeX's memory you used:
- 12901 strings out of 492946
- 195887 string characters out of 3126266
- 371976 words of memory out of 3000000
- 16318 multiletter control sequences out of 15000+200000
- 98064 words of font info for 123 fonts, out of 3000000 for 9000
+ 12915 strings out of 492946
+ 196061 string characters out of 3126266
+ 365869 words of memory out of 3000000
+ 16320 multiletter control sequences out of 15000+200000
+ 98292 words of font info for 125 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,38p,517b,710s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,38p,680b,710s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
 c}<C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx1
 0.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
@@ -1241,9 +1251,9 @@ fonts/type1/public/lm/lmr8.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/lm/lmri12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Users/mdmar/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on memoria.pdf (37 pages, 872000 bytes).
+Output written on memoria.pdf (41 pages, 888940 bytes).
 PDF statistics:
- 849 PDF objects out of 1000 (max. 8388607)
- 110 named destinations out of 1000 (max. 500000)
- 27922 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 869 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
+ 27927 words of extra memory for PDF output out of 29859 (max. 10000000)
 

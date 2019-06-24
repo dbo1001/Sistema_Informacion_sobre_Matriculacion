@@ -1,83 +1,69 @@
 \capitulo{3}{Conceptos teóricos}
 
-En aquellos proyectos que necesiten para su comprensión y desarrollo de unos conceptos teóricos de una determinada materia o de un determinado dominio de conocimiento, debe existir un apartado que sintetice dichos conceptos.
-
-Algunos conceptos teóricos de \LaTeX \footnote{Créditos a los proyectos de Álvaro López Cantero: Configurador de Presupuestos y Roberto Izquierdo Amo: PLQuiz}.
-
-\section{Secciones}
-
-Las secciones se incluyen con el comando section.
-
-\subsection{Subsecciones}
-
-Además de secciones tenemos subsecciones.
-
-\subsubsection{Subsubsecciones}
-
-Y subsecciones. 
+En este apartado se van a explicar aquellos conceptos teóricos básicos que son necesarios para comprender el proyecto.
 
 
-\section{Referencias}
-
-Las referencias se incluyen en el texto usando cite \cite{wiki:latex}. Para citar webs, artículos o libros \cite{koza92}.
-
-
-\section{Imágenes}
-
-Se pueden incluir imágenes con los comandos standard de \LaTeX, pero esta plantilla dispone de comandos propios como por ejemplo el siguiente:
-
-\imagen{escudoInfor}{Autómata para una expresión vacía}
+\section{Sistema de Información}
 
 
 
-\section{Listas de items}
+\subsection{Definición}
 
-Existen tres posibilidades:
+Para comenzar, hay que explicar que no existe una definición de consenso en la propia definición de Sistema de Información. De hecho, existen multitud de definiciones diferentes sobre cómo se define un Sistema de Información.
+
+
+Los autores Laudon y Laudon definen un Sistema de Información como un conjunto de módulos relacionados ente sí que son capaces de obtener(o reutilizar), procesar, almacenar y distribuir cierta información para que sirva de apoyo para la toma de decisiones \cite{vicen}.
+A parte de suministrar apoyo en decisiones importantes, también pueden ayudar a detectar problemas o carencias difíciles de ver sin la ayuda de estos sistemas.
+
+
+\subsection{Componentes de un Sistema de Información}
+Aunque existen numerosas definiciones y no existe una definición general o global, la mayoría de Sistemas de Información pueden representarse a través del siguiente diagrama:
+
+\imagen{componentesSI}{Componentes de un Sistema de Información}
+Se pueden apreciar 5 elementos principales. En primer lugar los elementos de entrada, que en nuestro proyecto serían los ficheros (.xls) originales descargados de \emph{Sigma}. 
+
+A continuación estaría un elemento de modificación o transformación, que en nuestro caso sería el preprocesado de los ficheros originales anteriores en ficheros (.csv) reordenados, modificados y sin ningún tipo de error. También se podría incluir la carga de datos a la Base de Datos creada con anterioridad.
+
+Seguidamente estaría el sistema de salida, donde se visualizan los resultados obtenidos. En este proyecto, el sistema de salida serían los diferentes tipos de gráficos que se pueden obtener a partir de la información que seleccione el usuario y los datos existentes o disponibles en la BBDD.
+
+Además de estas 3 secciones, se aprecian otras dos secciones más. Una de ellas es el mecanismo de control, que es el proceso encargado de lograr los objetivos, que sería el quinto y último elemento.
+En nuestro proyecto se podrían identificar numerosos mecanismos de control, como por ejemplo que los ficheros que se puedan seleccionar en los botones de \emph{Preprocesar} y \emph{Cargar Archivos} sean únicamente (.xls) y (.csv) respectivamente. Otros mecanismos de control serían la no introdución de datos repetidos en la BBDD o la selección de opciones de datos que realmente se encuentran en la BBDD, entre otros.
+
+En cuanto a los objetivos de nuestro sistema de información, hay que destacar que se definen en el apartado anterior denominado \emph{Objetivos del proyecto}.
+
+\subsection{Características de un Sistema de Información}
+
+
+
+\subsection{Tipos de Sistemas de Información}
+
+
+
+\subsection{Ventajas de un Sistema de Información}
+
+
+
+\section{Parseado de Datos}
+El Preprocesado / Parseado de ficheros es un proceso mediante el cual...
+
+
+
+
+\section{Base de datos}
+Una base de datos es ...
+
+\section{Aplicación de escritorio}
+
+\section{Gráficos Representados}
+
+
+\subsection{Gráfico de Barras}
+
+\subsection{Gráfico de Cuartiles}
 
 \begin{itemize}
-	\item primer item.
-	\item segundo item.
+	\item Max.
+	\item Min.
+	\item Media.
 \end{itemize}
 
-\begin{enumerate}
-	\item primer item.
-	\item segundo item.
-\end{enumerate}
-
-\begin{description}
-	\item[Primer item] más información sobre el primer item.
-	\item[Segundo item] más información sobre el segundo item.
-\end{description}
-	
-\begin{itemize}
-\item 
-\end{itemize}
-
-\section{Tablas}
-
-Igualmente se pueden usar los comandos específicos de \LaTeX o bien usar alguno de los comandos de la plantilla.
-
-\tablaSmall{Herramientas y tecnologías utilizadas en cada parte del proyecto}{l c c c c}{herramientasportipodeuso}
-{ \multicolumn{1}{l}{Herramientas} & App AngularJS & API REST & BD & Memoria \\}{ 
-HTML5 & X & & &\\
-CSS3 & X & & &\\
-BOOTSTRAP & X & & &\\
-JavaScript & X & & &\\
-AngularJS & X & & &\\
-Bower & X & & &\\
-PHP & & X & &\\
-Karma + Jasmine & X & & &\\
-Slim framework & & X & &\\
-Idiorm & & X & &\\
-Composer & & X & &\\
-JSON & X & X & &\\
-PhpStorm & X & X & &\\
-MySQL & & & X &\\
-PhpMyAdmin & & & X &\\
-Git + BitBucket & X & X & X & X\\
-Mik\TeX{} & & & & X\\
-\TeX{}Maker & & & & X\\
-Astah & & & & X\\
-Balsamiq Mockups & X & & &\\
-VersionOne & X & X & X & X\\
-} 
