@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  24 JUN 2019 20:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  25 JUN 2019 21:56
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -1018,12 +1018,14 @@ l.1 \capitulo{3}{Conceptos te√≥ricos}
 
 
 ]
-<./img/componentesSI.png, id=599, 420.6114pt x 232.2276pt>
+
+LaTeX Warning: Citation `vicen' on page 5 undefined on input line 15.
+
+<./img/componentesSI.png, id=600, 420.6114pt x 232.2276pt>
 File: ./img/componentesSI.png Graphic file (type png)
 <use ./img/componentesSI.png>
 Package pdftex.def Info: ./img/componentesSI.png  used on input line 22.
 (pdftex.def)             Requested size: 344.69766pt x 190.32155pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1041,27 +1043,46 @@ been already used, duplicate ignored
                    \relax 
 l.34 \subsection
                 {Caracter√≠sticas de un Sistema de Informaci√≥n} [6 <./img/comp
-onentesSI.png>])
+onentesSI.png>]
+<./img/caja.png, id=611, 238.9728pt x 219.219pt>
+File: ./img/caja.png Graphic file (type png)
+<use ./img/caja.png>
+Package pdftex.def Info: ./img/caja.png  used on input line 65.
+(pdftex.def)             Requested size: 344.69766pt x 316.20694pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+[7])
 LaTeX Info: Redefining \. on input line 483.
 LaTeX Info: Redefining \% on input line 483.
- [7]
+ [8 <./img/caja.png>]
 \openout2 = `./tex/4_Tecnicas_y_herramientas.aux'.
 
- (tex/4_Tecnicas_y_herramientas.tex [8
-
-
-
-]
+ (tex/4_Tecnicas_y_herramientas.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 23.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 23.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 23.
- [9]
+ [9
+
+
+
+]
+
+LaTeX Warning: Citation `sqlite' on page 10 undefined on input line 47.
+
 LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
- [10]
+[10]
+
+LaTeX Warning: Citation `texmaker' on page 11 undefined on input line 64.
+
+
 Overfull \hbox (14.72498pt too wide) in paragraph at lines 64--65
 []\T1/lmr/m/n/12 (-20) Hay que se-Òa-lar que tam-biÈn in-clu-ye co-rrec-ciÛn or
 -to-gr·-fi-ca, auto-completado,
@@ -1070,21 +1091,23 @@ Overfull \hbox (14.72498pt too wide) in paragraph at lines 64--65
 LaTeX Info: Redefining \. on input line 71.
 LaTeX Info: Redefining \% on input line 71.
 [11]
+
+LaTeX Warning: Citation `excel' on page 12 undefined on input line 88.
+
 LaTeX Info: Redefining \. on input line 90.
 LaTeX Info: Redefining \% on input line 90.
- [12])
+[12])
 LaTeX Info: Redefining \. on input line 484.
 LaTeX Info: Redefining \% on input line 484.
  [13]
 \openout2 = `./tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.aux'.
 
- (tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.tex
-[14
+ (tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.tex [14
 
 
 
 ]
-<./img/errorFicheroOriginal.png, id=704, 641.39626pt x 87.32625pt>
+<./img/errorFicheroOriginal.png, id=700, 641.39626pt x 87.32625pt>
 File: ./img/errorFicheroOriginal.png Graphic file (type png)
 <use ./img/errorFicheroOriginal.png>
 Package pdftex.def Info: ./img/errorFicheroOriginal.png  used on input line 14.
@@ -1096,7 +1119,7 @@ Overfull \hbox (19.46553pt too wide) in paragraph at lines 14--16
  []
 
 [15 <./img/errorFicheroOriginal.png>]
-<./img/datosFicheroOriginalRojo.png, id=710, 906.38625pt x 360.59718pt>
+<./img/datosFicheroOriginalRojo.png, id=706, 906.38625pt x 360.59718pt>
 File: ./img/datosFicheroOriginalRojo.png Graphic file (type png)
 <use ./img/datosFicheroOriginalRojo.png>
 Package pdftex.def Info: ./img/datosFicheroOriginalRojo.png  used on input line
@@ -1108,7 +1131,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
  [16]
-<./img/datosFicheroCSVColumnaAnadida.png, id=715, 1011.02719pt x 358.33875pt>
+<./img/datosFicheroCSVColumnaAnadida.png, id=711, 1011.02719pt x 358.33875pt>
 File: ./img/datosFicheroCSVColumnaAnadida.png Graphic file (type png)
 <use ./img/datosFicheroCSVColumnaAnadida.png>
 Package pdftex.def Info: ./img/datosFicheroCSVColumnaAnadida.png  used on input
@@ -1225,15 +1248,18 @@ Package rerunfilecheck Info: File `memoria.out' has not changed.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 493.
  ) 
 Here is how much of TeX's memory you used:
- 12915 strings out of 492946
- 196061 string characters out of 3126266
- 365869 words of memory out of 3000000
- 16320 multiletter control sequences out of 15000+200000
+ 12922 strings out of 492946
+ 196164 string characters out of 3126266
+ 365851 words of memory out of 3000000
+ 16325 multiletter control sequences out of 15000+200000
  98292 words of font info for 125 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,12n,38p,680b,710s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1251,9 +1277,9 @@ fonts/type1/public/lm/lmr8.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/lm/lmri12.pfb><C:/Users/mdmar/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Users/mdmar/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on memoria.pdf (41 pages, 888940 bytes).
+Output written on memoria.pdf (41 pages, 898365 bytes).
 PDF statistics:
  869 PDF objects out of 1000 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
- 27927 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 118 named destinations out of 1000 (max. 500000)
+ 27932 words of extra memory for PDF output out of 29859 (max. 10000000)
 

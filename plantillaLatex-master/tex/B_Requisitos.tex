@@ -31,7 +31,9 @@ En este apartado se van a enumerar los requisitos específicos derivados de los 
 	
 	\item \textbf{RF-2: Gráfico apilado de Asignaturas por Curso o Semestre:} La aplicación debe ser capaz de mostrar un gráfico apilado cuyo \emph{eje x} muestre las diferentes asignaturas y su \emph{eje y} muestre la cantidad total de alumnos matriculados en las mismas. Al tratarse de un gráfico apilado, se podrán diferenciar los grupos existentes en las asignaturas(grupo online, grupo presencial 1, grupo presencial 2...etc).
 	
-	\item \textbf{RF-3: Gráfico de máximos, mínimos y medias por curso:} La aplicación debe ser capaz de mostrar un gráfico cuyo \emph{eje x} muestre los diferentes cursos(1º, 2º, 3º y 4º) y su \emph{eje y} muestre la cantidad total de alumnos matriculados, indicando los máximos, mínimos y medias por cada curso.
+	\item \textbf{RF-3: Gráfico de máximos, mínimos y medias por curso:} La aplicación debe ser capaz de mostrar un gráfico cuyo \emph{eje x} muestre los diferentes cursos(1º, 2º, 3º y 4º) y su \emph{eje y} muestre la cantidad total de alumnos matriculados, indicando los máximos, mínimos y medias por cada curso, así como el primer y tercer cuartil(el segundo cuartil coincide con la media).
+
+\item \textbf{RF-4: Gráfico de máximos, mínimos y medias por semestre:} La aplicación debe ser capaz de mostrar un gráfico cuyo \emph{eje x} muestre los diferentes semestres(1º, 2º, 3º, 4º, 5º, 6º, 7º y 8º) y su \emph{eje y} muestre la cantidad total de alumnos matriculados, indicando los máximos, mínimos y medias por cada curso, así como el primer y tercer cuartil(el segundo cuartil coincide con la media).
 
 \end{itemize}
 
@@ -48,7 +50,7 @@ En este apartado se van a enumerar los requisitos específicos derivados de los 
 \item
 \textbf{RNF-4: Fiabilidad:} La herramienta debe ser segura y debe funcionar correctamente bajo determinadas condiciones.  
 \item
-\textbf{RNF-4: Integridad:} La herramienta debe cumplir con la integración de datos y no tener pérdidas de información, así como modificación de la misma. 
+\textbf{RNF-5: Integridad:} La herramienta debe cumplir con la integración de datos y no tener pérdidas de información, así como modificación de la misma. 
 
 \end{itemize}
 \newpage
@@ -58,9 +60,11 @@ En este apartado se van a enumerar los requisitos específicos derivados de los 
 En este apartado se va a visualizar a través de diagramas los casos de uso de los requisitos funcionales previamente definidos. Para esto, se va a utilizar la notación UML.
 
 \subsection{Actores}
-El actor del sistema es la persona que maneja la aplicación.
+El actor del sistema es el usuario o persona que maneja la aplicación.
 
-\subsection{Casos de uso}
+\imagen{diagramaUML}{Diagrama UML con todos los Casos de Uso}
+
+\subsection{Casos de Uso}
 
 \tablaSmallSinColores{Caso de uso 1: Crear Base de Datos}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
 \multicolumn{3}{l}{Caso de uso 1: Crear Base de Datos} \\
@@ -135,8 +139,36 @@ Comentarios & & .
 }
 
 
-\tablaSmallSinColores{Caso de uso 4: Gráfico apilado de Asignaturas por Curso }{p{3cm} p{.75cm} p{9.5cm}}{b1}{
-\multicolumn{3}{l}{Caso de uso 4: Gráfico apilado de Asignaturas por Curso} \\
+
+\tablaSmallSinColores{Caso de uso 4: Generar Gráficos}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 4: Generar Gráficos} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de generar gráficos. El usuario debe seleccionar qué tipo de gráfico quiere generar. Una vez seleccionado el tipo de gráfico, deberá seleccionar diferentes parámetros con la ayuda de listas desplegables para posteriormente poder generarlo. Una vez realizado estos pasos, se generará el tipo de gráfico seleccionado con los parámetros elegidos.} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-2, RF-3, RF-4}  
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Los datos o información necesaria se ha cargado correctamente en la Base de Datos. La aplicación debe estar iniciada.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & El usuario pulsa el botón del gráfico que quiere generar.
+\\\cline{2-3}
+& 2 & Se abre una nueva ventana con el nombre del gráfico elegido y las opciones necesarias para seleccionar mediante listas desplegables.
+\\\cline{2-3}
+& 3 & Se seleccionan las opciones que se desee de cada lista desplegable(Año, Titulación, Curso...).
+\\\cline{2-3}
+& 4 & Se genera el gráfico con las opciones previamente seleccionadas.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{Se genera el gráfico deseado con los datos elegidos.} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{Es necesario seleccionar una opción de cada lista desplegable, en caso contrario, no se podrá generar el gráfico adecuadamente.}\\\hline
+Importancia & Alta \\\hline
+Urgencia & Alta \\\hline
+Comentarios & & . 
+}
+
+
+\tablaSmallSinColores{Caso de uso 5: Gráfico apilado de Asignaturas por Curso }{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 5: Gráfico apilado de Asignaturas por Curso} \\
 }
 {
 Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de mostrar un gráfico apilado cuyo \emph{eje x} muestre las diferentes asignaturas y su \emph{eje y} muestre la cantidad total de alumnos matriculados en las mismas. Al tratarse de un gráfico apilado, se podrán diferenciar los grupos existentes en las asignaturas(grupo online, grupo presencial 1, grupo presencial 2...etc).} \\\hline
@@ -155,24 +187,21 @@ Precondiciones & \multicolumn{2}{p{10.25cm}} {Los datos o información necesaria
 & 4 & Se realiza el gráfico apilado de asignaturas por curso.
 \\\cline{2-3}
 & 5 & Una vez visualizado el gráfico, se muestra una opción de guardar el gráfico y otra de salir.
-\\\cline{2-3}
-& 5' & Si se pulsa el botón de guardar el gráfico, el gráfico se guarda en el directorio donde se encuentran los ficheros Excel.
-\\\cline{2-3}
-& 5'' & Si se pulsa el botón de salir volvería al paso 3.
 \\\hline
 Postcondiciones & \multicolumn{2}{p{10.25cm}}{La aplicación debe mostrar el gráfico apilado de manera correcta.} \\\hline
-Excepciones & \multicolumn{2}{p{10.25cm}}{}\\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{5' Si se pulsa el botón de guardar el gráfico, el gráfico se guarda en el directorio donde se encuentran los ficheros Excel. 
+5'' Si se pulsa el botón de salir volvería al paso 3.}\\\hline
 Importancia & Alta \\\hline
 Urgencia & Alta \\\hline
 Comentarios & & Con esta gráfica se puede apreciar si existe algún grupo desequilibrado, así como las asignaturas con más matriculados entre otra información destacable.   \\
 }
 
 
-\tablaSmallSinColores{Caso de uso 5: Gráfico de máximos, mínimos y medias por curso }{p{3cm} p{.75cm} p{9.5cm}}{b1}{
-\multicolumn{3}{l}{Caso de uso 5: Gráfico de máximos, mínimos y medias por curso} \\
+\tablaSmallSinColores{Caso de uso 6: Gráfico de máximos, mínimos y medias por curso }{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 6: Gráfico de máximos, mínimos y medias por curso} \\
 }
 {
-Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de mostrar un gráfico cuyo \emph{eje x} muestre los diferentes cursos(1º, 2º, 3º y 4º) y su \emph{eje y} muestre la cantidad total de alumnos matriculados, indicando los máximos, mínimos y medias por cada curso.} \\\hline
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de mostrar un gráfico cuyo \emph{eje x} muestre los diferentes cursos(1º, 2º, 3º y 4º) y su \emph{eje y} muestre la cantidad total de alumnos matriculados, indicando los máximos, mínimos y medias por cada curso, así como el primer y tercer cuartil (ya que el segundo cuartil coincide con la media).} \\\hline
 \multirow{2}{3.5cm}{Requisitos} 
 &\multicolumn{2}{p{10.25cm}}{RF-3} 
 \\\cline{2-3}
@@ -191,13 +220,36 @@ Comentarios & &  \\
 }
 
 
-\tablaSmallSinColores{Caso de uso 6: Salir de la aplicación}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
-\multicolumn{3}{l}{Caso de uso 6: Salir de la aplicación} \\
+\tablaSmallSinColores{Caso de uso 7: Gráfico de máximos, mínimos y medias por semestre}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 7: Gráfico de máximos, mínimos y medias por semestre} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de mostrar un gráfico cuyo \emph{eje x} muestre los diferentes semestres(1º, 2º, 3º, 4º, 5º, 6º, 7º y 8º) y su \emph{eje y} muestre la cantidad total de alumnos matriculados, indicando los máximos, mínimos y medias por cada semestre, así como el primer y tercer cuartil (ya que el segundo cuartil coincide con la media).} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-4} 
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Los datos o información necesaria se ha cargado correctamente en la Base de Datos.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & Se seleccionan los campos necesarios de la Base de Datos.
+\\\cline{2-3}
+& 2 & Se realiza el gráfico de máximos, mínimos y medias por semestre.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{La aplicación debe mostrar el gráfico de máximos, mínimos y medias por semestre de manera correcta.} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{}\\\hline
+Importancia & Alta \\\hline
+Urgencia & Alta \\\hline
+Comentarios & &  \\
+}
+
+
+\tablaSmallSinColores{Caso de uso 8: Salir de la aplicación}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 8: Salir de la aplicación} \\
 }
 {
 Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe contar con un botón de Salir. Una vez pulsado se mostrará una nueva pantalla emergente preguntando al usuario si desea salir de la aplicación. En caso afirmativo se cerrará la aplicación y en el caso contrario, la aplicación continuará ejecutándose. Hay que destacar que la aplicación también cuenta con un botón de cerrar en la parte superior derecha(cruz o aspa genérica).} \\\hline
 \multirow{2}{3.5cm}{Requisitos} 
-&\multicolumn{2}{p{10.25cm}}{RF-1} 
+&\multicolumn{2}{p{10.25cm}}{} 
 \\\cline{2-3}
 Precondiciones & \multicolumn{2}{p{10.25cm}} {La aplicación debe de estar iniciada.}
 \\\hline

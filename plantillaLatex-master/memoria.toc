@@ -19,8 +19,8 @@
 \contentsline {section}{\numberline {3.3}Base de datos}{7}{section.3.3}% 
 \contentsline {section}{\numberline {3.4}Aplicaci\IeC {\'o}n de escritorio}{7}{section.3.4}% 
 \contentsline {section}{\numberline {3.5}Gr\IeC {\'a}ficos Representados}{7}{section.3.5}% 
-\contentsline {subsection}{Gr\IeC {\'a}fico de Barras}{7}{section*.12}% 
-\contentsline {subsection}{Gr\IeC {\'a}fico de Cuartiles}{7}{section*.13}% 
+\contentsline {subsection}{Diagrama de Caja y Bigotes}{7}{section*.12}% 
+\contentsline {subsection}{Gr\IeC {\'a}fico de Barras}{8}{section*.13}% 
 \contentsline {chapter}{T\IeC {\'e}cnicas y herramientas}{9}{chapter*.14}% 
 \contentsline {section}{\numberline {4.1}Metodolog\IeC {\'\i }as}{9}{section.4.1}% 
 \contentsline {subsection}{Scrum}{9}{section*.15}% 
