@@ -41,19 +41,19 @@
 \contentsline {subsection}{Photoshop}{13}{section*.25}% 
 \contentsline {chapter}{Aspectos relevantes del desarrollo del proyecto}{15}{chapter*.26}% 
 \contentsline {section}{\numberline {5.1}Inicio del proyecto}{15}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Metodolog\IeC {\'\i }as}{19}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Toma de decisiones}{19}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Librer\IeC {\'\i }as para el tratamiento y manipulaci\IeC {\'o}n de datos}{19}{section.5.4}% 
-\contentsline {subsection}{re}{19}{section*.27}% 
-\contentsline {subsection}{pandas}{19}{section*.28}% 
-\contentsline {subsection}{sqlite3}{20}{section*.29}% 
-\contentsline {subsection}{Tkinter}{20}{section*.30}% 
-\contentsline {subsection}{math}{20}{section*.31}% 
-\contentsline {subsection}{matplotlib}{20}{section*.32}% 
-\contentsline {subsection}{os}{21}{section*.33}% 
-\contentsline {section}{\numberline {5.5}Interfaz de usuario del proyecto}{21}{section.5.5}% 
-\contentsline {section}{\numberline {5.6}Problemas encontrados}{21}{section.5.6}% 
-\contentsline {subsection}{Error al abrir los Excel(.xls) bajados de Sigma con Python}{21}{section*.34}% 
-\contentsline {chapter}{Trabajos relacionados}{25}{chapter*.35}% 
-\contentsline {chapter}{Conclusiones y L\IeC {\'\i }neas de trabajo futuras}{27}{chapter*.36}% 
-\contentsline {chapter}{Bibliograf\'{\i }a}{29}{chapter*.37}% 
+\contentsline {section}{\numberline {5.2}Metodolog\IeC {\'\i }as}{16}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Toma de decisiones}{17}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Librer\IeC {\'\i }as para el tratamiento y manipulaci\IeC {\'o}n de datos}{17}{section.5.4}% 
+\contentsline {subsection}{re}{17}{section*.27}% 
+\contentsline {subsection}{pandas}{17}{section*.28}% 
+\contentsline {subsection}{sqlite3}{17}{section*.29}% 
+\contentsline {subsection}{Tkinter}{18}{section*.30}% 
+\contentsline {subsection}{math}{18}{section*.31}% 
+\contentsline {subsection}{matplotlib}{18}{section*.32}% 
+\contentsline {subsection}{os}{18}{section*.33}% 
+\contentsline {section}{\numberline {5.5}Interfaz de usuario del proyecto}{19}{section.5.5}% 
+\contentsline {section}{\numberline {5.6}Problemas encontrados}{19}{section.5.6}% 
+\contentsline {subsection}{Error al abrir los Excel(.xls) bajados de Sigma con Python}{19}{section*.34}% 
+\contentsline {chapter}{Trabajos relacionados}{27}{chapter*.35}% 
+\contentsline {chapter}{Conclusiones y L\IeC {\'\i }neas de trabajo futuras}{29}{chapter*.36}% 
+\contentsline {chapter}{Bibliograf\'{\i }a}{31}{chapter*.37}% 
