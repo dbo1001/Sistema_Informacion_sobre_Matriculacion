@@ -4,7 +4,7 @@ En este apartado se van a recoger los aspectos más importantes que han surgido 
 
 \section{Inicio del proyecto}\label{inicio_del_proyecto}
 
-Al principio se propuso la idea de la creación de una variante de \emph{Data Ware-House} o almacén de datos, para almacenar información relevante para la matriculación de alumnos en la Universidad de Burgos(UBU) y su futura utilización para la toma de decisiones.
+Al principio se propuso la idea de la creación de un Sistema de Información (\emph{Data Ware-House} o almacén de datos), para almacenar información relevante para la matriculación de alumnos en la Universidad de Burgos (UBU) y su futura utilización para la toma de decisiones.
 
 Por esta razón, la idea transmitida por el tutor fue la creación de un sistema para poder almacenar y visualizar cualquier grado o máster de la UBU.
 
@@ -12,10 +12,15 @@ El tutor comentó que los archivos que se iban a utilizar de partida, eran un ti
 
 Con este conjunto de ideas y proposiciones, se realizaron los \emph{Objetivos del proyecto} y se enviaron al tutor para la supervisión de los mismos.
 
-Tras la aprobación o visto bueno, se empieza a realizar el proyecto, con la creación del repositorio en \emph{GitHub} el día 26 de Febrero de 2019.
+Tras la aprobación o visto bueno, se empieza a realizar el proyecto, con la creación del repositorio en \emph{GitHub} el día 26 de febrero de 2019.
 
+%\imagenflotante{logo}{Logotipo del Sistema de Información sobre Matriculación}
 
-\imagen{logo}{Logotipo del Sistema de Información sobre Matriculación}
+\begin{figure}%[!h]
+		\centering
+		\includegraphics[width=0.5\textwidth]{logo}
+		\caption{Logotipo del Sistema de Información sobre Matriculación}\label{fig:logo}
+\end{figure}
 
  
 \section{Metodologías}\label{metodologias}
@@ -89,22 +94,39 @@ De esta manera, se ha creado un analizador sintáctico capaz de leer los fichero
 También se ha decidido modificar el fichero (.csv) resultante, añadiendo una nueva columna al final del encabezado principal de los datos. Esta nueva columna se ha llamado \emph{Plan} y de esta manera, se evita tener que estar volviendo a introducir cada encabezado de datos(repetido) por cada diferente Plan o Titulación que se incluya en el fichero (.xls).
 
 
-\includegraphics[angle=90, scale = 0.60]{datosFicheroOriginalRojo}
+\begin{figure}%[!h]
+	\centering
+	\includegraphics[angle=90, width=0.6\textwidth]{datosFicheroOriginalRojo}
+	\caption{Datos del fichero original}\label{fig:datosFicheroOriginalRojo}
+\end{figure}
+
+%\includegraphics[angle=90, scale = 0.60]{datosFicheroOriginalRojo}
 %\imagen{datosFicheroOriginalRojo}{Datos del fichero original}
 
 De esta manera, obtenemos:
-\includegraphics[angle=90, scale = 0.60]{datosFicheroCSVColumnaAnadida}
+
+
+\begin{figure}%[!h]
+	\centering
+	\includegraphics[angle=90, width=0.6\textwidth]{datosFicheroCSVColumnaAnadida}
+	\caption{Datos del fichero parseado con columna añadida}\label{fig:datosFicheroCSVColumnaAnadida}
+\end{figure}
+
+%\includegraphics[angle=90, scale = 0.60]{datosFicheroCSVColumnaAnadida}
 %\imagen{datosFicheroCSVColumnaAnadida}{Datos del fichero parseado con columna añadida}
-
-
 
 
 
 En un primer lugar no se esperaba que estos ficheros fueran a generar muchos problemas, ya que al tratarse de una hoja de cálculo de Excel con extensión (.xls), al abrir los ficheros con dicho programa, se mostraba una pantalla de error, indicando el siguiente tipo de error, el cual el propio programa era capaz de solucionar, pudiendo visualizar todos los datos contenidos en el archivo:
 
 
+\begin{figure}%[!h]
+	\centering
+	\includegraphics[ width=\textwidth]{errorFicheroOriginal}
+	\caption{Error al intentar abrir con Excel los ficheros originales}\label{fig:errorFicheroOriginal}
+\end{figure}
 
-\includegraphics[ scale = 0.60]{errorFicheroOriginal}
+%\includegraphics[ scale = 0.60]{errorFicheroOriginal}
 %\imagen{errorFicheroOriginal}{Error al intentar abrir con Excel los ficheros originales}
 
 Como se conseguía ver el contenido de los ficheros, así como su formato(color de celdas, celdas unificadas...); se pensó que podría ser un pequeño problema. Realmente se apreció la dimensión del problema cuando se intentó importar y abrir los datos con librerías específicas de \emph{Python} como \emph{Pandas}.
@@ -116,12 +138,7 @@ Más adelante se optó por eliminar las cabeceras repetidas en el caso de tener 
 
 Como en las cabeceras, la información del Plan (recuadro verde de la imagen x) no se debía perder, se añadió una nueva columna(imagen y) para almacenar esa información de las cabeceras repetidas que se iban a prescindir.
 
-\includegraphics[angle=90, scale = 0.60]{datosFicheroOriginalRojo}
-%\imagen{datosFicheroOriginalRojo}{Datos del fichero original}
 
-
-\includegraphics[angle=90, scale = 0.60]{datosFicheroCSVColumnaAnadida}
-%\imagen{datosFicheroCSVColumnaAnadida}{Datos del fichero parseado con columna añadida}
 
 
 De esta manera se obtubo un fichero (.csv) final mejor estructurado y preparado para hacer más eficiente la carga de datos a la BBDD.

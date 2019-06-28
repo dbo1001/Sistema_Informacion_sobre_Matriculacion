@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  25 JUN 2019 21:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.11)  28 JUN 2019 12:21
 entering extended mode
 **./anexos.tex
 (anexos.tex
@@ -803,27 +803,27 @@ LaTeX Warning: Label `tabla:b1' multiply defined.
 ) (tex/C_Diseno.aux) (tex/D_Manual_programador.aux) (tex/E_Manual_usuario.aux))
 \openout1 = `anexos.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 358.
-LaTeX Font Info:    ... okay on input line 358.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 358.
-LaTeX Font Info:    ... okay on input line 358.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 358.
-LaTeX Font Info:    ... okay on input line 358.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 358.
-LaTeX Font Info:    ... okay on input line 358.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 358.
-LaTeX Font Info:    ... okay on input line 358.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 358.
-LaTeX Font Info:    ... okay on input line 358.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 358.
-LaTeX Font Info:    ... okay on input line 358.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 358.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 361.
+LaTeX Font Info:    ... okay on input line 361.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 361.
 ("C:\Users\mdmar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \. on input line 358.
-LaTeX Info: Redefining \% on input line 358.
-LaTeX Info: Redefining \microtypecontext on input line 358.
+LaTeX Info: Redefining \. on input line 361.
+LaTeX Info: Redefining \% on input line 361.
+LaTeX Info: Redefining \microtypecontext on input line 361.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -870,7 +870,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring ON on input line 358.
+Package hyperref Info: Link coloring ON on input line 361.
 
 ("C:\Users\mdmar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -884,59 +884,64 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 358.
-LaTeX Info: Redefining \ref on input line 358.
-LaTeX Info: Redefining \pageref on input line 358.
-LaTeX Info: Redefining \nameref on input line 358.
+LaTeX Info: Redefining \nameref on input line 361.
+LaTeX Info: Redefining \ref on input line 361.
+LaTeX Info: Redefining \pageref on input line 361.
+LaTeX Info: Redefining \nameref on input line 361.
 (anexos.out) (anexos.out)
 \@outlinefile=\write4
 \openout4 = `anexos.out'.
 
-<./img/cabecera.pdf, id=119, 617.67549pt x 135.51413pt>
+<./img/cabecera.pdf, id=115, 617.67549pt x 135.51413pt>
 File: ./img/cabecera.pdf Graphic file (type pdf)
 <use ./img/cabecera.pdf>
-Package pdftex.def Info: ./img/cabecera.pdf  used on input line 360.
+Package pdftex.def Info: ./img/cabecera.pdf  used on input line 363.
 (pdftex.def)             Requested size: 383.0pt x 84.02823pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 360.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 363.
 
 
 ("C:\Users\mdmar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 360.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 363.
 
 
 ("C:\Users\mdmar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 360
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 363
 .
 
 ("C:\Users\mdmar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 360
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 363
 .
 
 ("C:\Users\mdmar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 360.
+(Font)              <12> on input line 363.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 360.
+(Font)              <8> on input line 363.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 360.
-<./img/escudoInfor.pdf, id=120, 618.11432pt x 737.07487pt>
+(Font)              <6> on input line 363.
+<./img/escudoInfor.pdf, id=116, 618.11432pt x 737.07487pt>
 File: ./img/escudoInfor.pdf Graphic file (type pdf)
 <use ./img/escudoInfor.pdf>
-Package pdftex.def Info: ./img/escudoInfor.pdf  used on input line 360.
+Package pdftex.def Info: ./img/escudoInfor.pdf  used on input line 363.
 (pdftex.def)             Requested size: 76.59883pt x 91.3356pt.
 
-Overfull \hbox (27.54143pt too wide) in paragraph at lines 360--360
+Overfull \hbox (27.54143pt too wide) in paragraph at lines 363--363
 [][][][][][][] $[]$ 
  []
 
+<./img/logo.jpg, id=117, 262.73157pt x 240.9pt>
+File: ./img/logo.jpg Graphic file (type jpg)
+<use ./img/logo.jpg>
+Package pdftex.def Info: ./img/logo.jpg  used on input line 363.
+(pdftex.def)             Requested size: 76.59883pt x 70.23413pt.
 [1
 
 {C:/Users/mdmar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/cabec
@@ -944,19 +949,21 @@ era.pdf> <./img/escudoInfor.pdf
 
 pdfTeX warning: pdflatex (file ./img/escudoInfor.pdf): PDF inclusion: multiple 
 pdfs with page group included in a single page
->] [2
+> <./img/logo.jpg>] [2
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 379.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 382.
 
- ("C:\Users\mdmar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
+
+("C:\Users\mdmar\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (anexos.toc
+
+(anexos.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
@@ -986,14 +993,14 @@ Package microtype Info: Character `029' is missing
 
 
 ])
-LaTeX Info: Redefining \. on input line 380.
-LaTeX Info: Redefining \% on input line 380.
+LaTeX Info: Redefining \. on input line 383.
+LaTeX Info: Redefining \% on input line 383.
 
 
 Class memoir Warning: The material used in the headers is too large
 (15.35403pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 380.
+(in both cases you will find help in the memoir manual). on input line 383.
 
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
@@ -1004,6 +1011,47 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...}{\numberline {E.1}{\ignorespaces ##
+                                                  ######2}}\hyper@linkend 
+l.13 ...{\ignorespaces ####2}}{31}{figure.Alph5.1}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...\numberline {E.1}{\ignorespaces ####
+                                                  ####2}}\hyper@linkend 
+l.13 ...{\ignorespaces ####2}}{31}{figure.Alph5.1}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...umberline {E.1}{\ignorespaces ######
+                                                  ##2}}\hyper@linkend 
+l.13 ...{\ignorespaces ####2}}{31}{figure.Alph5.1}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...berline {E.1}{\ignorespaces ########
+                                                  2}}\hyper@linkend 
+l.13 ...{\ignorespaces ####2}}{31}{figure.Alph5.1}
+                                                  %
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
 ) [3
 
 ] (anexos.lot
@@ -1088,8 +1136,8 @@ Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
 [8])
-LaTeX Info: Redefining \. on input line 394.
-LaTeX Info: Redefining \% on input line 394.
+LaTeX Info: Redefining \. on input line 397.
+LaTeX Info: Redefining \% on input line 397.
  [9]
 \openout2 = `./tex/B_Requisitos.aux'.
 
@@ -1118,7 +1166,7 @@ Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
  [13]
-<./img/diagramaUML.png, id=649, 757.3896pt x 469.2732pt>
+<./img/diagramaUML.png, id=657, 757.3896pt x 469.2732pt>
 File: ./img/diagramaUML.png Graphic file (type png)
 <use ./img/diagramaUML.png>
 Package pdftex.def Info: ./img/diagramaUML.png  used on input line 65.
@@ -1524,8 +1572,8 @@ Overfull \vbox (0.85403pt too high) has occurred while \output is active []
                                                   \fi \fi 
 l.269 
       ])
-LaTeX Info: Redefining \. on input line 395.
-LaTeX Info: Redefining \% on input line 395.
+LaTeX Info: Redefining \. on input line 398.
+LaTeX Info: Redefining \% on input line 398.
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
@@ -1535,89 +1583,93 @@ Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.395 \include{./tex/B_Requisitos}
+l.398 \include{./tex/B_Requisitos}
                                   ]
 \openout2 = `./tex/C_Diseno.aux'.
 
  (tex/C_Diseno.tex
-<./img/ModeloER.png, id=691, 3312.375pt x 2146.0175pt>
+<./img/ModeloER.png, id=700, 3312.375pt x 2146.0175pt>
 File: ./img/ModeloER.png Graphic file (type png)
 <use ./img/ModeloER.png>
-Package pdftex.def Info: ./img/ModeloER.png  used on input line 15.
+Package pdftex.def Info: ./img/ModeloER.png  used on input line 17.
 (pdftex.def)             Requested size: 3312.36697pt x 2146.01228pt.
+<./img/TablaASIGNATURAS.png, id=701, 257.46187pt x 150.5625pt>
+File: ./img/TablaASIGNATURAS.png Graphic file (type png)
+<use ./img/TablaASIGNATURAS.png>
+Package pdftex.def Info: ./img/TablaASIGNATURAS.png  used on input line 32.
+(pdftex.def)             Requested size: 344.69766pt x 201.59416pt.
 
-Overfull \hbox (42.37238pt too wide) in paragraph at lines 15--16
-[][] 
- []
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23
+[23
 
 
 
 ]
-Overfull \vbox (37.3578pt too high) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 17.
-LaTeX Info: Redefining \% on input line 17.
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
-[24 <./img/ModeloER.png>]
-<./img/TablaASIGNATURAS.png, id=702, 257.46187pt x 150.5625pt>
-File: ./img/TablaASIGNATURAS.png Graphic file (type png)
-<use ./img/TablaASIGNATURAS.png>
-Package pdftex.def Info: ./img/TablaASIGNATURAS.png  used on input line 25.
-(pdftex.def)             Requested size: 344.69766pt x 201.59416pt.
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
- [25pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
-ph3.1}) has been already used, duplicate ignored
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
+h3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.40 \textbf
-            {Tipologia}: se almacena la tipología del grupo, que puede ser ...
- <./img/TablaASIGNATURAS.png>]
-<./img/TablaGRUPOS.png, id=710, 261.22594pt x 75.28125pt>
+l.32 \imagen{TablaASIGNATURAS}{Tabla ASIGNATURAS}
+                                                  <./img/ModeloER.png>]
+<./img/TablaGRUPOS.png, id=713, 261.22594pt x 75.28125pt>
 File: ./img/TablaGRUPOS.png Graphic file (type png)
 <use ./img/TablaGRUPOS.png>
-Package pdftex.def Info: ./img/TablaGRUPOS.png  used on input line 55.
+Package pdftex.def Info: ./img/TablaGRUPOS.png  used on input line 62.
 (pdftex.def)             Requested size: 344.69766pt x 99.33823pt.
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
+LaTeX Info: Redefining \. on input line 62.
+LaTeX Info: Redefining \% on input line 62.
+
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
+h3.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.62 \imagen{TablaGRUPOS}{Tabla GRUPOS}
+                                        <./img/TablaASIGNATURAS.png>]
+<./img/TablaPROFESORES.png, id=720, 264.99pt x 103.88812pt>
+File: ./img/TablaPROFESORES.png Graphic file (type png)
+<use ./img/TablaPROFESORES.png>
+Package pdftex.def Info: ./img/TablaPROFESORES.png  used on input line 80.
+(pdftex.def)             Requested size: 344.69766pt x 135.14647pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
 [26pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
-h3.2}) has been already used, duplicate ignored
+h3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.67 \textbf
-            {Total\_Alumnos}: en este campo se almacena la cantidad de alumn...
- <./img/TablaGRUPOS.png>]
-<./img/TablaPROFESORES.png, id=716, 264.99pt x 103.88812pt>
-File: ./img/TablaPROFESORES.png Graphic file (type png)
-<use ./img/TablaPROFESORES.png>
-Package pdftex.def Info: ./img/TablaPROFESORES.png  used on input line 73.
-(pdftex.def)             Requested size: 344.69766pt x 135.14647pt.
-LaTeX Info: Redefining \. on input line 89.
-LaTeX Info: Redefining \% on input line 89.
+l.80 \imagen{TablaPROFESORES}{Tabla PROFESORES}
+                                                <./img/TablaGRUPOS.png>])
+Underfull \vbox (badness 3514) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 399.
+LaTeX Info: Redefining \% on input line 399.
  [27pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
-ph3.3}) has been already used, duplicate ignored
+ph3.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.89 \textbf
-            {Nombre\_Apellidos}: es un campo que almacena el nombre y apelli...
- <./img/TablaPROFESORES.png>])
-LaTeX Info: Redefining \. on input line 396.
-LaTeX Info: Redefining \% on input line 396.
+l.399 \include{./tex/C_Diseno}
+                               <./img/TablaPROFESORES.png>]
+LaTeX Info: Redefining \. on input line 399.
+LaTeX Info: Redefining \% on input line 399.
 
 Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
@@ -1636,11 +1688,235 @@ Overfull \vbox (0.85403pt too high) has occurred while \output is active []
 
 
 
-])
-[31] (anexos.bbl [32
-
-
 ]
+! Illegal parameter number in definition of \@tempb.
+<to be read again> 
+                   1
+l.12 		\includegraphics[width=0.9\textwidth]{#1}
+                                                
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   1
+l.12 		\includegraphics[width=0.9\textwidth]{#1}
+                                                
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \filename@base.
+<to be read again> 
+                   1
+l.12 		\includegraphics[width=0.9\textwidth]{#1}
+                                                
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+
+! Illegal parameter number in definition of  .
+<to be read again> 
+                   1
+l.12 		\includegraphics[width=0.9\textwidth]{#1}
+                                                
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! LaTeX Error: File `##1' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 		\includegraphics[width=0.9\textwidth]{#1}
+                                                
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Illegal parameter number in definition of \GetTitleStringResult.
+<to be read again> 
+                   2
+l.13 		\caption{#2}
+                   \label{fig:#1}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \GTS@GlobalString.
+<to be read again> 
+                   2
+l.13 		\caption{#2}
+                   \label{fig:#1}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   2
+l.13 		\caption{#2}
+                   \label{fig:#1}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ...ndafter {\@currentHref }{\relax }}##
+                                                  2\fi \@contfinal 
+l.13 		\caption{#2}
+                   \label{fig:#1}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> ...ndafter {\@currentHref }{\relax }}##
+                                                  2\fi 
+l.13 		\caption{#2}
+                   \label{fig:#1}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Illegal parameter number in definition of \@currentlabelname.
+<to be read again> 
+                   2
+l.13 		\caption{#2}
+                   \label{fig:#1}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \@tempa.
+<to be read again> 
+                   2
+l.13 		\caption{#2}
+                   \label{fig:#1}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \M@currentTitle.
+<to be read again> 
+                   2
+l.13 		\caption{#2}
+                   \label{fig:#1}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \@currentlabel.
+<to be read again> 
+                   2
+l.13 		\caption{#2}\label{fig:#1}
+                                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \label@name.
+<to be read again> 
+                   1
+l.13 		\caption{#2}\label{fig:#1}
+                                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   1
+l.13 		\caption{#2}\label{fig:#1}
+                                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   2
+l.13 		\caption{#2}\label{fig:#1}
+                                 
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+<./img/crearBBDD.png, id=744, 515.67656pt x 106.14656pt>
+File: ./img/crearBBDD.png Graphic file (type png)
+<use ./img/crearBBDD.png>
+Package pdftex.def Info: ./img/crearBBDD.png  used on input line 28.
+(pdftex.def)             Requested size: 344.69766pt x 70.95424pt.
+<./img/warningBBDD.png, id=746, 164.11313pt x 118.19156pt>
+File: ./img/warningBBDD.png Graphic file (type png)
+<use ./img/warningBBDD.png>
+Package pdftex.def Info: ./img/warningBBDD.png  used on input line 37.
+(pdftex.def)             Requested size: 191.5pt x 137.91747pt.
+[31pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
+h5.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.40 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.A
+lph5.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.40 
+      <./img/crearBBDD.png>]
+<./img/preprocesar.png, id=753, 640.64343pt x 456.20438pt>
+File: ./img/preprocesar.png Graphic file (type png)
+<use ./img/preprocesar.png>
+Package pdftex.def Info: ./img/preprocesar.png  used on input line 51.
+(pdftex.def)             Requested size: 383.0pt x 272.73625pt.
+<./img/ventanaSOxls.png, id=755, 558.58687pt x 383.18156pt>
+File: ./img/ventanaSOxls.png Graphic file (type png)
+<use ./img/ventanaSOxls.png>
+Package pdftex.def Info: ./img/ventanaSOxls.png  used on input line 62.
+(pdftex.def)             Requested size: 383.0pt x 262.74089pt.
+LaTeX Info: Redefining \. on input line 74.
+LaTeX Info: Redefining \% on input line 74.
+
+Overfull \vbox (0.85403pt too high) has occurred while \output is active []
+
+
+[32pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
+h5.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.74 (
+      boton cargar archivos) <./img/warningBBDD.png>]
+LaTeX Info: Redefining \. on input line 92.
+LaTeX Info: Redefining \% on input line 92.
+ [33pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+ph5.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.92 
+      <./img/preprocesar.png>])
+LaTeX Info: Redefining \. on input line 401.
+LaTeX Info: Redefining \% on input line 401.
+
+Overfull \vbox (0.85403pt too high) has occurred while \output is active []
+
+
+[34pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
+h5.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.401 \include{./tex/E_Manual_usuario}
+                                       <./img/ventanaSOxls.png>] (anexos.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
@@ -1649,9 +1925,12 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 Class memoir Warning: The material used in the headers is too large
 (15.35403pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 404.
+(in both cases you will find help in the memoir manual). on input line 407.
 
-[33]
+[35
+
+
+]
 \tf@toc=\write5
 \openout5 = `anexos.toc'.
 
@@ -1661,8 +1940,8 @@ either increase the head height or redesign the header
 \tf@lot=\write7
 \openout7 = `anexos.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 404.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 404.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 407.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 407.
  (anexos.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
@@ -1670,10 +1949,10 @@ LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
  (tex/A_Plan_proyecto.aux) (tex/B_Requisitos.aux)
 (tex/C_Diseno.aux) (tex/D_Manual_programador.aux) (tex/E_Manual_usuario.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 404.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 404.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 407.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 407.
 Package rerunfilecheck Info: File `anexos.out' has not changed.
-(rerunfilecheck)             Checksum: AB89CD41A539C85554159A402001CD6C;2164.
+(rerunfilecheck)             Checksum: 9139BDBAD0A71EFB4A1EDE1361E8B3D5;2088.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1681,16 +1960,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 404.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 407.
  ) 
 Here is how much of TeX's memory you used:
- 13339 strings out of 492946
- 199777 string characters out of 3126266
- 380019 words of memory out of 3000000
- 16781 multiletter control sequences out of 15000+200000
+ 13389 strings out of 492946
+ 200539 string characters out of 3126266
+ 381635 words of memory out of 3000000
+ 16806 multiletter control sequences out of 15000+200000
  87715 words of font info for 107 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,15n,43p,555b,710s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,15n,45p,555b,685s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
 c}{C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-maths
 y.enc}<C:/Users/mdmar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/euro
@@ -1707,9 +1986,9 @@ rams/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Users/mdmar/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/mdmar/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Users/mdmar/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on anexos.pdf (39 pages, 956220 bytes).
+Output written on anexos.pdf (41 pages, 1035252 bytes).
 PDF statistics:
- 816 PDF objects out of 1000 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
- 21772 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 846 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
+ 21789 words of extra memory for PDF output out of 24883 (max. 10000000)
 
