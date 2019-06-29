@@ -18,10 +18,10 @@
 \contentsline {subsection}{Sprint 9 (04/06/19 - 10/06/19)}{6}{section*.13}% 
 \contentsline {subsection}{Sprint 10 (11/06/19 - 18/06/19)}{7}{section*.14}% 
 \contentsline {subsection}{Sprint 11 (19/06/19 - 25/06/19)}{7}{section*.15}% 
-\contentsline {subsection}{Sprint 12 (26/06/19 - 02/07/19)}{8}{section*.16}% 
+\contentsline {subsection}{Sprint 12 (26/06/19 - 01/07/19)}{8}{section*.16}% 
 \contentsline {subsection}{Resumen}{8}{section*.17}% 
-\contentsline {section}{\numberline {A.3}Estudio de viabilidad}{8}{section.Alph1.3}% 
-\contentsline {subsection}{Viabilidad econ\IeC {\'o}mica}{8}{section*.18}% 
+\contentsline {section}{\numberline {A.3}Estudio de viabilidad}{9}{section.Alph1.3}% 
+\contentsline {subsection}{Viabilidad econ\IeC {\'o}mica}{9}{section*.18}% 
 \contentsline {subsection}{Viabilidad legal}{9}{section*.19}% 
 \contentsline {appendix}{\chapternumberline {B}Especificaci\IeC {\'o}n de Requisitos}{11}{appendix.Alph2}% 
 \contentsline {section}{\numberline {B.1}Introducci\IeC {\'o}n}{11}{section.Alph2.1}% 
@@ -48,5 +48,12 @@
 \contentsline {section}{\numberline {E.1}Introducci\IeC {\'o}n}{31}{section.Alph5.1}% 
 \contentsline {section}{\numberline {E.2}Requisitos de usuarios}{31}{section.Alph5.2}% 
 \contentsline {section}{\numberline {E.3}Instalaci\IeC {\'o}n}{31}{section.Alph5.3}% 
-\contentsline {section}{\numberline {E.4}Manual del usuario}{31}{section.Alph5.4}% 
-\contentsline {chapter}{Bibliograf\'{\i }a}{35}{appendix*.26}% 
+\contentsline {section}{\numberline {E.4}Manual del usuario}{32}{section.Alph5.4}% 
+\contentsline {subsection}{Creaci\IeC {\'o}n de la Base de Datos (BBDD)}{32}{section*.26}% 
+\contentsline {subsection}{Preprocesado de los ficheros Excel (.xls) descargados de \emph {Sigma}}{32}{section*.27}% 
+\contentsline {subsection}{Carga de datos en la Base da Datos (BBDD)}{33}{section*.28}% 
+\contentsline {subsection}{Selecci\IeC {\'o}n y personalizaci\IeC {\'o}n de los gr\IeC {\'a}ficos}{34}{section*.29}% 
+\contentsline {subsection}{Descarga de los gr\IeC {\'a}ficos}{38}{section*.30}% 
+\contentsline {subsection}{Gr\IeC {\'a}ficos obtenidos}{39}{section*.31}% 
+\contentsline {subsection}{Otras funcionalidades}{39}{section*.32}% 
+\contentsline {chapter}{Bibliograf\'{\i }a}{43}{appendix*.33}% 
