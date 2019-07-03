@@ -1,0 +1,163 @@
+\capitulo{5}{Aspectos relevantes del desarrollo del proyecto}
+
+En este apartado se van a recoger los aspectos más importantes que han surgido en el desarrollo del proyecto. Se incluirán la toma de decisiones, los posibles cambios, la aparición de problemas y las soluciones establecidas.
+
+\section{Inicio del proyecto}\label{inicio_del_proyecto}
+
+Al principio se propuso la idea de la creación de un Sistema de Información (\emph{Data Ware-House} o almacén de datos), para almacenar información relevante para la matriculación de alumnos en la Universidad de Burgos (UBU) y su futura utilización para la toma de decisiones.
+
+Por esta razón, la idea transmitida por el tutor fue la creación de un sistema para poder almacenar y visualizar cualquier grado o máster de la UBU.
+
+El tutor comentó que los archivos que se iban a utilizar de partida, eran un tipo de ficheros descargado desde una aplicación denominada \emph{Sigma} y tenían un error de formato.
+
+Con este conjunto de ideas y proposiciones, se realizaron los \emph{Objetivos del proyecto} y se enviaron al tutor para la supervisión de los mismos.
+
+Tras la aprobación o visto bueno, se empieza a realizar el proyecto, con la creación del repositorio en \emph{GitHub} el día 26 de febrero de 2019.
+
+%\imagenflotante{logo}{Logotipo del Sistema de Información sobre Matriculación}
+
+\begin{figure}%[!h]
+		\centering
+		\includegraphics[width=0.5\textwidth]{logo}
+		\caption{Logotipo del Sistema de Información sobre Matriculación}\label{fig:logo}
+\end{figure}
+
+ 
+\section{Metodologías}\label{metodologias}
+
+A lo largo del desarrollo del proyecto se ha usado la \emph{metodología Scrum}. Se trata de una metodología ágil basada en \emph{sprints}, en este caso, de desarrollo incremental con revisiones semanales.
+
+Por lo tanto, la duración estimada de cada \emph{sprint} es de una semana, si bien ha habido varios \emph{sprints} que han tenido una duración superior. Al finalizar cada \emph{sprint}, se planificaba el siguiente, creando sus \emph{issues} o tareas a realizar en dicho \emph{sprint}. Cuando estas tareas se realizaban, se cambiaba el estado del \emph{issue} correspondiente a \emph{Closed} o cerrado.  
+Para ver todos los \emph{sprints} realizados, así como cada \emph{issue} detallado, se puede acceder al repositorio de \emph{GitHub} desde el siguiente enlace\footnote{\href {https://github.com/mdi0007/Sistema-Informacion-sobre-Matriculacion}{www.github.com/mdi0007/Sistema-Informacion-sobre-Matriculacion}}. 
+
+\section{Toma de decisiones}\label{toma_de_decisiones}
+
+\subsection{Interfaz de usuario}
+
+Para la realización de la interfaz de usuario se ha utilizado la librería \emph{tkinter} de \emph{Python}, ya que cuenta con numerosas funcionalidades que se explicarán en la siguiente sección.
+
+El objetivo principal era la creación de una interfaz de usuario sencilla y funcional, y se ha conseguido gracias a la librería anteriormente mencionada. 
+
+También hay que exponer que se optó por la realización de una aplicación de escritorio, ya que era la mejor opción para el uso que se espera dar a dicha aplicación, no teniendo en principio mucho sentido la creación de una aplicación web. 
+
+
+
+\subsection{Creación de una BBDD}
+
+Hay que destacar que una vez preprocesados los ficheros originales de \emph{Sigma}, los gráficos que se fueron creando de prueba, se realizaban a partir de los ficheros generados (.csv). 
+Más adelante se consideró oportuno la creación de una base de datos específica para el proyecto, con una estructura de tablas y restricciones concretas. Para esta labor se utilizó el sistema de gestión \emph{SQLite}, ya que cumplía con creces nuestros requisitos (características principales de \emph{SQLite} explicadas en el apartado anterior de \emph{Técnicas y Herramientas}).
+De esta forma se diseñó una base de datos con 3 tablas principales (explicado en detalle en el apartado \emph{Especificación de diseño} de los anexos), y las gráficas se empezaron a generar mediante consultas \emph{SQL}, aportando simplicidad y eficiencia.
+
+\subsection{Modificación de archivos (.csv) generados}
+
+Relacionado con lo anterior, se decidió modificar los archivos que nuestra aplicación generaba a partir de los ficheros \emph{Sigma} originales. 
+
+La decisión de esta modificación, fue la de realizar la carga de datos en la BBDD de una forma más eficiente y en bloque, evitando tener que leer fila por fila el documento y comprobando si los datos de dicha fila se debían añadir o no. 
+
+Es decir, se optó por eliminar las cabeceras repetidas en el caso de tener más de una Titulación o Plan en un mismo fichero. Como se aprecia en la figura \ref{fig:datosFicheroOriginalRojo} si se eliminaban las cabeceras repetidas (recuadro rojo), se perdía la información del nombre de la titulación o plan (recuadro verde).
+
+\begin{figure}%[!h]
+	\centering
+	\includegraphics[angle=90, width=0.6\textwidth]{datosFicheroOriginalRojo}
+	\caption{Datos del fichero original (.xls)}\label{fig:datosFicheroOriginalRojo}
+\end{figure}
+
+
+Como esta información no se debía perder, se añadió una nueva columna (llamada \emph{Plan}) como se aprecia en la figura \ref{fig:datosFicheroCSVColumnaAnadida}(en color verde) para almacenar esa información de las cabeceras repetidas, de las cuales se iba a prescindir.
+
+\begin{figure}%[!h]
+	\centering
+	\includegraphics[angle=90, width=0.6\textwidth]{datosFicheroCSVColumnaAnadida}
+	\caption{Datos del fichero parseado con columna añadida (.csv)}\label{fig:datosFicheroCSVColumnaAnadida}
+\end{figure}
+
+De esta manera se obtubo un fichero (.csv) final mejor estructurado (con una única cabecera general) y preparado para hacer más eficiente la carga de datos a la BBDD.
+
+
+\section{Librerías para el tratamiento y manipulación de datos}\label{librerias}
+En este apartado se van a explicar las diferentes librerías o bibliotecas que se han utilizado en el desarrollo del proyecto y su función principal. Todas las librerías explicadas a continuación son de \emph{Python}.
+
+\subsection{re}
+La primera librería que se ha utilizado en el proyecto ha sido re\footnote{\href {https://docs.python.org/3/library/re.html}{www.docs.python.org/3/library/re}}, ya que dicha librería contiene las funciones necesarias para trabajar con expresiones regulares.
+
+Las expresiones regulares se han utilizado sobretodo en la parte inicial de parsear los ficheros descargados de Sigma. De esta manera se ha podido separar y extraer información por filas, celdas y contenido de las mismas.
+
+
+\subsection{pandas}
+Pandas\footnote{\href{https://pandas.pydata.org/}{www.pandas.pydata.org}} es una librería que ofrece numerosas estructuras de datos de gran rendimiento y herramientas de análisis de datos.
+
+Esta librería se ha utilizado principalmente para abrir y crear archivos con \emph{Python} y para crear \emph{dataframes} o estructuras auxiliares donde guardar datos.  
+
+
+\subsection{sqlite3}
+Como ya se ha comentado en un apartado anterior, la librería sqlite3\footnote{\href{https://docs.python.org/2/library/sqlite3.html}{www.docs.python.org/2/library/sqlite3.html}} proporciona una base de datos relacional de pequeño tamaño, ya que no necesita un servidor para poder utilizarse, porque los datos se almacenan en un único fichero en el sistema host.
+
+Esta librería se ha utilizado para la creación de la base de datos (BBDD), así como para la carga de datos y los procesos de consultas a la misma.
+
+\subsection{Tkinter}
+Tkinter\footnote{\href{https://docs.python.org/2/library/tkinter.html}{www.docs.python.org/2/library/tkinter.html}} es una librería con numerosas funciones para hacer posible la creación de una interfaz gráfica en \emph{Python}.
+
+Se trata de una librería orientada a objetos y gracias a su facilidad de uso y rapidez para realizar una GUI, es una de las librerías más destacadas de este lenguaje de programación.
+
+Por lo tanto, se ha utilizado principalmente en la creación de la interfaz gráfica (botones, desplegables, ventanas...etc).
+
+
+\subsection{math}
+La librería o componente math\footnote{\href{https://docs.python.org/3/library/math.html}{www.docs.python.org/3/library/math.html}} incluye principalmente funciones matemáticas, para realizan operaciones aritméticas. 
+
+
+\subsection{matplotlib}
+La librería matplotlib\footnote{\href{https://matplotlib.org/}{www.matplotlib.org}} cuenta con multitud de funciones y características para generar gráficos. Hay que destacar que se pueden generar una gran variedad de gráficos (de sector, de barras...), así como personalizar los mismos (ejes, etiquetas, fuente, leyenda...)
+
+Esta librería se ha utilizado para la realización y personalización de los gráficos de la interfaz gráfica.
+
+
+\subsection{os}
+La librería os\footnote{\href{https://docs.python.org/3/library/os.html}{www.docs.python.org/3/library/os.html}} de Python permite poder usar funcionalidades relacionadas con el Sistema Operativo. 
+
+Las funciones más destacadas de esta librería y las que se han utilizado son las que informan sobre el entorno del Sistema Operativo y las que permiten navegar por la estructura de directorios, ya sea para leer o modificar archivos.
+
+
+\section{Interfaz de usuario del proyecto}\label{interfaz_de_usuario_del_proyecto}
+Para la realización de este proyecto se ha realizado una GUI (Graphical User Interface) o interfaz de usuario para hacer más sencillo la comunicación entre el usuario y el sistema.
+
+Se ha optado por la realización de una aplicación de escritorio, ya que era la mejor opción para el uso que se espera que se le dé en un futuro a la aplicación.
+
+
+
+\section{Problemas encontrados}
+
+\subsection{Error al abrir los Excel(.xls) bajados de Sigma con Python}
+
+En un primer lugar no se esperaba que estos ficheros fueran a generar muchos problemas, ya que al tratarse de una hoja de cálculo de Excel con extensión (.xls), al abrir los ficheros con dicho programa, se mostraba una pantalla de error (\ref{fig:errorFicheroOriginal}), indicando el siguiente tipo de error, el cual el propio programa era capaz de solucionar, pudiendo visualizar todos los datos contenidos en el archivo:
+
+\begin{figure}%[!h]
+	\centering
+	\includegraphics[ width=\textwidth]{errorFicheroOriginal}
+	\caption{Error al intentar abrir con Excel los ficheros originales}\label{fig:errorFicheroOriginal}
+\end{figure}
+
+
+Como se conseguía ver el contenido de los ficheros, así como su formato(color de celdas, celdas unificadas...); se pensó que podría ser un pequeño problema. Realmente se apreció la dimensión del problema cuando se intentó importar y abrir los datos con librerías específicas de \emph{Python} como \emph{Pandas}.
+
+Al comprobar que no se podía cargar u obtener la información de de ninguna manera, se optó por crear un analizador sintáctico o parser para realizar un parseo de los datos. De esta manera se abría el fichero (.xls) como si fuera un fichero de texto, con lo cual obteníamos un fichero (.xml) para analizar. Tras analizar y parsear este último fichero, se obtenía toda la información del (.xls) original (ROW, CELL, MergeDown, MergeAcross, DATA...etc) y con esta información se creaba un fichero resultante (.csv). 
+
+
+
+
+
+
+
+
+\subsection{Problema con el uso de la librería \emph{tkinter}}
+
+La librería \emph{tkinter} de \emph{Python} tiene numerosas funcionalidades como se ha explicado anteriormente. Ahora bien, el manejo entre diferentes ventanas o botones en ocasiones es bastante complicado.
+Uno de los principales problemas que se tuvo relacionado con esta librería, fue la obtención de los datos para poder almacenarlos cuando el usuario pulsa sobre una opción de una lista desplegable (\emph{Combobox}). Con la función \emph{comboX.get()} únicamente se establecía el valor por defecto de la lista desplegable o de la primera opción seleccionada, no permitiendo cambiar de opción.
+Este problema se solucionó mediante el uso del método \emph{bind} (opción \emph{<<ComboboxSelected>>}) acompañado de funciones lambda y pasándolas como parámetro \emph{comboX.get()}.
+
+A parte de este problema, también hay que destacar que en los botones (\emph{Button}), cuando se le pasa el parámetro \emph{command = funcionX}, se procede a la llamada de la \emph{funcionX} cuando se produce el evento de pulsar o hacer clic sobre dicho botón. Ahora bien, si añadimos parámetros a la función \emph{funcionX}, el botón deja de funcionar, ya que se ejecuta una única vez (cuando se abre la ventana donde se sitúa dicho botón) y después de esto, el botón queda inutilizado.
+Para solucionar este problema, por ejemplo en el botón de \emph{Visualizar Gráfica}, donde se necesita hacer consultas a la BBDD en función de las opciones que seleccione el usuario en los desplegables, se han utilizado variables globales, para que sean accesibles desde donde se encuentra el botón, hasta donde se encuentren las funciones que son llamadas por el propio botón.
+
+
+
+

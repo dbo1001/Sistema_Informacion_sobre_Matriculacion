@@ -1,0 +1,271 @@
+\apendice{Especificación de Requisitos}
+
+\section{Introducción}
+
+En este anexo se va a realizar y formalizar la especificación de requisitos que define el comportamiento del sistema desarrollado en el proyecto.
+
+\section{Objetivos generales}
+
+Los objetivos generales que se persiguen en este proyecto son los siguientes:
+
+\begin{itemize}
+\item
+Desarrollar una herramienta que permita la extracción, tratamiento y análisis de datos relacionados con la matriculación de alumnos en la Universidad de Burgos (UBU). 
+\item
+Realizar gráficos y estadísticos que resulten visuales y aporten información valiosa al usuario final. 
+\end{itemize}
+
+
+\section{Catalogo de requisitos}
+
+En este apartado se van a enumerar los requisitos específicos derivados de los objetivos proyecto, divididos en funcionales y no funcionales.
+
+\subsection{Requisitos funcionales}
+
+\begin{itemize}
+	\item \textbf{RF-1: Importar datos:} La aplicación debe ser capaz de importar los datos desde ficheros Excel(.xls) cuyo formato y extensión de archivo no coinciden.
+	\begin{itemize}
+		\item \textbf{RF-1.1} Pasar datos de fichero original (.xls) a un fichero (.csv): se realizará un parseo de datos.
+		\item \textbf{RF-1.2} Pasar datos de fichero (.csv) a la Base de Datos.
+	\end{itemize}
+	
+	\item \textbf{RF-2: Gráfico apilado de Asignaturas por Curso o Semestre:} La aplicación debe ser capaz de mostrar un gráfico apilado cuyo \emph{eje x} muestre las diferentes asignaturas y su \emph{eje y} muestre la cantidad total de alumnos matriculados en las mismas. Al tratarse de un gráfico apilado, se podrán diferenciar los grupos existentes en las asignaturas(grupo online, grupo presencial 1, grupo presencial 2...etc).
+	
+	\item \textbf{RF-3: Gráfico de máximos, mínimos y medias por curso:} La aplicación debe ser capaz de mostrar un gráfico cuyo \emph{eje x} muestre los diferentes cursos(1º, 2º, 3º y 4º) y su \emph{eje y} muestre la cantidad total de alumnos matriculados, indicando los máximos, mínimos y medias por cada curso, así como el primer y tercer cuartil(el segundo cuartil coincide con la media).
+
+\item \textbf{RF-4: Gráfico de máximos, mínimos y medias por semestre:} La aplicación debe ser capaz de mostrar un gráfico cuyo \emph{eje x} muestre los diferentes semestres(1º, 2º, 3º, 4º, 5º, 6º, 7º y 8º) y su \emph{eje y} muestre la cantidad total de alumnos matriculados, indicando los máximos, mínimos y medias por cada curso, así como el primer y tercer cuartil(el segundo cuartil coincide con la media).
+
+\end{itemize}
+
+
+\subsection{Requisitos no funcionales}
+
+\begin{itemize}
+\item
+\textbf{RNF-1: Usabilidad:} La herramienta debe ser intuitiva y fácil de utilizar, así como tener una una estructura clara y contar con una interfaz amigable.
+\item
+\textbf{RNF-2: Escalabilidad:} La herramienta debe permitir la incorporación de nuevas funcionalidades o nuevos módulos. 
+\item
+\textbf{RNF-3: Rendimiento:} La herramienta debe funcionar de forma fluida sin que la interfaz gráfica se quede bloqueada.
+\item
+\textbf{RNF-4: Fiabilidad:} La herramienta debe ser segura y debe funcionar correctamente bajo determinadas condiciones.  
+\item
+\textbf{RNF-5: Integridad:} La herramienta debe cumplir con la integración de datos y no tener pérdidas de información, así como modificación de la misma. 
+
+\end{itemize}
+\newpage
+
+
+\section{Especificación de requisitos}
+
+A través del diagrama de la figura \ref{fig:diagramaUML} se van a visualizar  todos los casos de uso de los requisitos funcionales previamente definidos. Para esto, se va a utilizar la notación UML. Posteriormente se detallarán todos los casos de uso mediante tablas.
+
+\subsection{Actores}
+El actor del sistema es el usuario o persona que maneja la aplicación.
+
+\imagenflotante{diagramaUML}{Diagrama UML con todos los Casos de Uso}
+
+\subsection{Casos de Uso}
+
+\tablaSmallSinColores{Caso de uso 1: Crear Base de Datos}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 1: Crear Base de Datos} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de crear una Base de Datos llamada BBDD y formada por 3 tablas principales denominadas ASIGNATURAS, GRUPOS y PROFESORES. Estas 3 tablas deben contar con los atributos y claves primarias definidas en el Modelo Entidad Relación(ER).} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-1} 
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Ejecutar la aplicación con un usuario con permisos de escritura o creación, para poder crear la Base de Datos.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & El usuario pulsa el botón de Crear BBDD. 
+\\\cline{2-3}
+& 2 & Se crea el fichero llamado BBDD en la ruta sobre la cual se esté ejecutando la aplicación. Este fichero contendrá la estructura ya comentada de 3 tablas principales, para posteriormente poder ir introduciendo los datos.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{Se crea la Base de Datos(BBDD).} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{ Si ya estuviera creada la BBDD, no se crearía de nuevo y se mostraría una pantalla de tipo warning al usuario indicando que la Base de Datos BBDD ya esta creada.}\\\hline
+Importancia & Alta \\\hline
+Urgencia & Alta \\\hline
+Comentarios & & Es necesario que la aplicación cuente con la Base de Datos BBDD, para poder ir almacenando la información que posteriormente se utilizará para realizar gráficas. \\
+}
+
+
+\tablaSmallSinColores{Caso de uso 2: Preprocesar los ficheros originales corruptos}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 2: Preprocesar los ficheros originales corruptos} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe contar con un botón de Preprocesado. Una vez pulsado se mostrará una nueva pantalla emergente (pantalla del sistema operativo) visualizando los ficheros y directorios de la ruta donde se está ejecutando la aplicación. Se permitirá seleccionar únicamente ficheros (.xls) que son los que se pueden y deben preprocesar.} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-1} 
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {La aplicación debe de estar iniciada.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & El usuario pulsa el botón de Preprocesado.  
+\\\cline{2-3}
+& 2 & Se mostrará una nueva pantalla emergente (pantalla del sistema operativo) visualizando los ficheros (.xls) y directorios de la ruta donde se está ejecutando la aplicación. Se permitirá seleccionar únicamente ficheros (.xls).
+\\\cline{2-3}
+& 3 & Si el usuario selecciona un fichero (.xls) corrupto, se creará en la misma ruta un fichero (.csv) con toda la información del fichero seleccionado parseada y preparada para poder introducirla en la Base de Datos.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{Si se ha seleccionado un fichero (.xls) corrupto, se creará en la misma ruta otro fichero (.csv) con toda la información parseada y lista para introducir en la Base de Datos} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{}\\\hline
+Importancia & Alta \\\hline
+Urgencia & Alta \\\hline
+Comentarios & & Es necesario preprocesar los archivos originales descargados de Sigma, ya que tienen un error de formato y si no se parsean y se convierten en otro fichero (.csv), que además está preparado para introducir los datos en la BBDD, no pueden ser utilizados. \\
+}
+
+
+\tablaSmallSinColores{Caso de uso 3: Cargar Archivos}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 3: Cargar Archivos} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe contar con un botón de Cargar Archivos, que permita al usuario seleccionar ficheros no corruptos, es decir ficheros generados nuevos con extensión (.csv) previamente preprocesados. Una vez seleccionado el fichero que el usuario desee, se procederá a la carga en la BBDD de toda la información que contenga dicho fichero.} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-1} 
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Existe un fichero (.csv) con datos para importar. Dicho fichero se ha generado a partir de un fichero (.xls) descargado de \emph{Sigma} y se encuentra en una carpeta local.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & El usuario pulsa el botón de Cargar Archivos.
+\\\cline{2-3}
+& 2 & El usuario selecciona el fichero (.csv) que desea cargar en la Base de Datos(BBDD).
+\\\cline{2-3}
+& 3 & Se carga en la Base de Datos(BBDD) toda la información del fichero seleccionado que no estuviera previamente en la BBDD , atendiendo a los requisitos y claves primarias de la BBDD.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{Se carga la información en la Base de Datos(BBDD).} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{Si los datos del fichero (.csv) seleccionado ya estuvieran en la BBDD, no se añadirían a la misma.}\\\hline
+Importancia & Alta \\\hline
+Urgencia & Alta \\\hline
+Comentarios & & . \\
+}
+
+
+
+\tablaSmallSinColores{Caso de uso 4: Generar Gráficos}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 4: Generar Gráficos} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de generar gráficos. El usuario debe seleccionar qué tipo de gráfico quiere generar. Una vez seleccionado el tipo de gráfico, deberá seleccionar diferentes parámetros con la ayuda de listas desplegables para posteriormente poder generarlo. Una vez realizado estos pasos, se generará el tipo de gráfico seleccionado con los parámetros elegidos.} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-2, RF-3, RF-4}  
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Los datos o información necesaria se ha cargado correctamente en la Base de Datos. La aplicación debe estar iniciada.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & El usuario pulsa el botón del gráfico que quiere generar.
+\\\cline{2-3}
+& 2 & Se abre una nueva ventana con el nombre del gráfico elegido y las opciones necesarias para seleccionar mediante listas desplegables.
+\\\cline{2-3}
+& 3 & Se seleccionan las opciones que se desee de cada lista desplegable(Año, Titulación, Curso...).
+\\\cline{2-3}
+& 4 & Se genera el gráfico con las opciones previamente seleccionadas.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{Se genera el gráfico deseado con los datos elegidos.} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{Es necesario seleccionar una opción de cada lista desplegable, en caso contrario, no se podrá generar el gráfico adecuadamente.}\\\hline
+Importancia & Alta \\\hline
+Urgencia & Alta \\\hline
+Comentarios & & . \\
+}
+
+
+\tablaSmallSinColores{Caso de uso 5: Gráfico apilado de Asignaturas por Curso }{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 5: Gráfico apilado de Asignaturas por Curso} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de mostrar un gráfico apilado cuyo \emph{eje x} muestre las diferentes asignaturas y su \emph{eje y} muestre la cantidad total de alumnos matriculados en las mismas. Al tratarse de un gráfico apilado, se podrán diferenciar los grupos existentes en las asignaturas(grupo online, grupo presencial 1, grupo presencial 2...etc).} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-2} 
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Los datos o información necesaria se ha cargado correctamente en la Base de Datos.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & Se selecciona si se desea grado o máster.
+\\\cline{2-3}
+& 2 & Se selecciona el curso(1º, 2º, 3º, 4º) que se desea obtener el gráfico apilado si se trata de un grado.
+\\\cline{2-3}
+& 3 & Se cargan los datos necesarios de la Base de Datos.
+\\\cline{2-3}
+& 4 & Se realiza el gráfico apilado de asignaturas por curso.
+\\\cline{2-3}
+& 5 & Una vez visualizado el gráfico, se muestra una opción de guardar el gráfico y otra de salir.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{La aplicación debe mostrar el gráfico apilado de manera correcta.} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{5' Si se pulsa el botón de guardar el gráfico, el gráfico se guarda en el directorio donde se encuentran los ficheros Excel. 
+5'' Si se pulsa el botón de salir volvería al paso 3.}\\\hline
+Importancia & Alta \\\hline
+Urgencia & Alta \\\hline
+Comentarios & & Con esta gráfica se puede apreciar si existe algún grupo desequilibrado, así como las asignaturas con más matriculados entre otra información destacable.   \\
+}
+
+
+\tablaSmallSinColores{Caso de uso 6: Gráfico de máximos, mínimos y medias por curso }{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 6: Gráfico de máximos, mínimos y medias por curso} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de mostrar un gráfico cuyo \emph{eje x} muestre los diferentes cursos(1º, 2º, 3º y 4º) y su \emph{eje y} muestre la cantidad total de alumnos matriculados, indicando los máximos, mínimos y medias por cada curso, así como el primer y tercer cuartil (ya que el segundo cuartil coincide con la media).} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-3} 
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Los datos o información necesaria se ha cargado correctamente en la Base de Datos.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & Se seleccionan los campos necesarios de la Base de Datos.
+\\\cline{2-3}
+& 2 & Se realiza el gráfico de máximos, mínimos y medias por curso.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{La aplicación debe mostrar el gráfico de máximos, mínimos y medias por curso de manera correcta.} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{}\\\hline
+Importancia & Alta \\\hline
+Urgencia & Alta \\\hline
+Comentarios & &  \\
+}
+
+
+\tablaSmallSinColores{Caso de uso 7: Gráfico de máximos, mínimos y medias por semestre}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 7: Gráfico de máximos, mínimos y medias por semestre} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe ser capaz de mostrar un gráfico cuyo \emph{eje x} muestre los diferentes semestres(1º, 2º, 3º, 4º, 5º, 6º, 7º y 8º) y su \emph{eje y} muestre la cantidad total de alumnos matriculados, indicando los máximos, mínimos y medias por cada semestre, así como el primer y tercer cuartil (ya que el segundo cuartil coincide con la media).} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{RF-4} 
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {Los datos o información necesaria se ha cargado correctamente en la Base de Datos.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & Se seleccionan los campos necesarios de la Base de Datos.
+\\\cline{2-3}
+& 2 & Se realiza el gráfico de máximos, mínimos y medias por semestre.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{La aplicación debe mostrar el gráfico de máximos, mínimos y medias por semestre de manera correcta.} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{}\\\hline
+Importancia & Alta \\\hline
+Urgencia & Alta \\\hline
+Comentarios & &  \\
+}
+
+
+\tablaSmallSinColores{Caso de uso 8: Salir de la aplicación}{p{3cm} p{.75cm} p{9.5cm}}{b1}{
+\multicolumn{3}{l}{Caso de uso 8: Salir de la aplicación} \\
+}
+{
+Descripción & \multicolumn{2}{p{10.25cm}}{La aplicación debe contar con un botón de Salir. Una vez pulsado se mostrará una nueva pantalla emergente preguntando al usuario si desea salir de la aplicación. En caso afirmativo se cerrará la aplicación y en el caso contrario, la aplicación continuará ejecutándose. Hay que destacar que la aplicación también cuenta con un botón de cerrar en la parte superior derecha(cruz o aspa genérica).} \\\hline
+\multirow{2}{3.5cm}{Requisitos} 
+&\multicolumn{2}{p{10.25cm}}{} 
+\\\cline{2-3}
+Precondiciones & \multicolumn{2}{p{10.25cm}} {La aplicación debe de estar iniciada.}
+\\\hline
+\multirow{2}{3.5cm}{Secuencia normal} & Paso & Acción \\\cline{2-3}
+& 1 & El usuario pulsa el botón de Salir.  
+\\\cline{2-3}
+& 2 & Se mostrará una nueva pantalla emergente preguntando al usuario si desea salir de la aplicación.
+\\\cline{2-3}
+& 3 & Si el usuario pulsa la opción Si, se cerrará la aplicación, por el contrario, si pulsa la opción No la aplicación continuará ejecutándose.
+\\\hline
+Postcondiciones & \multicolumn{2}{p{10.25cm}}{Se cierra la aplicación.} \\\hline
+Excepciones & \multicolumn{2}{p{10.25cm}}{ }\\\hline
+Importancia & Baja \\\hline
+Urgencia & Baja \\\hline
+Comentarios & & El botón de Salir es un botón adicional. \\ 
+}
+
+

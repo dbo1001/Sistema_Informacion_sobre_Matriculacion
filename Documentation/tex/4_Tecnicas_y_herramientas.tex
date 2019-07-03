@@ -1,0 +1,98 @@
+\capitulo{4}{Técnicas y herramientas}
+
+En este apartado se van a exponer las técnicas metodológicas y herramientas de desarrollo que se han utilizado para la realización del proyecto. Se detallarán las razones principales por los que se ha usado esa herramienta y no otra.
+
+\section{Metodologías}\label{metodologias}
+
+\subsection{Scrum}\label{scrum}
+Para realizar la planificación correcta del proyecto, se ha utilizado \emph{Scrum}, que es una metodología ágil de desarrollo.
+
+\begin{itemize}
+	\item Se ha utilizado una estrategia orientada a un desarrollo incremental y basada en \emph{sprints}.
+	\item La duración media de cada \emph{sprint} era aproximadamente de una semana.
+	\item Al inicio de cada \emph{sprint} se definían las tareas o \emph{issues} a realizar, las cuales tenían que ser realizadas en un cierto intervalo de tiempo.
+	\item Cada \emph{sprint} se planificaba cuando se finalizaban las tareas o \emph{issues} del anterior \emph{sprint}.	
+	\item Al final de cada \emph{sprint} se revisan todas las tareas realizadas, así como ver si se han logrado los objetivos fijados y solucionado los problemas encontrados.
+\end{itemize}
+
+Con la utilización de esta metodología se ha logrado evitar la realización de una planificación y ejecución completa desde el inicio del proyecto.
+
+
+\section{Lenguaje de Programación}\label{lenguaje_de_programacion}
+\subsection{Python}\label{python}
+El lenguaje de programación utilizado ha sido Python\footnote{\href {http://www.python.org/}{www.python.org}} en la versión 3.7.1.
+
+Las razones por las que se ha decidido utilizar Python son las siguientes:
+\begin{itemize}
+	\item Es uno de los lenguajes de programación más sencillos de aprender ya que su sintaxis es muy entendible.
+	\item Es un lenguaje gratuito, multiplataforma y de código abierto.
+	\item Gracias a las dos anteriores razones, se ha convertido en un lenguaje tan popular y utilizado, que ha dado lugar a que se desarrollen multitud de librerías, módulos y programas de software libre. Gran parte de estas librerías destacan en el ámbito de manejo de ficheros, tratamiento y visualización de datos.
+	\item Del mismo modo, al ser un lenguaje utilizado por tantas personas, hace que existan numerosos foros, blogs y páginas en las que apoyarse cuando surgen dudas o se necesita ayuda.
+\end{itemize}
+
+
+\section{Entorno de Desarrollo}\label{entorno_de_desarrollo}
+\subsection{Jupyter NoteBook}\label{jupyter_noteBook}
+Como entorno de desarrollo principal se ha utilizado Juypter NoteBook\footnote{\href {https://jupyter.org/}{www.jupyter.org}} en la versión 5.7.4.
+
+Se trata de una aplicación web de código abierto que permite tanto el desarrollo como la ejecución del código.
+Esta aplicación se puede lanzar directamente desde un navegador (sin instalar nada) o se puede instalar con \emph{Anaconda Navigator}. Para el desarrollo del proyecto se utilizó la segunda opción.
+
+Otra de las grandes ventajas de esta aplicación es la agilidad en el desarrollo, ya que al tratarse de una aplicación cuya ejecución es en vivo, se pueden realizar pruebas de manera rápida e intuitiva. 
+
+
+\subsection{SQLite}\label{sqlite}
+SQLite\footnote{\href {https://www.sqlite.org/index.html}{www.sqlite.org}} se trata de un sistema de gestión de bases de datos (BBDD) relacionales de pequeño tamaño.
+Una de las características de este sistema de gestión es que no necesita un servidor para poder utilizarse, ya que los datos se almacenan en un único fichero en el sistema host. 
+Hay que destacar que Python incluye soporte para SQLite desde la versión 2.5 incorporado en la Biblioteca Estándar como el módulo \emph{sqlite3}, que es el módulo que se ha utilizado en el desarrollo del proyecto \cite{sqlite}.
+
+
+
+\section{Control de Versiones}\label{control_de_versiones}
+\subsection{GitHub}\label{gitHub}
+GitHub\footnote{\href {https://github.com/}{www.github.com}} se trata de una plataforma cuya función principal es la de hospedar repositorios y permitir el desarrollo colaborativo.
+Es una plataforma de las más usadas y por esta razón es la que se ha utilizado a lo largo del grado y en particular en la realización de este proyecto. Hay que destacar que gracias a formar parte de la Universidad de Burgos y ser estudiante, se ha obtenido la versión \emph{PRO} (licencia de estudiantes). Aun así hay que destacar que se trata de una herramienta gratuita.
+Por último comentar que se ha utilizado tanto \emph{GitHub Desktop} (aplicación de escritorio) como la plataforma web.
+
+
+
+\section{Documentación}\label{documentacion}
+
+\subsection{Texmaker}\label{texmaker}
+Para la realización de la documentación con \LaTeX\footnote{\href {https://www.latex-project.org/}{www.latex-project.org}} se ha utilizado el editor Texmaker\footnote{\href {https://www.xm1math.net/texmaker/}{www.xm1math.net/texmaker}}. Se trata de un editor gratuito, el cual contiene las herramientas y características necesarias para desarrollar y editar documentos con \LaTeX.
+
+Hay que señalar que también incluye corrección ortográfica, auto-completado, plegado de código y un visor incorporado en pdf con soporte de \emph{synctex} y un modo de visualización continua \cite{texmaker}. 
+
+
+
+\section{Otras Herramientas}\label{otras_herramientas}
+En este apartado se van a explicar otras herramientas destacadas que se han utilizado a lo largo del proyecto.
+
+\subsection{DB Browser}\label{db_browser}
+DB Browser\footnote{\href{https://sqlitebrowser.org/}{www.sqlitebrowser.org}} es una herramienta gratuita y de código abierto cuyo principal objetivo es la administración de Bases de Datos que utilizan SQLite como motor de las mismas. Esta herramienta cuenta con numerosas funcionalidades, entre las que se encuentran la creación de BBDD, tablas, índices, entradas, importar y exportar archivos, entre otras.
+
+Hay que destacar que en este proyecto se ha utilizado la aplicación de escritorio para tareas de visualización de datos de la BBDD y comprobación de los mismos.
+
+
+\subsection{Sublime Text 3 y Notepad++}\label{sublime_text_3_y_notepad++}
+Tanto Sublime Text 3\footnote{\href{https://www.sublimetext.com/}{www.sublimetext.com}} como Notepad++\footnote{\href{https://notepad-plus-plus.org/}{www.notepad-plus-plus.org}} son editores de código que pueden ser utilizados como entornos de desarrollo, ya que pueden interpretar numerosos lenguajes de programación. 
+
+En un primer lugar ambos editores se utilizaron para el desarrollo del proyecto, pero finalmente el uso de estas herramientas fue la de edición y visualización de ficheros. Hay que destacar funcionalidades como la mostrar caracteres ocultos de \emph{Notepad++}, la visualización del texto en función de la sintaxis o lenguaje de programación que se elija de \emph{Sublime Text 3} y las herramientas de búsqueda de ambos editores.
+
+\subsection{Nitro Pro}\label{nitro_pro}
+Nitro Pro\footnote{\href{https://www.gonitro.com/es/}{www.gonitro.com}} es una herramienta gráfica cuya funcionalidad reside en la creación y edición de ficheros (.pdf). Hay que destacar que al tratarse de una herramienta de pago, se ha utilizado la versión de prueba de la misma, ya que contaba con las funcionalidades necesarias para el proyecto.
+
+Esta herramienta se ha utilizado para la edición de ficheros (.pdf) como \emph{about.pdf} y \emph{ayuda.pdf} de la interfaz gráfica.
+
+\subsection{Excel}\label{excel}
+Excel\footnote{\href{https://support.office.com/es-es/excel}{www.support.office.com/es-es/excel}} pertenece a la categoría de programas conocidos como hojas de cálculo \cite{excel}.
+
+De hecho es una de las herramientas más utilizadas y potentes en el análisis de datos, ya que cuenta con una gran cantidad de funcionalidades relacionadas con este área.
+
+En la realización del proyecto, se ha utilizado principalmente para modificar (pruebas) y visualizar tanto los ficheros originales (.xls), como los generados (.csv). 
+
+
+\subsection{Photoshop}\label{photoshop}
+Photoshop\footnote{\href{https://www.photoshop.com/}{www.photoshop.com}} es un editor de imágenes dedicado principalmente para el retoque de fotografías y creación de gráficos. 
+
+Esta herramienta se ha utilizado para pequeñas tareas de diseño gráfico, como la realización de los botones de tipos de gráfico, el logotipo de la aplicación, la edición de las imágenes de la documentación...etc.
