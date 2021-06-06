@@ -6,7 +6,7 @@ Tutor: Carlos Pardo Aguilar
 
 # Sistema-Informacion-sobre-Matriculacion
 
-Final degree work on the enrollment of students in the University of Burgos
+Final degree work on the enrollment of students in the University of Burgos 
 
 
 
